@@ -1,5 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+header{
+    background-color: black;
+}
+
 .navbar{
- background-color: black;
  height: 60px;
  display: flex;
  justify-content: space-between;
@@ -19,15 +31,12 @@
     text-decoration: none;
 }
 
-.navbar.open{
-
-}
-
 .nav_toggle{
     display: none;
 }
 
 @media (max-width: 770px) {
+
     .nav_items {
         position: absolute;
         top: 60px;
@@ -54,10 +63,9 @@
     
       .nav_toggle span {
         width: 30px;
-        height: 4px;
+        height: 1px;
         background: white;
-        margin-bottom: 5px;
-        border-radius: 2px;
+        margin: 4px 0;
         transition: all 0.2s linear;
       }
     

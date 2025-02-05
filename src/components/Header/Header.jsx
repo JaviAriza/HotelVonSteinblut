@@ -11,13 +11,6 @@ function Header() {
   return (
       <header>
         <nav className="navbar">
-          <div className="nav_logo">LOGO</div>
-          <div className={`nav_items ${isOpen ? "open" : ""}`}>
-            <a href="#">Hotel von Steinblut</a>
-            <a href="">Servicios</a>
-            <a href="">Galería</a>
-            <a href="">FAQ</a>
-          </div>
           <div
             className={`nav_toggle ${isOpen ? "open" : ""}`}
             onClick={handleToggle}
@@ -25,6 +18,14 @@ function Header() {
             <span></span>
             <span></span>
             <span></span>
+          </div>
+          <div className="nav_logo">LOGO</div>
+          <div className={`nav_items ${isOpen ? "open" : ""}`}>
+            <a href="#">Hotel von Steinblut</a>
+            <a href="">Services</a>
+            <a href="">Gallery</a>
+            <a href="">FAQ</a>
+            <a href="#">Profile</a>
           </div>
         </nav>
       </header>
