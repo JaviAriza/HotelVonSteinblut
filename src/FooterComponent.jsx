@@ -1,17 +1,15 @@
-import { Footer } from "flowbite-react";
-import "./FooterComponent.css";
 import { BsGithub, BsInstagram } from "react-icons/bs";
+import "./FooterComponent.css";
 import logo from "./assets/logo.png";
-
 
 export default function FooterComponent() {
   return (
-    <Footer container className="footer-container">
+    <footer className="footer-container">
       <div className="footer-content">
         <div className="follow">
           <h4>Síguenos en:</h4>
-          <Footer.Icon href="#" icon={BsInstagram} className="social-icon" />
-          <Footer.Icon href="#" icon={BsGithub} className="social-icon" />
+          <a href="#" className="social-icon"><BsInstagram /></a>
+          <a href="#" className="social-icon"><BsGithub /></a>
         </div>
 
         <div className="derechos">
@@ -27,7 +25,6 @@ export default function FooterComponent() {
           <img src={logo} alt="Hotel Von Steinblut Logo" />
         </div>
       </div>
-    </Footer>
+    </footer>
   );
 }
-
