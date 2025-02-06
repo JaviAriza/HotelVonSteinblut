@@ -1,7 +1,17 @@
-body{
-    height: 100%;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-#root{
-    height: 100%;
+html{
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
 }

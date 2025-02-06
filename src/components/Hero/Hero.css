@@ -1,0 +1,19 @@
+
+.background{
+    background-color: black;
+    height: 100%;
+    position: relative;
+}
+.hero-img{
+    width: 100%;
+}
+.hero-logo{
+    width: 30%;
+    max-width: 200px;
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+}
