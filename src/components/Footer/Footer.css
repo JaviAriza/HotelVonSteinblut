@@ -2,11 +2,8 @@
 
 .footer-container {
     font-family: "Triodion", serif;
-    background-color: black;
     color: gray;
     bottom: 0;
-    position: absolute;
-    width: 100%;
   }
   
   .footer-content {

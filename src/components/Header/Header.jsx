@@ -10,7 +10,7 @@ function Header() {
 
   return (
       <header>
-        <nav className="navbar">
+        <nav className="navbar bg-stone-800">
           <div
             className={`nav_toggle ${isOpen ? "open" : ""}`}
             onClick={handleToggle}

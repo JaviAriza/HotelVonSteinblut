@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer-container">
+    <footer className="footer-container bottom-0 absolute bg-stone-800 w-full h-[10px]">
       <div className="footer-content">
         <div className="follow">
           <h4>Follow us on:</h4>
