@@ -1,6 +1,5 @@
 import { BsGithub, BsInstagram } from "react-icons/bs";
 import "./Footer.css";
-import logo from "../../assets/logo.png";
 
 function Footer() {
   return (
@@ -22,7 +21,7 @@ function Footer() {
         </div>
 
         <div className="logo">
-          <img src={logo} alt="Hotel Von Steinblut Logo" />
+          <img src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/logo_ggptnk.png" alt="Hotel Von Steinblut Logo" />
         </div>
       </div>
     </footer>

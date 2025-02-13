@@ -1,15 +1,13 @@
 import "./Hero.css";
-//import castle1 from '../../assets/castle-1.png';
-import castle2 from "../../assets/castle-2.png";
-import logo from "../../assets/logo.png";
+
 
 const Header = () => {
   return (
     <div className="background">
-      <img className="hero-logo" src={logo} alt="hotel von Steinblut logo" />
+      <img className="hero-logo" src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/logo_ggptnk.png" alt="hotel von Steinblut logo" />
       <img
         className="hero-img"
-        src={castle2}
+        src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/castle-2_zxiibh.png"
         alt="hotel von Steinblut castle"
       />
     </div>
