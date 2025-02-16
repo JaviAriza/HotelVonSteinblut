@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@layer base {
+    a:hover{
+        color: rgb(149, 37, 37);
+    }
+
+    .nav_items a {
+        padding: 15px;
+        border: 1px solid transparent;
+        transition: color 0.3s ease-in-out;
+    }
+
+}
+
+.nav_toggle{
+
+}
+
+.nav_items{
+
+}
