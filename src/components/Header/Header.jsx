@@ -19,7 +19,7 @@ function Header() {
             <span></span>
             <span></span>
           </div>
-          <div className="nav_logo size-10"><img src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/logo_ggptnk.png" alt="hotel-logo" /></div>
+          <div className="nav_logo size-22 mt-12"><img src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1739791107/VS_chiquito_hshofp.png" alt="hotel-logo" /></div>
           <div className={`nav_items ${isOpen ? "open" : ""}`}>
             <a href="#">Hotel von Steinblut</a>
             <a href="">Services</a>
