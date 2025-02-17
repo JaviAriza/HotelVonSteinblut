@@ -1,0 +1,35 @@
+
+.background{
+    margin-top: 60px;
+    background-color: black;
+    height: 100%;
+    position: relative; 
+    opacity: 0.4;
+}
+.hero-img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    opacity: 1;
+}
+
+.hero-logo{
+    width: 50%;
+    max-width: 200px;
+    z-index: 50;
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);    
+    mix-blend-mode: hard-light;
+    opacity: 1;
+    transition: 1s ease-in-out;
+}
+
+@media (max-width: 770px) {
+    .hero-logo{
+        top: 30%;
+    }
+}

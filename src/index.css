@@ -1,22 +1,35 @@
 @import "tailwindcss";
 
 @layer base {
-    a:hover{
-        color: rgb(149, 37, 37);
+    a:hover {
+        color: rgb(255, 255, 255);
     }
 
     .nav_items a {
         padding: 15px;
         border: 1px solid transparent;
+        position: relative;
+        text-decoration: none;
         transition: color 0.3s ease-in-out;
     }
 
-}
+    .nav_items a::before {
+        content: '';
+        position: absolute;
+        width: 0; /* Inicialmente sin ancho */
+        height: 1.5px;
+        bottom: 0;
+        left: 50%; /* Comienza desde el centro */
+        background-color: rgb(255, 255, 255);
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+        transform: translateX(-50%); /* Centra el pseudo-elemento */
+    }
 
-.nav_toggle{
-
-}
-
-.nav_items{
-
+    .nav_items a:hover::before {
+        visibility: visible;
+        width: 80%; /* Expande el ancho al 100% */
+        left: 50%; /* Mantiene el centro */
+        transform: translateX(-50%); /* Asegura que se expanda desde el centro */
+    }
 }

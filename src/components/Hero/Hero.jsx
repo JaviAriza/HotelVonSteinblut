@@ -1,8 +1,8 @@
-const Header = () => {
+const Hero = () => {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-2/3">
       <img
-        className="fixed w-1/2 sm:w-[250px] left-1/2 top-1/2 -translate-1/2 z-10 transition-all opacity-80"
+        className="fixed pointer-events-none w-1/2 sm:w-[250px] left-1/2 top-1/2 -translate-1/2 z-10 transition-all opacity-80"
         src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/logo_ggptnk.png"
         alt="hotel von Steinblut logo"
       />
@@ -17,4 +17,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;

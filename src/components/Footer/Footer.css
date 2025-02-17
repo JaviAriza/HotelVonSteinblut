@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Triodion&display=swap" rel="stylesheet');
+
+.footer-container {
+    font-family: "Triodion", serif;
+    background-color: black;
+    color: gray;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  @media (min-width: 640px) {
+    .footer-content {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  
+  .follow h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    margin: 10px;
+    color: gray;
+  }
+  
+  .social-icon:hover {
+    color: rgb(149, 37, 37);
+  }
+  
+  .rights p {
+    margin: 5px 0;
+  }
+  
+  .legal-links a {
+    color: gray;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+
+  .legal-links a:hover {
+    color: rgb(149, 37, 37);
+  }
+  
+  .logo{
+    display: flex;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+  
