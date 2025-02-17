@@ -1,4 +1,4 @@
-const Header = () => {
+const Hero = () => {
   return (
     <div className="w-full h-full">
       <img
@@ -8,6 +8,7 @@ const Header = () => {
       />
       <div
         className="bg-center bg-cover w-full h-[1400px] bg-no-repeat"
+        data-testid="background-image"
         style={{
           backgroundImage:
             "url('https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/castle-2_zxiibh.png')",
@@ -17,4 +18,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;

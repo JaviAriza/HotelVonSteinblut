@@ -13,7 +13,7 @@ function Header() {
         <nav className="navbar pl-3 bg-stone-800 h-full flex items-center justify-between text-white">
           <div
             className={`nav_toggle ${isOpen ? "open" : ""}`}
-            onClick={handleToggle}
+            onClick={handleToggle} role="button" aria-label='Toggle menu'
           >
             <span></span>
             <span></span>
