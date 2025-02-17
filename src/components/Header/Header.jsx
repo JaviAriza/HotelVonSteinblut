@@ -9,8 +9,8 @@ function Header() {
   };
 
   return (
-      <header className='fixed top-0 w-full z-10 h-[60px]'>
-        <nav className="navbar pl-3 bg-stone-800 h-full flex items-center justify-between text-white">
+      <header className='fixed top-0 w-full z-15 h-[60px]'>
+        <nav className="navbar pl-3 [background-color:transparent] h-full flex items-center justify-between text-white">
           <div
             className={`nav_toggle ${isOpen ? "open" : ""}`}
             onClick={handleToggle}

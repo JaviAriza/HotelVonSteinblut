@@ -105,7 +105,7 @@ void main() {
     height = (uv.y * 2.0 - height + 0.2);
 
     fragColor.rgb = 0.6 * height * rampColor;
-    fragColor.a = 1.0;
+    fragColor.a = height; // Ajusta el canal alfa basado en la altura
 }
 `;
 
@@ -191,5 +191,5 @@ export default function Aurora(props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [amplitude]);
 
-  return <div ref={ctnDom} className="aurora-container" />;
+  return <div ref={ctnDom} className="pointer-events-none aurora-container" />;
 }
