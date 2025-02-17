@@ -9,8 +9,8 @@ function Header() {
   };
 
   return (
-      <header>
-        <nav className="navbar">
+      <header className='fixed top-0 w-full z-10 h-[60px]'>
+        <nav className="navbar pl-3 bg-stone-800 h-full flex items-center justify-between text-white">
           <div
             className={`nav_toggle ${isOpen ? "open" : ""}`}
             onClick={handleToggle}
@@ -19,7 +19,7 @@ function Header() {
             <span></span>
             <span></span>
           </div>
-          <div className="nav_logo">LOGO</div>
+          <div className="nav_logo size-10"><img src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/logo_ggptnk.png" alt="hotel-logo" /></div>
           <div className={`nav_items ${isOpen ? "open" : ""}`}>
             <a href="#">Hotel von Steinblut</a>
             <a href="">Services</a>
