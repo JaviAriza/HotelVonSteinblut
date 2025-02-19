@@ -4,11 +4,11 @@ function Footer() {
   return (
     <footer className="bottom-0 absolute bg-stone-800 w-full h-[80px] text-stone-500">
       <div className="flex items-center text-center justify-between px-5 h-full">
-        <div className="flex items-center justify-between">
-          <a href="#" className="s-24">
+        <div className="flex items-center justify-between space-x-3">
+          <a href="#" className="text-2xl">
             <BsInstagram />
           </a>
-          <a href="https://github.com/JaviAriza/HotelVonSteinblut.git" className="s-24">
+          <a href="https://github.com/JaviAriza/HotelVonSteinblut.git" className="text-2xl">
             <BsGithub />
           </a>
         </div>
