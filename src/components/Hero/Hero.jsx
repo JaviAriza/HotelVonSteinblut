@@ -1,6 +1,9 @@
+import Title from "../Title/Title";
 const Hero = () => {
   return (
-    <div className="w-full h-2/3">
+    <div className="w-full h-2/3 relative">
+
+      <Title />
      
       <div
         className="bg-center bg-cover w-full h-[1400px] bg-no-repeat"
