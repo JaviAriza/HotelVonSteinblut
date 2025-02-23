@@ -5,7 +5,13 @@
 }
 
 @layer base {
-    h4{
+
+    button{
+        background-color: #6C0000;
+        color: white;
+    }
+    
+    h3, h4{
         font-family:'Times New Roman', Times, serif;
         text-transform: uppercase;
         color: rgb(255, 255, 255);

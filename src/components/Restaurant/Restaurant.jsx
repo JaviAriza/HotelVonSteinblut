@@ -1,30 +1,35 @@
-export default function Restaurant() {
+import PropTypes from "prop-types";
+
+export default function Restaurant(props) {
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-black">
-      <div className="text-white w-full max-w-4xl px-4 text-center">
-        <h2 className="text-2xl sm:text-3xl font-semibold border-b border-gray-500 pb-2">
-          VON STEINBLUT RESTAURANT
-        </h2>
+    <section className="my-[20%] w-full h-[1300px] flex flex-col items-center justify-between py-[10%]">
+      <h3 className="text-2xl sm:text-3xl font-semibold border-b border-gray-500 pb-2">
+        {props.title}
+      </h3>
 
-        <div className="mt-6 relative">
-          <img
-            src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1739958637/image_13_oz5cyv.png"
-            alt="Von Steinblut Restaurant"
-            className="w-full h-auto object-cover rounded-lg shadow-lg 
-              brightness-90"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-50 rounded-lg"></div>
-        </div>
-
-        <div className="flex justify-center gap-4 mt-6">
-          <button className="bg-red-700 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-red-800 transition">
-            Info
-          </button>
-          <button className="bg-red-700 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-red-800 transition">
-            Reservar
-          </button>
-        </div>
+      <div
+        className="mt-6 w-full h-full bg-bottom bg-cover relative"
+        style={{ backgroundImage: `url(${props.image})` }}
+      >
+        <div
+          className="z-5 black-gradient w-full h-full bg-gradient-to-b from-black via-[transparent] to-black absolute top-0 left-0"
+        ></div>
       </div>
-    </div>
+
+      <div className="flex justify-center gap-[5%] mt-6 w-full">
+        <button className="py-4 w-1/5 rounded-lg text-lg font-semibold hover:bg-red-800 transition">
+          Info
+        </button>
+        <button className="py-4 w-1/5 rounded-lg text-lg font-semibold hover:bg-red-800 transition">
+          <a href={props.link}>Book</a>
+        </button>
+      </div>
+    </section>
   );
 }
+
+Restaurant.propTypes = {
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+};
