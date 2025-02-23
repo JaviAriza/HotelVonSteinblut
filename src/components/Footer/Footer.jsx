@@ -2,7 +2,7 @@ import { BsGithub, BsInstagram } from "react-icons/bs";
 
 function Footer() {
   return (
-    <footer className="font-[Triodion] text-gray-500 absolute bottom-0 w-full bg-stone-800">
+    <footer className="font-[Triodion] text-gray-500 absolute bottom-0 w-full bg-base">
       <div className="flex flex-col items-center text-center justify-center sm:flex-row sm:justify-between sm:ml-10 sm:mr-10">
         <div className="follow sm:ml-0  mb-2 sm:mt-0 sm:mb-0 flex flex-col items-center justify-center">
           <h4 className="text-white text-xl mt-2 font-bold">Follow us on:</h4>

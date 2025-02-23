@@ -1,6 +1,17 @@
 @import "tailwindcss";
 
+@theme{
+    --color-base: #1a1a1a;
+}
+
 @layer base {
+    h4{
+        font-family:'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+
     a:hover {
         color: rgb(255, 255, 255);
     }
