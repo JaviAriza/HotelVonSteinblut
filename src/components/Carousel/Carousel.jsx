@@ -51,24 +51,28 @@ const Carousel = () => {
         <ChevronLeft className="text-white w-12 h-12" />
       </button>
       
-      {/* Contenedor del carrusel */}
-      <div className="relative flex items-center justify-center w-full h-full">
-        <motion.div
-          key={cardIndex}
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="relative w-[450px] h-[550px] flex items-center justify-center border-8 border-gray-700 shadow-lg bg-black rounded-xl overflow-hidden"
-        >
-          {/* Usamos el componente Card y le pasamos las props */}
-          <Card
-            title={cards[cardIndex].title}
-            images={cards[cardIndex].images}
-            imageIndex={imageIndex}
-            onNextImage={nextImage}
-            onPrevImage={prevImage}
-          />
-        </motion.div>
+      {/* Contenedor del carrusel con tarjetas laterales */}
+      <div className="relative flex items-center justify-center w-full h-full gap-4">
+        {[cardIndex - 1, cardIndex, cardIndex + 1].map((index, i) => {
+          const actualIndex = (index + cards.length) % cards.length;
+          return (
+            <motion.div
+              key={actualIndex}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: actualIndex === cardIndex ? 1 : 0.9 }}
+              transition={{ duration: 0.5 }}
+              className={`relative w-[450px] h-[550px] flex items-center justify-center border-8 border-gray-700 shadow-lg bg-black rounded-xl overflow-hidden ${actualIndex === cardIndex ? "z-10" : "opacity-50"}`}
+            >
+              <Card
+                title={cards[actualIndex].title}
+                images={cards[actualIndex].images}
+                imageIndex={imageIndex}
+                onNextImage={actualIndex === cardIndex ? nextImage : undefined}
+                onPrevImage={actualIndex === cardIndex ? prevImage : undefined}
+              />
+            </motion.div>
+          );
+        })}
       </div>
       
       {/* Botón para cambiar de Card a la derecha */}
@@ -80,3 +84,6 @@ const Carousel = () => {
 };
 
 export default Carousel;
+
+
+
