@@ -1,0 +1,1028 @@
+[
+  {
+    "id": 1,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 2,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 3,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 4,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 5,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 6,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 7,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 8,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 9,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 10,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 11,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 12,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 13,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 14,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 15,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 16,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 17,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 18,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 19,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 20,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 21,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 22,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 23,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 24,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 1,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 2,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 3,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 4,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 5,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 6,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 7,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 8,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 9,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 10,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 11,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 12,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 13,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 14,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 15,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 16,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 17,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 18,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 19,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 20,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 21,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 22,
+    "tipo": "individual",
+    "categoria": "estándar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "24€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 23,
+    "tipo": "suit",
+    "categoria": "suit",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
+    ],
+    "camas": 1,
+    "capacidad": "para 2 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "30€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "si",
+      "wifi": "no",
+      "tv": "de pago"
+    }
+  },
+  {
+    "id": 24,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 25,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 26,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 27,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 28,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 29,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  },
+  {
+    "id": 30,
+    "tipo": "familiar",
+    "categoria": "familiar",
+    "fotos": [
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
+      "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
+    ],
+    "camas": 2,
+    "capacidad": "para 3 personas",
+    "disponibilidad": "24 marzo - 5 junio",
+    "precio_noche": "40€",
+    "caracteristicas": {
+      "tamano_cama": "200 x 150",
+      "climatizacion": "no",
+      "wifi": "si",
+      "tv": "si"
+    }
+  }
+]

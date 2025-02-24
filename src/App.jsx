@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Background from "./components/Background/Background";
 import { Outlet } from 'react-router-dom';
 import Container from "./components/Container/Container";
+import Rooms from "./components/Rooms/rooms";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Outlet />
       <Container />
       <Footer />
+      <Rooms />
     </>
   );
 }
