@@ -4,6 +4,8 @@ import Footer from "./components/Footer/Footer";
 import Background from "./components/Background/Background";
 import { Outlet } from 'react-router-dom';
 import Container from "./components/Container/Container";
+import Fetch from "./components/Fetch/fetch";
+import Rooms from "./components/Rooms/rooms";
 
 function App() {
   return (
