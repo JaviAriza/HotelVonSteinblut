@@ -26,6 +26,26 @@ const Booking = () => {
 
   return (
     <div className="relative left-1/2 transform -translate-1/2 flex flex-col items-center bg-gray-75 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl shadow-lg h-auto max-w-md mx-4 my-8">
+      <img
+        src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740385677/ornamentCorner1_xe1anj.png"
+        alt="Ornamento"
+        className="absolute top-0 left-0 w-20 h-20"
+      />
+      <img
+        src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740385677/ornamentCorner1_xe1anj.png"
+        alt="Ornamento"
+        className="absolute top-0 right-0 w-20 h-20 rotate-90"
+      />
+       <img
+        src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740385677/ornamentCorner1_xe1anj.png"
+        alt="Ornamento"
+        className="absolute bottom-0 right-0 w-20 h-20 rotate-90 scale-x-[-1]"
+      />
+       <img
+        src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740385677/ornamentCorner1_xe1anj.png"
+        alt="Ornamento"
+        className="absolute bottom-0 left-0 w-20 h-20 rotate-[-90deg]"
+      />
       <h2 className="text-white text-2xl mb-4 font-semibold">
         ¡Haz tu reserva!
       </h2>
@@ -99,4 +119,5 @@ const Booking = () => {
 };
 
 export default Booking;
+
 
