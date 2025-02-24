@@ -14,7 +14,6 @@ function App() {
       <Background colorStops={["#FF0000", "#000000", "#FF0000"]} speed={0.8} />
       <Outlet />
       <Container />
-      <Fetch />
       <Footer />
     </>
   );
