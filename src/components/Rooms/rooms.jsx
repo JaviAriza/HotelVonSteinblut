@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import roomsData from "./rooms.json";
 
 const Rooms = () => {
-
   const [rooms, setRooms] = useState([]);
 
   useEffect(() => {
