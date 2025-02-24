@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-const CurrentBookings = () => {
+const PreviusBookings = () => {
   return (
-    <div className=" text-white  p-6 font-serif">
+    <div className=" text-white min-h-screen p-6 font-serif">
       {/* Bookings Sections */}
-      <Section title="CURRENT BOOKINGS" />
+      <Section title="PREVIUS BOOKINGS" />
     </div>
   );
 };
@@ -88,4 +88,4 @@ const Section = ({ title }) => {
   );
 };
 
-export default CurrentBookings;
+export default PreviusBookings;
