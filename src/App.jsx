@@ -4,15 +4,14 @@ import Footer from "./components/Footer/Footer";
 import Background from "./components/Background/Background";
 import { Outlet } from 'react-router-dom';
 import Container from "./components/Container/Container";
+import Cards from "./components/Card/Card";
+import Card from "./components/Card/Card";
+import CardInfo from "./components/CardInfo/CardInfo";
 
 function App() {
   return (
     <>
-      <Header />
-      <Background colorStops={["#FF0000", "#000000", "#FF0000"]} speed={0.8} />
-      <Outlet />
-      <Container />
-      <Footer />
+   <CardInfo />
     </>
   );
 }
