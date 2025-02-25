@@ -3,6 +3,8 @@ import Booking from "../Booking/Booking";
 import RestaurantServices from "../RestaurantServices/RestaurantServices";
 import Restaurant from "../Restaurant/Restaurant";
 import Title from "../Title/Title";
+import CardInfo from "../CardInfo/CardInfo";
+import SearchResults from "../searchResults/SearchResults";
 
 const Container = () => {
   return (
@@ -27,6 +29,9 @@ const Container = () => {
         />
         <RestaurantServices />
         <RestaurantServices />
+        {/* <Rooms /> */}
+        <CardInfo />
+        <SearchResults />
       </div>
     </main>
   );

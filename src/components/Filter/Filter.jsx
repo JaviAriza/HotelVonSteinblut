@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 const Filter = ({filterUtil}) => {
-  const [type, setType] = useState("standard");
-  const [price, setPrice] = useState(200);
+  const [type, setType] = useState("estandar");
+  const [price, setPrice] = useState(600);
 
   const handleSubmit = (e) =>{
         e.preventDefault();
@@ -23,7 +23,7 @@ const Filter = ({filterUtil}) => {
               value={price}
               onChange={(e) => setPrice(e.target.value)}
             />
-            {["standard", "large", "suit"].map((roomType) => (
+            {["estandar", "familiar", "suit"].map((roomType) => (
               <div key={roomType}>
                 <label>
                   <input className="mx-1"

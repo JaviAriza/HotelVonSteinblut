@@ -6,6 +6,10 @@
 
 @layer base {
 
+    label{
+        color: white;
+    }
+
     button{
         background-color: #6C0000;
         color: white;
