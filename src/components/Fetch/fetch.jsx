@@ -1,6 +1,6 @@
 import useSWR from 'swr';
 
-const fetcher = (url) => fetch(url, { mode: 'no-cors' }).then((res) => res.json());
+const fetcher = (url) => fetch(`https://cors-anywhere.herokuapp.com/${url}`).then((res) => res.json());
 const Fetch = () => {
     const {
       data: users,
