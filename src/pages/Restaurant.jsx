@@ -5,17 +5,11 @@ import Title from "../components/Title/Title";
 const Restaurant = () => {
   return (
     <div className="w-full">
-      <Hero />
+      <Hero image={"https://res.cloudinary.com/dw94v5tvs/image/upload/v1740502637/00001-1368405656_tedmzv.jpg"}/>
+      <Title text={"Von Steinblut Restaurant"} />
+      <Title text={"Services"} />
       <RestaurantServices />
-      <Title text={"Von Steinblut Hotel"} />
-      <Restaurant
-        title={"von steinblut restaurant"}
-        link={""}
-        image={
-          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1739958637/image_13_oz5cyv.png"
-        }
-      />
-      <RestaurantServices />
+      <Title text={"Services"} />
       <RestaurantServices />
     </div>
   );

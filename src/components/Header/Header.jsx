@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
@@ -20,13 +21,13 @@ function Header() {
             <span></span>
           </div>
           <div className="mx-3 nav_logo size-10"><img src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/logo_ggptnk.png" alt="hotel-logo" /></div>
-          <div className={`backdrop-blur-[5px] nav_items ${isOpen ? "open" : ""}`}>
-            <a href="#">Hotel von Steinblut</a>
-            <a href="">Services</a>
-            <a href="">Gallery</a>
-            <a href="">FAQ</a>
-            <a href="#">Profile</a>
-          </div>
+          <ul className={`backdrop-blur-[5px] nav_items flex ${isOpen ? "open" : ""}`}>
+            <li ><Link to="/">Hotel</Link></li>
+            <li ><Link to="/restaurant">Services</Link></li>
+            <li ><Link to="/restaurant">Gallery</Link></li>
+            <li ><Link to="/restaurant">FAQ</Link></li>
+            <li ><Link to="/restaurant">Restaurant</Link></li>
+          </ul>
         </nav>
       </header>
   );
