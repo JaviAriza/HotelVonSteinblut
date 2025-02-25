@@ -20,7 +20,7 @@ const Fetch = () => {
               <p>Username: {user.username}</p>
               <p>gender: {user.gender}</p>
               <p>birthdate: {user.birthdate}</p>
-              <p>number_guest: {user.number_guest}</p>
+              <p>number guest: {user.number_guest}</p>
               <p>email: {user.email}</p>
               <p>phone: {user.phone}</p>
             </div>
