@@ -13,9 +13,9 @@ function App() {
         speed={0.8}
         amplitude={1.0}
       />
-      <main className="flex flex-col items-center justify-between w-full">
+      {/* 🔥 Asegúrate de que Outlet esté aquí y no dentro de otro div */}
       <Outlet />
-      </main>
+
       <Footer />
     </>
   );
