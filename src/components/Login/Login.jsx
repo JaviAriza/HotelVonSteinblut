@@ -20,20 +20,20 @@ function login() {
         <input
           id="email"
           type="email"
-          placeholder="ejemplo@correo.com"
+          placeholder="example@email.com"
           autoComplete="off"
           {...register("email", {
-            required: "El correo es obligatorio",
+            required: "Email is mandatory",
             pattern: {
               value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
-              message: "Ingrese un correo válido"
+              message: "Enter a valid email"
             },
             validate: {
               noSpaces: (value) =>
-                !/\s/.test(value) || "El correo no debe contener espacios",
+                !/\s/.test(value) || "The email must not contain spaces",
               validDomain: (value) =>
                 /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|net|org|edu|gov|info|io|co|es|mx)$/i.test(value) ||
-                "El dominio no es válido",
+                "The domain is invalid",
             }
           })}
         />
@@ -41,32 +41,32 @@ function login() {
       </div>
 
       <div>
-        <label htmlFor="contraseña">contraseña   </label>
+        <label htmlFor="password">Password   </label>
         <input
           id="password"
           type="password"
-          placeholder="Ingresa tu contraseña"
+          placeholder="Enter your password"
           autoComplete="off"
           {...register("password", {
-            required: "La contraseña es obligatoria",
+            required: "Password is mandatory",
             minLength: {
               value: 8,
-              message: "Debe tener al menos 8 caracteres"
+              message: "Must be at least 8 characters long"
             },
             maxLength: {
               value: 20,
-              message: "No debe superar los 20 caracteres"
+              message: "Must be less than 20 characters long"
             },
             pattern: {
               value: /^(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/,
-              message: "Debe incluir una mayúscula, un número y un símbolo"
+              message: "Must contain at least one uppercase letter, one number and one special character"
             }
           })}
         />
         {errors.password && <p>{errors.password.message}</p>}
       </div>
 
-      <button type="submit">Enviar</button>
+      <button type="submit">Submit</button>
     </form>
   );
 }
