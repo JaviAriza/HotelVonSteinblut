@@ -1,12 +1,19 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { calculateStay } from "../../utils/calculateStayUtil";
 
 const Booking = () => {
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
   const [showCalendar, setShowCalendar] = useState(false);
   const datePickerRef = useRef(null);
+  
+  const [nights, setNights] = useState(0);
+
+  useEffect(() => {
+    setNights(calculateStay(startDate, endDate));
+  }, [startDate, endDate]);
 
   const handleDateChange = (dates) => {
     const [start, end] = dates;
@@ -82,6 +89,12 @@ const Booking = () => {
             />
           </div>
         </div>
+        
+        {nights > 0 && (
+         <p className="text-white text-center mt-4">
+         Noches de estadía: {nights}
+          </p>
+        )}
 
         {/* Botón de búsqueda */}
         <div className="flex justify-center mt-4">
