@@ -7,6 +7,7 @@ import CardInfo from "../CardInfo/CardInfo";
 import SearchResults from "../searchResults/SearchResults";
 import Gallery from "../Gallery/Gallery";
 
+
 const Container = () => {
   return (
     <main className="flex flex-col items-center justify-between w-full h-full">
@@ -21,7 +22,9 @@ const Container = () => {
           image={
             "https://res.cloudinary.com/dw94v5tvs/image/upload/v1739958637/image_13_oz5cyv.png"
           }
+         
         />
+       
         <Restaurant
           title={"von steinblut escape room"}
           link={""}

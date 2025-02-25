@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Background from "./components/Background/Background";
 import { Outlet } from "react-router-dom";
 import Container from "./components/Container/Container";
+import Text from "./components/Texts/Texts";
 
 /* import Fetch from "./components/Fetch/fetch";
 import Cards from "./components/Card/Card";
@@ -18,6 +19,7 @@ function App() {
         speed={0.8}
         amplitude={1.0}
       />
+      <Text />
       <Outlet />
       
       <Container />
