@@ -22,11 +22,12 @@ const Filter = ({filterUtil}) => {
               max="1000"
               value={price}
               onChange={(e) => setPrice(e.target.value)}
+              className="accent-red-600"
             />
             {["estandar", "familiar", "suit"].map((roomType) => (
               <div key={roomType}>
                 <label>
-                  <input className="mx-1"
+                  <input className="mx-1 accent-red-600"
                     type="radio"
                     name="type"
                     value={roomType}
@@ -37,7 +38,7 @@ const Filter = ({filterUtil}) => {
                 </label>
               </div>
             ))}
-            <button className="w-[8%] h-[40px] rounded-xl" type="submit">
+            <button className="bg-red-900 text-white px-4 py-1 rounded-3xl border-red-900 border-2 hover:bg-black hover:text-white transition">
               Apply filters
             </button>
           </div>
