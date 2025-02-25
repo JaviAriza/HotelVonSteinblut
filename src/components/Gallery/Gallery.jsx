@@ -16,21 +16,25 @@ const Gallery = () => {
       setTimeout(() => {
         setCurrentImage((prev) => (prev + 1) % images.length);
         setFade(true);
-      }, 500);
+      }, 1000);
     }, 5000);
     return () => clearInterval(intervalId);
   }, [images.length]);
 
   return (
-    <div className="relative w-full max-w-7xl h-150 mx-auto bg-gray-700 overflow-hidden rounded-lg flex justify-center items-center">
+    <div className="relative w-full h-200 bg-gray-700 overflow-hidden flex justify-center items-center">
       {images.map((image, index) => (
         <img
           key={index}
           src={image}
           alt={`Slide ${index}`}
-          className={`absolute w-full h-full object-cover transition-opacity duration-500 ${
+          className={`absolute w-full h-full object-cover transition-opacity duration-1000 ${
             index === currentImage ? "opacity-100" : "opacity-0"
           }`}
+          style={{
+            transitionTimingFunction: "ease-in-out",
+            transitionDelay: `${index === currentImage ? "0s" : "1s"}`,
+          }}
         />
       ))}
     </div>
@@ -38,4 +42,6 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
+
 
