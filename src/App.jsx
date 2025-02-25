@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Background from "./components/Background/Background";
 import { Outlet } from "react-router-dom";
 import Container from "./components/Container/Container";
+
 /* import Fetch from "./components/Fetch/fetch";
 import Cards from "./components/Card/Card";
 import Card from "./components/Card/Card"; */
@@ -18,8 +19,11 @@ function App() {
         amplitude={1.0}
       />
       <Outlet />
+      
       <Container />
+      
       <Footer />
+    
       
     </>
   );

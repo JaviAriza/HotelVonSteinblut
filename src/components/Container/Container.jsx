@@ -5,6 +5,7 @@ import Restaurant from "../Restaurant/Restaurant";
 import Title from "../Title/Title";
 import CardInfo from "../CardInfo/CardInfo";
 import SearchResults from "../searchResults/SearchResults";
+import Gallery from "../Gallery/Gallery";
 
 const Container = () => {
   return (
@@ -13,6 +14,7 @@ const Container = () => {
       <div className="h-[1000px] w-full">
         <Booking />
         <Title text={"Von Steinblut Hotel"} />
+        <Gallery />
         <Restaurant
           title={"von steinblut restaurant"}
           link={""}
