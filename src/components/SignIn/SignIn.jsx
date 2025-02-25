@@ -16,141 +16,141 @@ function SignIn() {
   return (
     <form className="formLogin" onSubmit={handleSubmit(onSubmit)}>
         <div>
-            <label htmlFor="nombre">Nombre </label>
+            <label htmlFor="name">Name </label>
             <input
-                id="nombre"
+                id="name"
                 type="text"
-                placeholder="Ingresa tu nombre"
-                {...register("nombre", {
-                    required: "El nombre es obligatorio",
+                placeholder="Enter your name"
+                {...register("name", {
+                    required: "Name is required",
                     pattern: {
                     value: /^[a-zA-ZÀ-ÿ\s]+$/,
-                    message: "El nombre solo puede contener letras y espacios",
+                    message: "Name can only contain letters and spaces",
                     },
                     maxLength: {
                     value: 50,
-                    message: "El nombre no puede exceder los 50 caracteres",
+                    message: "Name cannot exceed 50 characters",
                     },
                 })}
             />
-            {errors.nombre && <p>{errors.nombre.message}</p>} 
+            {errors.name && <p>{errors.name.message}</p>} 
         </div> 
 
         <div>
-            <label htmlFor="apellidos">Apellidos </label>
+            <label htmlFor="lastName">Last Name </label>
             <input
-                id="apellidos"
+                id="lastName"
                 type="text"
-                placeholder="Ingresa tus apellidos"
-                {...register("apellidos", {
-                    required: "Los apellidos son obligatorios",
+                placeholder="Enter your last name"
+                {...register("lastName", {
+                    required: "Last name is required",
                     pattern: {
                     value: /^[a-zA-ZÀ-ÿ\s]+$/,
-                    message: "Los apellidos solo pueden contener letras y espacios",
+                    message: "Last name can only contain letters and spaces",
                     },
                     maxLength: {
                     value: 100,
-                    message: "Los apellidos no pueden exceder los 100 caracteres",
+                    message: "Last name cannot exceed 100 characters",
                     },
                 })}
             />
-            {errors.apellidos && <p>{errors.apellidos.message}</p>}      
+            {errors.lastName && <p>{errors.lastName.message}</p>}      
         </div> 
 
         <div>
-            <label htmlFor="genero">Género </label>
-            <select {...register("genero", { required: "Selecciona tu género" })}>
-                <option value="">Selecciona</option>
-                <option value="masculino">Masculino</option>
-                <option value="femenino">Femenino</option>
-                <option value="otro">Otro</option>
+            <label htmlFor="gender">Gender </label>
+            <select {...register("gender", { required: "Select your gender" })}>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
             </select>
-            {errors.genero && <p>{errors.genero.message}</p>}       
+            {errors.gender && <p>{errors.gender.message}</p>}       
         </div>
 
         <div>
-            <label htmlFor="documento">Documento </label>
+            <label htmlFor="document">Document </label>
             <input
-                id="documento"
+                id="document"
                 type="text"
-                placeholder="DNI / NIE / Pasaporte"
+                placeholder="DNI / NIE / Passport"
                 autoComplete="off"
-                {...register("documento", {
-                required: "El documento es obligatorio",
+                {...register("document", {
+                required: "Document is required",
                 pattern: {
                     value: /^(?:\d{8}[A-Z]|[XYZ]\d{7}[A-Z])$/,
-                    message: "DNI/NIE inválido"
+                    message: "Invalid DNI/NIE"
                 }
                 })}
             />
-            {errors.documento && <p>{errors.documento.message}</p>}
+            {errors.document && <p>{errors.document.message}</p>}
         </div>         
 
         <div>
-            <label htmlFor="fechaNacimiento">Fecha de nacimiento </label>
+            <label htmlFor="birthDate">Date of Birth </label>
             <input
-                id="fechaNacimiento"
+                id="birthDate"
                 type="date"
-                {...register("fechaNacimiento", {
-                required: "La fecha de nacimiento es obligatoria",
+                {...register("birthDate", {
+                required: "Date of birth is required",
                 validate: (value) => {
-                    const fechaNacimiento = new Date(value);
-                    const hoy = new Date();
-                    const edad = hoy.getFullYear() - fechaNacimiento.getFullYear();
-                    return edad >= 18 || "Debes ser mayor de 18 años";
+                    const birthDate = new Date(value);
+                    const today = new Date();
+                    const age = today.getFullYear() - birthDate.getFullYear();
+                    return age >= 18 || "You must be over 18 years old";
                 }
                 })}
             />
-            {errors.fechaNacimiento && <p>{errors.fechaNacimiento.message}</p>}         
+            {errors.birthDate && <p>{errors.birthDate.message}</p>}         
         </div> 
 
         <div>
-            <label htmlFor="telefono">Teléfono </label>
+            <label htmlFor="phone">Phone </label>
             <input
-                id="telefono"
+                id="phone"
                 type="tel"
-                placeholder="Ej: +34612345678"
+                placeholder="Eg: +34612345678"
                 autoComplete="off"
-                {...register("telefono", {
-                required: "El número de teléfono es obligatorio",
+                {...register("phone", {
+                required: "Phone number is required",
                 pattern: {
                     value: /^\+?\d{9,15}$/,
-                    message: "Número inválido. Formato esperado: +34XXXXXXXXX"
+                    message: "Invalid number. Expected format: +34XXXXXXXXX"
                 }
                 })}
             />
-            {errors.telefono && <p>{errors.telefono.message}</p>}
+            {errors.phone && <p>{errors.phone.message}</p>}
         </div>
 
         <div>
-            <label htmlFor="direccion">Dirección </label>
+            <label htmlFor="address">Address </label>
             <input
-                id="direccion"
+                id="address"
                 type="text"
-                placeholder="Tu dirección (opcional)"
-                {...register("direccion")}
+                placeholder="Your address (optional)"
+                {...register("address")}
             />
         </div>
 
         <div>
-            <label htmlFor="email">Email   </label>
+            <label htmlFor="email">Email </label>
             <input
                 id="email"
                 type="email"
-                placeholder="ejemplo@correo.com"
+                placeholder="example@email.com"
                 autoComplete="off"
                 {...register("email", {
-                    required: "El correo es obligatorio",
+                    required: "Email is required",
                     pattern: {
                     value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
-                    message: "Ingrese un correo válido"
+                    message: "Enter a valid email"
                     },
                     validate: {
                     noSpaces: (value) =>
-                        !/\s/.test(value) || "El correo no debe contener espacios",
+                        !/\s/.test(value) || "Email must not contain spaces",
                     validDomain: (value) =>
                         /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|net|org|edu|gov|info|io|co|es|mx)$/i.test(value) ||
-                        "El dominio no es válido",
+                        "Invalid domain",
                     }
                 })}
             />
@@ -158,25 +158,25 @@ function SignIn() {
         </div>
 
         <div>
-            <label htmlFor="contraseña">Contraseña</label>
+            <label htmlFor="password">Password</label>
             <input
-                id="contraseña"
+                id="password"
                 type="password"
-                placeholder="Ingresa tu contraseña"
+                placeholder="Enter your password"
                 autoComplete="off"
                 {...register("password", {
-                    required: "La contraseña es obligatoria",
+                    required: "Password is required",
                     minLength: {
                         value: 8,
-                        message: "Debe tener al menos 8 caracteres"
+                        message: "Must be at least 8 characters"
                     },
                     maxLength: {
                         value: 20,
-                        message: "No debe superar los 20 caracteres"
+                        message: "Cannot exceed 20 characters"
                     },
                     pattern: {
                         value: /^(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/,
-                        message: "Debe incluir una mayúscula, un número y un símbolo"
+                        message: "Must include an uppercase letter, a number, and a symbol"
                     }
                 })}
             />
@@ -184,25 +184,24 @@ function SignIn() {
         </div>
 
         <div>
-            <label htmlFor="repetirContraseña">Repite tu contraseña</label>
+            <label htmlFor="repeatPassword">Repeat your password</label>
             <input
-                id="repetirContraseña"
+                id="repeatPassword"
                 type="password"
-                placeholder="Repite tu contraseña"
+                placeholder="Repeat your password"
                 autoComplete="off"
                 {...register("repeatPassword", {
-                    required: "Es necesario repetir la contraseña",
+                    required: "You must repeat the password",
                     validate: (value) =>
-                        value === watch("contraseña") || "Las contraseñas no coinciden",  
+                        value === watch("password") || "Passwords do not match",  
                 })}
             />
             {errors.repeatPassword && <p>{errors.repeatPassword.message}</p>}
         </div>
 
-      <button type="submit">Enviar</button>
+      <button type="submit">Submit</button>
     </form>
   );
 }
 
 export default SignIn;
-
