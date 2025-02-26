@@ -20,11 +20,11 @@
     transition: 0.9s ease all;
   }
 
-  .nav_items a{
+  .nav_items li{
     padding: 10px;
   }
 
-  .nav_items > a:hover {
+  .nav_items > li:hover {
     border: 1px solid red;
     opacity: 1;
     color: red;

@@ -3,10 +3,6 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Background from "./components/Background/Background";
 import { Outlet } from "react-router-dom";
-import Container from "./components/Container/Container";
-/* import Fetch from "./components/Fetch/fetch";
-import Cards from "./components/Card/Card";
-import Card from "./components/Card/Card"; */
 
 function App() {
   return (
@@ -17,10 +13,10 @@ function App() {
         speed={0.8}
         amplitude={1.0}
       />
+      <main className="flex flex-col items-center justify-between w-full">
       <Outlet />
-      <Container />
+      </main>
       <Footer />
-      
     </>
   );
 }
