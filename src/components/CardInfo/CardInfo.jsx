@@ -44,7 +44,9 @@ const CardInfo = ({ room }) => {
       </div>
 
       {/* ⬇️ Verificamos que el InfoBox se renderiza y pasa bien onClose ⬇️ */}
-      {expanded && <InfoBox onClose={() => setExpanded(false)} />}
+      {expanded && <InfoBox room={room} onClose={() => setExpanded(false)} />}
+
+      
     </>
   );
 };
