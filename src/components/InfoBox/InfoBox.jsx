@@ -6,19 +6,20 @@ function InfoBox({ room, onClose }) {
   return (
     <div className="info-overlay" onClick={onClose}>
       <div className="info-content" onClick={(e) => e.stopPropagation()}>
-        <h2>Habitación {room.tipo}</h2>
         
-        <img className="w-full h-48 object-cover mb-4" src={room.fotos[0]} alt="Imagen de la habitación" />
+        
+        <img className="infoBox-img" src={room.fotos[0]} alt="Imagen de la habitación" />
 
-        <p><strong>Camas:</strong> {room.camas}</p>
-        <p><strong>Capacidad:</strong> {room.capacidad} personas</p>
-        <p><strong>Disponibilidad:</strong> {room.disponibilidad}</p>
-        <p><strong>Precio por noche:</strong> {room.precioNoche} €</p>
+        <h2>Room {room.tipo}</h2>
+        <p><strong>ability:</strong> {room.capacidad} personas</p>
+        <p><strong>availability:</strong> {room.disponibilidad}</p>
+        <p><strong>Price per night:</strong> {room.precioNoche} €</p>
 
-        <h3>Características</h3>
+    
         <ul className="ul-feature-list">
-          <button className="close-btn" onClick={onClose}>Cerrar</button>
-          <li><strong>Climatización:</strong> {room.caracteristicas.climatizacion}</li>
+          <button className="close-btn" onClick={onClose}>Close</button>
+          <li><strong>Beds:</strong> {room.camas}</li>
+          <li><strong>air conditioning:</strong> {room.caracteristicas.climatizacion}</li>
           <li><strong>WiFi:</strong> {room.caracteristicas.wifi}</li>
           <li><strong>TV:</strong> {room.caracteristicas.tv}</li>
         </ul>
