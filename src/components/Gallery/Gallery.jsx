@@ -22,7 +22,7 @@ const Gallery = () => {
   }, [images.length]);
 
   return (
-    <div className="relative w-full h-200 bg-gray-700 overflow-hidden flex justify-center items-center">
+    <div className="relative w-full h-200 bg-gray-700 overflow-hidden flex justify-center items-center my-[20%]">
       {images.map((image, index) => (
         <img
           key={index}

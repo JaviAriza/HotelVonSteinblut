@@ -5,6 +5,7 @@ import Title from "../components/Title/Title";
 import ServicesInfo from "../components/ServicesInfo/ServicesInfo";
 import Text from "../components/Texts/Texts";
 import Gallery from "../components/Gallery/Gallery";
+import EmailForm from "../components/EmailJS/Email";
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
         }
       />
       <Gallery />
+      <EmailForm />
     </div>
   );
 };

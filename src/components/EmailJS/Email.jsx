@@ -31,7 +31,7 @@ export default function EmailForm() {
   };
 
   return (
-    <div className="p-4 max-w-md mx-auto bg-white shadow-md rounded-lg">
+    <div className="p-4 max-w-md mx-auto bg-white shadow-md rounded-lg my-[20%]">
       <h2 className="text-xl font-bold mb-4">Enviar Mensaje</h2>
       <form onSubmit={handleSubmit}>
         <input
