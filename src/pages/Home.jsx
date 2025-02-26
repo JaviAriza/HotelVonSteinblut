@@ -15,14 +15,14 @@ const Home = () => {
       </div>
       <ServicesInfo bgImage="https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505200/00001-1368405656_ojwogn.png"/>
       <HotelServices
-        title={"von steinblut restaurant"}
+        title={"restaurant"}
         link={""}
         image={
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505200/00001-1368405656_ojwogn.png"
         }
       />
       <HotelServices
-        title={"von steinblut escape room"}
+        title={"escape room"}
         link={""}
         image={
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505257/00036-616249523_df1j2f.png"

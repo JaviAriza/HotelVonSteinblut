@@ -1,6 +1,8 @@
 import { useState, useRef } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { Link } from "react-router-dom";
+
 
 const Booking = () => {
   const [startDate, setStartDate] = useState(null);
@@ -85,12 +87,14 @@ const Booking = () => {
 
         {/* Botón de búsqueda */}
         <div className="flex justify-center mt-4">
+        <Link to={"/reservations"}>
           <button
             onClick={handleSearchClick}
             className="bg-red-700 text-white px-8 py-1 hover:bg-black transition-colors rounded-md text-sm border border-transparent hover:border-red-700 hover:border-1"
           >
             Buscar
           </button>
+        </Link>
         </div>
 
         {/* Calendario flotante con animación */}

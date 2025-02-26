@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import Title from "../Title/Title";
+import { Link } from "react-router-dom";
 
 export default function HotelServices(props) {
   return (
@@ -16,14 +17,11 @@ export default function HotelServices(props) {
           <button className="h-full w-[20%] rounded-lg text-lg font-semibold hover:bg-red-800 transition-all">
             Info
           </button>
-          <button className="h-full w-[20%] rounded-lg text-lg font-semibold hover:bg-black bg-white text-red-800 transition-all">
-            <a
-              className="w-full h-full flex items-center justify-center transition-all"
-              href={props.link}
-            >
+          <Link to={`/${props.title}`}>
+            <button className="h-full w-full px-10 rounded-lg text-lg font-semibold border-1 border-white hover:bg-black hover:text-white hover:border-white bg-white text-red-800 transition-all">
               Book
-            </a>
-          </button>
+            </button>
+          </Link>
         </div>
       </div>
     </section>
