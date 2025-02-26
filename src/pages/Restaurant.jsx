@@ -2,6 +2,7 @@ import RestaurantServices from "../components/RestaurantServices/RestaurantServi
 import Hero from "../components/Hero/Hero";
 import Title from "../components/Title/Title";
 import ServicesInfo from "../components/ServicesInfo/ServicesInfo";
+import Text from "../components/Texts/Texts";
 
 const Restaurant = () => {
   return (
@@ -13,7 +14,7 @@ const Restaurant = () => {
       />
       <div className="about mb-[20%] flex flex-col">
         <Title text={"Von Steinblut Restaurant"} />
-        <p className="text-center text-white">Lorem Ipsum</p>
+        <Text />
       </div>
       <ServicesInfo bgImage="https://res.cloudinary.com/dw94v5tvs/image/upload/v1740504408/00002-3120151442_nkvrke.jpg" />
       <Title text={"Services"} />

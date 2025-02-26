@@ -3,6 +3,7 @@ import Booking from "../components/Booking/Booking";
 import HotelServices from "../components/HotelServices/HotelServices";
 import Title from "../components/Title/Title";
 import ServicesInfo from "../components/ServicesInfo/ServicesInfo";
+import Text from "../components/Texts/Texts";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
       <Booking />
       <div className="about mb-[20%] flex flex-col">
       <Title text={"Von Steinblut Hotel"} />
-      <p className="text-center text-white">Lorem Ipsum</p>
+      <Text />
       </div>
       <ServicesInfo bgImage="https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505200/00001-1368405656_ojwogn.png"/>
       <HotelServices
