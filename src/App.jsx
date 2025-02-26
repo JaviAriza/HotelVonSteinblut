@@ -9,6 +9,7 @@ import SignIn from "./components/SignIn/SignIn";
 function App() {
   return (
     <>
+      <Header />
       <SignIn />
       
     </>
