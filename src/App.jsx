@@ -8,11 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <Background
-        colorStops={["#6C0000", "#000000", "#6C0000"]}
-        speed={0.8}
-        amplitude={1.0}
-      />
+      <Background colorStops={["#FF0000", "#000000", "#FF0000"]} speed={0.8} />
       <main className="flex flex-col items-center justify-between w-full">
       <Outlet />
       </main>
