@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -28,7 +28,7 @@ const Booking = () => {
     };
     localStorage.setItem("reservation", JSON.stringify(reservationData));
 
-    navigate("/reservation");
+    navigate("/rooms"); // 🔹 Ahora redirige a CardInfo
   };
 
   return (
@@ -38,7 +38,6 @@ const Booking = () => {
         <label className="text-white block mb-2 text-center text-lg">Selecciona las fechas</label>
 
         <div className="flex flex-row gap-2">
-          {/* Fecha de entrada */}
           <div className="flex items-center bg-white rounded-md overflow-hidden w-1/2">
             <DatePicker
               selected={startDate}
@@ -48,8 +47,6 @@ const Booking = () => {
               className="w-full p-2 text-sm focus:outline-none bg-white text-black"
             />
           </div>
-
-          {/* Fecha de salida */}
           <div className="flex items-center bg-white rounded-md overflow-hidden w-1/2">
             <DatePicker
               selected={endDate}
@@ -61,7 +58,6 @@ const Booking = () => {
           </div>
         </div>
 
-        {/* Botón de búsqueda */}
         <div className="flex justify-center mt-4">
           <button
             onClick={handleSearchClick}
@@ -76,5 +72,6 @@ const Booking = () => {
 };
 
 export default Booking;
+
 
 
