@@ -12,10 +12,10 @@ const SearchResults = () => {
   };
 
   return (
-    <div className="w-screen h-[800px] bg-black">
+    <div className="w-screen bg-black pb-[10%]">
       <Filter filterUtil={handleFilter} />
       {results.length > 0 ? (
-        <div className="results-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="results-container grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 px-[5%] justify-center">
           {results.map((result) => (
             <CardInfo key={result.id} room={result} />
           ))}

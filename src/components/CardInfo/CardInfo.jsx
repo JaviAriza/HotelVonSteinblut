@@ -7,28 +7,28 @@ const CardInfo = ({ room }) => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % room.fotos.length);
+      setCurrentImage((prev) => (prev + 1) % room.photos.length);
     }, 5000);
     return () => clearInterval(intervalId);
-  }, [room.fotos.length]);
+  }, [room.photos.length]);
 
   const nextImage = () => {
-    setCurrentImage((prev) => (prev + 1) % room.fotos.length);
+    setCurrentImage((prev) => (prev + 1) % room.photos.length);
   };
 
   const prevImage = () => {
-    setCurrentImage((prev) => (prev - 1 + room.fotos.length) % room.fotos.length);
+    setCurrentImage((prev) => (prev - 1 + room.photos.length) % room.photos.length);
   };
 
   return (
-    <div className="max-w-sm bg-[#5f5c5c] rounded-2xl shadow-lg overflow-hidden text-white relative font-[Triodion]">
+    <div className="max-w-sm bg-[#5f5c5c] rounded-2xl shadow-lg overflow-hidden text-white relative font-[Triodion] mx-auto">
       {/* Carrusel de imágenes */}
       <div className="relative w-full h-48 bg-gray-700 overflow-hidden rounded-t-2xl">
         <div
           className="w-full h-full transition-transform duration-500 transform"
           style={{ transform: `translateX(-${currentImage * 100}%)` }}
         >
-          {room.fotos.map((image, index) => (
+          {room.photos.map((image, index) => (
             <img
               key={index}
               src={image}
@@ -56,23 +56,23 @@ const CardInfo = ({ room }) => {
       <img src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740397694/OrnamentLine1_xrziiw.png" alt="Ornamento" className="absolute top-47.5 left-0 w-full h-3 mt-[-1%]" />
 
       <div className="p-4">
-        <h1 className="text-xl font-semibold mb-2">Habitación {room.tipo}</h1>
+        <h1 className="text-xl font-semibold mb-2">Habitación {room.type}</h1>
 
         <div className="flex flex-wrap gap-2 mb-4">
           <span className="bg-white text-black px-4 py-1 rounded-3xl text-xs">
-            Wifi: {room.caracteristicas.wifi}
+            Wifi: {room.features.wifi}
           </span>
           <span className="bg-white text-black px-4 py-1 rounded-3xl text-xs">
-            Climatización: {room.caracteristicas.climatizacion}
+            Climatización: {room.features.airConditioning}
           </span>
           <span className="bg-white text-black px-4 py-1 rounded-3xl text-xs">
-            TV: {room.caracteristicas.tv}
+            TV: {room.features.tv}
           </span>
         </div>
 
         <div className="mt-6">
           <p className="text-lg font-semibold text-red-900">
-            {room.precioNoche} €<span className="text-sm"> EUR/Noche</span>
+            {room.nightPrice} €<span className="text-sm"> EUR/Noche</span>
           </p>
         </div>
       </div>

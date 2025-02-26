@@ -1,542 +1,542 @@
 [
   {
     "id": "1",
-    "tipo": "estandar",
-    "fotos": [
+    "type": "standard",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "01/03/2025",
-    "precioNoche": 100,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "2",
+    "availability": "01/03/2025",
+    "nightPrice": "100",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "2",
-    "tipo": "familiar",
-    "fotos": [
+    "type": "family",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
     ],
-    "camas": 2,
-    "capacidad": 4,
-    "disponibilidad": "02/03/2025",
-    "precioNoche": 150,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "4",
+    "availability": "05/03/2025",
+    "nightPrice": "150",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "3",
-    "tipo": "suit",
-    "fotos": [
+    "type": "suite",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "03/03/2025",
-    "precioNoche": 200,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "1",
+    "capacity": "2",
+    "availability": "10/03/2025",
+    "nightPrice": "200",
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "4",
-    "tipo": "estandar",
-    "fotos": [
+    "type": "standard",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "04/03/2025",
-    "precioNoche": 100,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "2",
+    "availability": "15/03/2025",
+    "nightPrice": "300",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "5",
-    "tipo": "familiar",
-    "fotos": [
+    "type": "family",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
     ],
-    "camas": 2,
-    "capacidad": 4,
-    "disponibilidad": "05/03/2025",
-    "precioNoche": 150,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "4",
+    "availability": "20/03/2025",
+    "nightPrice": "450",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "6",
-    "tipo": "suit",
-    "fotos": [
+    "type": "suite",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "06/03/2025",
-    "precioNoche": 200,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "1",
+    "capacity": "2",
+    "availability": "25/03/2025",
+    "nightPrice": "600",
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "7",
-    "tipo": "estandar",
-    "fotos": [
+    "type": "standard",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "07/03/2025",
-    "precioNoche": 100,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "2",
+    "availability": "30/03/2025",
+    "nightPrice": "700",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "no"
     }
   },
   {
     "id": "8",
-    "tipo": "familiar",
-    "fotos": [
+    "type": "family",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
     ],
-    "camas": 2,
-    "capacidad": 4,
-    "disponibilidad": "08/03/2025",
-    "precioNoche": 150,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "4",
+    "availability": "05/04/2025",
+    "nightPrice": "800",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "9",
-    "tipo": "suit",
-    "fotos": [
+    "type": "suite",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "09/03/2025",
-    "precioNoche": 200,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "1",
+    "capacity": "2",
+    "availability": "10/04/2025",
+    "nightPrice": "900",
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "10",
-    "tipo": "estandar",
-    "fotos": [
+    "type": "standard",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "10/03/2025",
-    "precioNoche": 100,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "2",
+    "availability": "15/04/2025",
+    "nightPrice": "1000",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "11",
-    "tipo": "familiar",
-    "fotos": [
+    "type": "family",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
     ],
-    "camas": 2,
-    "capacidad": 4,
-    "disponibilidad": "11/03/2025",
-    "precioNoche": 150,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "4",
+    "availability": "20/04/2025",
+    "nightPrice": "150",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "12",
-    "tipo": "suit",
-    "fotos": [
+    "type": "suite",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "12/03/2025",
-    "precioNoche": 200,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "1",
+    "capacity": "2",
+    "availability": "25/04/2025",
+    "nightPrice": "200",
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "13",
-    "tipo": "estandar",
-    "fotos": [
+    "type": "standard",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "13/03/2025",
-    "precioNoche": 100,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "2",
+    "availability": "30/04/2025",
+    "nightPrice": "300",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "14",
-    "tipo": "familiar",
-    "fotos": [
+    "type": "family",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
     ],
-    "camas": 2,
-    "capacidad": 4,
-    "disponibilidad": "14/03/2025",
-    "precioNoche": 150,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "4",
+    "availability": "05/05/2025",
+    "nightPrice": "450",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "15",
-    "tipo": "suit",
-    "fotos": [
+    "type": "suite",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "15/03/2025",
-    "precioNoche": 200,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "1",
+    "capacity": "2",
+    "availability": "10/05/2025",
+    "nightPrice": "600",
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "16",
-    "tipo": "estandar",
-    "fotos": [
+    "type": "standard",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "16/03/2025",
-    "precioNoche": 100,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "2",
+    "availability": "15/05/2025",
+    "nightPrice": "700",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "no"
     }
   },
   {
     "id": "17",
-    "tipo": "familiar",
-    "fotos": [
+    "type": "family",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
     ],
-    "camas": 2,
-    "capacidad": 4,
-    "disponibilidad": "17/03/2025",
-    "precioNoche": 150,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "4",
+    "availability": "20/05/2025",
+    "nightPrice": "800",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "18",
-    "tipo": "suit",
-    "fotos": [
+    "type": "suite",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "18/03/2025",
-    "precioNoche": 200,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "1",
+    "capacity": "2",
+    "availability": "25/05/2025",
+    "nightPrice": "900",
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "19",
-    "tipo": "estandar",
-    "fotos": [
+    "type": "standard",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "19/03/2025",
-    "precioNoche": 100,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "2",
+    "availability": "30/05/2025",
+    "nightPrice": "1000",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "20",
-    "tipo": "familiar",
-    "fotos": [
+    "type": "family",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
     ],
-    "camas": 2,
-    "capacidad": 4,
-    "disponibilidad": "20/03/2025",
-    "precioNoche": 150,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "4",
+    "availability": "05/06/2025",
+    "nightPrice": "150",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "21",
-    "tipo": "suit",
-    "fotos": [
+    "type": "suite",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "21/03/2025",
-    "precioNoche": 200,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "1",
+    "capacity": "2",
+    "availability": "10/06/2025",
+    "nightPrice": "200",
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "22",
-    "tipo": "estandar",
-    "fotos": [
+    "type": "standard",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "22/03/2025",
-    "precioNoche": 100,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "2",
+    "availability": "15/06/2025",
+    "nightPrice": "300",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "23",
-    "tipo": "familiar",
-    "fotos": [
+    "type": "family",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
     ],
-    "camas": 2,
-    "capacidad": 4,
-    "disponibilidad": "23/03/2025",
-    "precioNoche": 150,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "4",
+    "availability": "20/06/2025",
+    "nightPrice": "450",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "24",
-    "tipo": "suit",
-    "fotos": [
+    "type": "suite",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "24/03/2025",
-    "precioNoche": 200,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "1",
+    "capacity": "2",
+    "availability": "25/06/2025",
+    "nightPrice": "600",
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "25",
-    "tipo": "estandar",
-    "fotos": [
+    "type": "standard",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "25/03/2025",
-    "precioNoche": 100,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "2",
+    "availability": "30/06/2025",
+    "nightPrice": "700",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "26",
-    "tipo": "familiar",
-    "fotos": [
+    "type": "family",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
     ],
-    "camas": 2,
-    "capacidad": 4,
-    "disponibilidad": "26/03/2025",
-    "precioNoche": 150,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "4",
+    "availability": "05/07/2025",
+    "nightPrice": "800",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "27",
-    "tipo": "suit",
-    "fotos": [
+    "type": "suite",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "27/03/2025",
-    "precioNoche": 200,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "1",
+    "capacity": "2",
+    "availability": "10/07/2025",
+    "nightPrice": "900",
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "28",
-    "tipo": "estandar",
-    "fotos": [
+    "type": "standard",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/mskb6ct5a3oqbacondy3"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "28/03/2025",
-    "precioNoche": 100,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "2",
+    "availability": "15/07/2025",
+    "nightPrice": "1000",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "no"
     }
   },
   {
     "id": "29",
-    "tipo": "familiar",
-    "fotos": [
+    "type": "family",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/ecyudh1xi5kak9enndhr"
     ],
-    "camas": 2,
-    "capacidad": 4,
-    "disponibilidad": "29/03/2025",
-    "precioNoche": 150,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "2",
+    "capacity": "4",
+    "availability": "20/07/2025",
+    "nightPrice": "150",
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   },
   {
     "id": "30",
-    "tipo": "suit",
-    "fotos": [
+    "type": "suite",
+    "photos": [
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf",
       "https://res.cloudinary.com/dlp0hm27z/image/upload/f_auto,q_auto/eewwv6dve25nhjsk9ghf"
     ],
-    "camas": 1,
-    "capacidad": 2,
-    "disponibilidad": "30/03/2025",
-    "precioNoche": 200,
-    "caracteristicas": {
-      "tamaño_cama": "1.5m",
-      "climatizacion": "si",
-      "wifi": "si",
-      "tv": "si"
+    "beds": "1",
+    "capacity": "2",
+    "availability": "25/07/2025",
+    "nightPrice": "200",
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
     }
   }
 ]
