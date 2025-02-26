@@ -3,7 +3,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { calculateStay } from "../../utils/calculateStayUtil";
 import { Link } from "react-router-dom";
-
+import Cookies from "js-cookie";
 
 const Booking = () => {
   const [startDate, setStartDate] = useState(null);
@@ -27,6 +27,8 @@ const Booking = () => {
       setTimeout(() => setShowCalendar(false), 200); 
     }
   };
+
+  
 
   const handleSearchClick = () => {
     console.log("Fecha de entrada:", startDate);
@@ -92,11 +94,17 @@ const Booking = () => {
           </div>
         </div>
         
-        {nights > 0 && (
-         <p className="text-white text-center mt-4">
-         Noches de estadía: {nights}
+        
+      {nights > 0 && (
+        <>
+          <p className="text-white text-center mt-4">
+            Noches de estadía: {nights}
           </p>
-        )}
+          {Cookies.set("nights", nights)}
+        </>
+      )}
+
+        
 
         {/* Botón de búsqueda */}
         <div className="flex justify-center mt-4">
