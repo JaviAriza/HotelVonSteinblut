@@ -3,6 +3,7 @@ import Hero from "../components/Hero/Hero";
 import Title from "../components/Title/Title";
 import ServicesInfo from "../components/ServicesInfo/ServicesInfo";
 import Text from "../components/Texts/Texts";
+import Gallery from "../components/Gallery/Gallery";
 
 const Restaurant = () => {
   return (
@@ -21,6 +22,7 @@ const Restaurant = () => {
       <RestaurantServices />
       <Title text={"Services"} />
       <RestaurantServices />
+      <Gallery />
     </div>
   );
 };

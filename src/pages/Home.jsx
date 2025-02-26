@@ -4,6 +4,7 @@ import HotelServices from "../components/HotelServices/HotelServices";
 import Title from "../components/Title/Title";
 import ServicesInfo from "../components/ServicesInfo/ServicesInfo";
 import Text from "../components/Texts/Texts";
+import Gallery from "../components/Gallery/Gallery";
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505257/00036-616249523_df1j2f.png"
         }
       />
+      <Gallery />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const Gallery = () => {
   const images = [
@@ -42,6 +42,3 @@ const Gallery = () => {
 };
 
 export default Gallery;
-
-
-
