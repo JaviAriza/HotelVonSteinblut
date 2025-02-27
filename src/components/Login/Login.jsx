@@ -89,12 +89,12 @@ const Login = () => {
             </div>
             <div className="mt-2 text-center">
               <span className="text-sm text-gray-300">Don't have an account? </span>
-              <button
+              <span
                 onClick={handleFlip}
-                className="text-sm text-red-500 hover:text-white transition duration-300"
+                className="text-sm text-red-500 hover:text-white transition duration-300 cursor-pointer"
               >
                 Sign up
-              </button>
+              </span>
             </div>
           </div>
 
@@ -172,13 +172,14 @@ const Login = () => {
                 Sign Up
               </button>
             </form>
-            <div className="mt-4 text-center">
-              <button
+            <div className="mt-2 text-center">
+              <span className="text-sm text-gray-300">Already have an account? </span>
+              <span
                 onClick={handleFlip}
-                className="text-sm text-gray-300 hover:text-red-500 transition duration-300"
+                className="text-sm text-red-500 hover:text-white transition duration-300 cursor-pointer"
               >
-                Already have an account? Sign In
-              </button>
+                Sign In
+              </span>
             </div>
           </div>
         </div>
