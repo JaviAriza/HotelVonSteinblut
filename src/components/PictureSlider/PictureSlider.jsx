@@ -41,13 +41,13 @@ const PictureSlider = ({ pictures, isHovered }) => {
       </div>
       <button
         onClick={prevImage}
-        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-1 rounded-full"
+        className="absolute left-2 bottom-0 transform -translate-y-1/2 bg-transparent hover:bg-white hover:text-black backdrop-blur-xl text-white p-4 py-1 rounded-lg transition"
       >
         &#8249;
       </button>
       <button
         onClick={nextImage}
-        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-1 rounded-full"
+        className="absolute right-2 bottom-0 transform -translate-y-1/2 bg-transparent hover:bg-white hover:text-black  backdrop-blur-xl text-white p-4 py-1 rounded-lg transition"
       >
         &#8250;
       </button>
