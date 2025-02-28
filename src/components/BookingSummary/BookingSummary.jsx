@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react"; 
 import Swal from "sweetalert2";
 import { format } from "date-fns";
 
@@ -15,7 +15,7 @@ const BookingSummary = () => {
     const storedReservation = JSON.parse(localStorage.getItem("reservation"));
     const storedRoom = JSON.parse(localStorage.getItem("selectedRoom"));
 
-    if (storedReservation && storedRoom && storedRoom.precioNoche) {
+    if (storedReservation && storedRoom && storedRoom.nightPrice) {
       setCheckIn(storedReservation.checkIn);
       setCheckOut(storedReservation.checkOut);
       setSelectedRoom(storedRoom);
@@ -94,7 +94,7 @@ const BookingSummary = () => {
           </div>
           <div className="mt-4 bg-gray-800 p-4 rounded-lg">
             <p><strong>Precio base:</strong> {totalPrice.toFixed(2)}€</p>
-            <p><strong>Código descuento:</strong> -{discount.toFixed(2)}€</p>
+            <p><strong>Código descuento:</strong> {discount.toFixed(2)}€</p>
             <p className="text-xl font-bold mt-2">Total: {Math.max(0, totalPrice - discount).toFixed(2)}€</p>
           </div>
           <button className="w-full bg-red-700 text-white p-3 rounded mt-4" onClick={handlePayment}>
