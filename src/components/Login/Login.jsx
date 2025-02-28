@@ -27,7 +27,7 @@ const Login = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-transparent">
-      <div className="relative w-96 h-[28rem]"> {/* Ajustamos la altura */}
+      <div className="relative w-96 h-[28rem]"> 
         {/* Card Container */}
         <div
           className={`absolute w-full h-full transition-transform duration-700 ease-in-out ${
@@ -189,3 +189,5 @@ const Login = () => {
 };
 
 export default Login;
+
+
