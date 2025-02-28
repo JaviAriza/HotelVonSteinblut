@@ -24,7 +24,7 @@ function Header() {
           <ul className={`backdrop-blur-[5px] nav_items flex ${isOpen ? "open" : ""}`}>
             <li ><Link to="/">Hotel</Link></li>
             <li ><Link to="/restaurant">Restaurant</Link></li>
-            <li ><Link to="/reservations">Reservations</Link></li>
+            <li ><Link to="/reservations">Rooms</Link></li>
             <li ><Link to="/restaurant">Services</Link></li>
             <li ><Link to="/restaurant">Gallery</Link></li>
             <li ><Link to="/restaurant">FAQ</Link></li>

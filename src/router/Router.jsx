@@ -18,7 +18,7 @@ export const router = createBrowserRouter([
             { path: "/restaurant", element: <Restaurant /> },
             { path: "/booking-summary", element: <BookingSummary /> },
             { path: "/customer/:id", element: <CustomerProfile /> },
-            { path: "/rooms", element: <CardInfo /> },  // 🔹 Nueva ruta para CardInfo
+            { path: "/rooms", element: <CardInfo /> },
         ],
     },
 ]);

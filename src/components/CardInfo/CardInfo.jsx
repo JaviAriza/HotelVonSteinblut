@@ -23,12 +23,21 @@ const CardInfo = ({ onSelection, room }) => {
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className={`max-w-sm bg-[#5f5c5c] rounded-2xl shadow-lg overflow-hidden text-white relative font-[Triodion] ${
+      className={`max-w-sm bg-[#1a1a1a] rounded-2xl shadow-lg overflow-hidden text-white relative font-[Triodion] ${
         selectedRoom?.type === room.type ? "border-4 border-teal" : ""
       }`}
     >
-      <div className="relative w-full h-48 bg-gray-700 overflow-hidden rounded-t-2xl">
+      <div className="relative w-full h-48 bg-gray-900 overflow-hidden rounded-t-2xl mb-2">
         <PictureSlider pictures={room.photos} isHovered={isHovered} />
+      </div>
+
+      <div className="absolute top-[2%] right-[3%] flex gap-3">
+        <h5 className="text-xl backdrop-blur-xl p-2 capitalize rounded-lg">
+          {room.type}
+        </h5>
+        <div className="  backdrop-blur-xl p-2 rounded-lg">
+          <p className="text-xl font-semibold">{room.nightPrice} €</p>
+        </div>
       </div>
 
       <img
@@ -37,30 +46,28 @@ const CardInfo = ({ onSelection, room }) => {
         className="absolute top-47.5 left-0 w-full h-3 mt-[-1%]"
       />
 
-      <div className="p-4">
-        <h1 className="text-xl font-semibold mb-2">Rooms {room.type}</h1>
-
+      <div className="mt-5 mb-[20%] flex justify-center items-center">
         <div className="flex flex-wrap gap-2 mb-4">
-          <span className="bg-white text-black px-4 py-1 rounded-3xl text-xs">
-            Wifi: {room.features.wifi}
-          </span>
-          <span className="bg-white text-black px-4 py-1 rounded-3xl text-xs">
-            Climatización: {room.features.airConditioning}
-          </span>
-          <span className="bg-white text-black px-4 py-1 rounded-3xl text-xs">
-            TV: {room.features.tv}
-          </span>
-        </div>
-
-        <div className="mt-6">
-          <p className="text-lg font-semibold text-red-900">
-            {room.nightPrice} €<span className="text-sm"> EUR/Night</span>
-          </p>
+          {room.features.wifi === "yes" && (
+            <span className="bg-stone-400 text-black px-4 py-1 rounded-lg text-md">
+              Wifi
+            </span>
+          )}
+          {room.features.tv === "yes" && (
+            <span className="bg-stone-400 text-black px-4 py-1 rounded-lg text-md">
+              TV
+            </span>
+          )}
+          {room.features.airConditioning === "yes" && (
+            <span className="bg-stone-400 text-black px-4 py-1 rounded-lg text-md">
+              Air Conditioning
+            </span>
+          )}
         </div>
       </div>
 
       <button
-        className="absolute bottom-4 right-4 bg-white text-black px-6 py-2 rounded-3xl hover:bg-gray-200 transition"
+        className="absolute bottom-4 right-4 bg-red-900 text-white px-6 py-2 rounded-lg hover:bg-gray-200 hover:text-black transition"
         onClick={() => handleSelectRoom(room)}
       >
         Book
