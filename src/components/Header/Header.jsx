@@ -28,6 +28,7 @@ function Header() {
             <li ><Link to="/restaurant">Services</Link></li>
             <li ><Link to="/restaurant">Gallery</Link></li>
             <li ><Link to="/restaurant">FAQ</Link></li>
+            <li ><Link to="/customer">Profile</Link></li>
           </ul>
         </nav>
       </header>

@@ -6,7 +6,6 @@ import ServicesInfo from "../components/ServicesInfo/ServicesInfo";
 import Text from "../components/Texts/Texts";
 import Gallery from "../components/Gallery/Gallery";
 import EmailForm from "../components/EmailJS/Email";
-import Login from "../components/Login/Login";
 
 
 const Home = () => {
@@ -14,7 +13,6 @@ const Home = () => {
     <div className="w-full">
       <Hero image={"https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/castle-2_zxiibh.png"}/>
       <Booking />
-        <Login /> 
       <div className="about mb-[20%] flex flex-col">
       <Title text={"Von Steinblut Hotel"} />
       <Text />

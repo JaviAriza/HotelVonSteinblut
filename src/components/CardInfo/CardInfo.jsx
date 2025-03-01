@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import PictureSlider from "../PictureSlider/PictureSlider";
-import RoomInfo from "../../RoomInfo/RoomInfo";
+import RoomInfo from "../RoomInfo/RoomInfo";
 
 const CardInfo = ({ onSelection, room }) => {
   const [isHovered, setIsHovered] = useState(false);
