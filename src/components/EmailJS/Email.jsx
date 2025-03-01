@@ -31,43 +31,68 @@ export default function EmailForm() {
   };
 
   return (
-    <div className="p-4 max-w-md mx-auto bg-white shadow-md rounded-lg my-[20%]">
-      <h2 className="text-xl font-bold mb-4">Enviar Mensaje</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="name"
-          placeholder="Tu nombre"
-          value={formData.name}
-          onChange={handleChange}
-          className="w-full p-2 mb-2 border rounded"
-          required
-        />
-        <input
-          type="email"
-          name="mail"
-          placeholder="Tu email"
-          value={formData.mail}
-          onChange={handleChange}
-          className="w-full p-2 mb-2 border rounded"
-          required
-        />
-        <textarea
-          name="message"
-          placeholder="Tu mensaje"
-          value={formData.message}
-          onChange={handleChange}
-          className="w-full p-2 mb-2 border rounded"
-          required
-        ></textarea>
-        <button
-          type="submit"
-          className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
-        >
-          Enviar
-        </button>
-      </form>
-      {status && <p className="mt-2 text-center">{status}</p>}
+    <div className="min-h-screen flex items-center justify-center bg-transparent">
+      <div className="relative w-96 h-[28rem]">
+        <div className="absolute w-full h-full bg-gradient-to-b from-red-800 to-black p-8 rounded-lg shadow-lg border-red-900 border-2">
+          <h2 className="text-2xl font-bold mb-6 text-white text-center">Contact us</h2>
+          <form onSubmit={handleSubmit}>
+            <div className="mb-4">
+              <label className="block text-gray-100 text-sm font-bold mb-2" htmlFor="name">
+                Name
+              </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                style={{ backgroundColor: 'white' }}
+                placeholder="Your name"
+                value={formData.name}
+                onChange={handleChange}
+                className="w-full px-3 py-2 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-900"
+                required
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block text-gray-100 text-sm font-bold mb-2" htmlFor="mail">
+                Email
+              </label>
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                style={{ backgroundColor: 'white' }}
+                placeholder="Your email"
+                value={formData.mail}
+                onChange={handleChange}
+                className="w-full px-3 py-2 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-900"
+                required
+              />
+            </div>
+            <div className="mb-6">
+              <label className="block text-gray-100 text-sm font-bold mb-2" htmlFor="message">
+                Message
+              </label>
+              <textarea
+                name="message"
+                id="message"
+                style={{ backgroundColor: 'white' }}
+                placeholder="Your message"
+                value={formData.message}
+                onChange={handleChange}
+                className="w-full px-3 py-2 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-900"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              className="w-full bg-red-800 text-white py-2 px-4 rounded-lg hover:bg-gray-800 hover:text-white transition duration-300"
+            >
+              Send
+            </button>
+          </form>
+          {status && <p className="mt-2 text-center text-gray-300 text-sm">{status}</p>}
+        </div>
+      </div>
     </div>
   );
 }
