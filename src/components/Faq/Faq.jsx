@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 
-// FAQ Component
 const FAQ = () => {
-  // State to track the active question
   const [activeIndex, setActiveIndex] = useState(null);
 
-  // List of questions and answers
   const faqs = [
     {
       question: 'What are the check-in and check-out times?',
@@ -45,12 +42,12 @@ const FAQ = () => {
     }
   ];
 
-  // Function to toggle the answer visibility
+ 
   const toggleAnswer = (index) => {
     if (index === activeIndex) {
-      setActiveIndex(null); // Hide answer if the same question is clicked
+      setActiveIndex(null); 
     } else {
-      setActiveIndex(index); // Show answer for the clicked question
+      setActiveIndex(index); 
     }
   };
 
