@@ -7,14 +7,50 @@ const Login = () => {
   const [lastName, setLastName] = useState('');
   const [isFlipped, setIsFlipped] = useState(false);
 
+  const validateEmail = (email) => {
+    return /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email);
+  };
+
+  const validatePassword = (password) => {
+    return /^(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/.test(password);
+  };
+
+  const validateName = (name) => {
+    return /^[a-zA-ZÀ-ÿ\s]+$/.test(name) && name.length <= 50;
+  };
+
   const handleSubmitLogin = (e) => {
     e.preventDefault();
+    if (!validateEmail(email)) {
+      alert('Invalid email format');
+      return;
+    }
+    if (!validatePassword(password)) {
+      alert('Password must include an uppercase letter, a number, and a symbol');
+      return;
+    }
     console.log('Login - Email:', email);
     console.log('Login - Password:', password);
   };
 
   const handleSubmitRegister = (e) => {
     e.preventDefault();
+    if (!validateName(firstName)) {
+      alert('First name can only contain letters and must not exceed 50 characters');
+      return;
+    }
+    if (!validateName(lastName)) {
+      alert('Last name can only contain letters and must not exceed 50 characters');
+      return;
+    }
+    if (!validateEmail(email)) {
+      alert('Invalid email format');
+      return;
+    }
+    if (!validatePassword(password)) {
+      alert('Password must include an uppercase letter, a number, and a symbol');
+      return;
+    }
     console.log('Register - First Name:', firstName);
     console.log('Register - Last Name:', lastName);
     console.log('Register - Email:', email);
@@ -97,7 +133,6 @@ const Login = () => {
               </span>
             </div>
           </div>
-
           {/* Back Side (Register) */}
           <div
             className="absolute w-full h-[550px] bg-gradient-to-b from-red-800 to-black p-8 rounded-lg shadow-lg border-red-900 border-2"
@@ -189,5 +224,3 @@ const Login = () => {
 };
 
 export default Login;
-
-

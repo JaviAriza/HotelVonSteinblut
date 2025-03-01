@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { Link } from "react-router-dom";
-
+import dayjs from "dayjs";
 
 const Booking = () => {
   const [startDate, setStartDate] = useState(null);
@@ -13,8 +13,8 @@ const Booking = () => {
   useEffect(() => {
     const storedReservation = JSON.parse(localStorage.getItem("reservation"));
     if (storedReservation) {
-      setStartDate(new Date(storedReservation.checkIn));
-      setEndDate(new Date(storedReservation.checkOut));
+      setStartDate(dayjs(storedReservation.checkIn).toDate());
+      setEndDate(dayjs(storedReservation.checkOut).toDate());
     }
   }, []);
 
@@ -25,12 +25,12 @@ const Booking = () => {
     }
 
     const reservationData = {
-      checkIn: startDate.toISOString().split("T")[0],
-      checkOut: endDate.toISOString().split("T")[0],
+      checkIn: dayjs(startDate).format("YYYY-MM-DD"),
+      checkOut: dayjs(endDate).format("YYYY-MM-DD"),
     };
     localStorage.setItem("reservation", JSON.stringify(reservationData));
 
-    navigate("/rooms"); // 🔹 Ahora redirige a CardInfo
+    navigate("/rooms"); // 🔹 Redirige a la página de habitaciones
   };
 
   return (
@@ -44,6 +44,10 @@ const Booking = () => {
             <DatePicker
               selected={startDate}
               onChange={date => setStartDate(date)}
+              selectsStart
+              startDate={startDate}
+              endDate={endDate}
+              minDate={new Date()}
               dateFormat="dd/MM/yyyy"
               placeholderText="Entrada"
               className="w-full p-2 text-sm focus:outline-none bg-white text-black"
@@ -53,6 +57,10 @@ const Booking = () => {
             <DatePicker
               selected={endDate}
               onChange={date => setEndDate(date)}
+              selectsEnd
+              startDate={startDate}
+              endDate={endDate}
+              minDate={startDate || new Date()}
               dateFormat="dd/MM/yyyy"
               placeholderText="Salida"
               className="w-full p-2 text-sm focus:outline-none bg-white text-black"
@@ -61,14 +69,14 @@ const Booking = () => {
         </div>
 
         <div className="flex justify-center mt-4">
-        <Link to={"/reservations"}>
-          <button
-            onClick={handleSearchClick}
-            className="bg-red-700 text-white px-8 py-1 hover:bg-black transition-colors rounded-md text-sm border border-transparent hover:border-red-700 hover:border-1"
-          >
-            Buscar
-          </button>
-        </Link>
+          <Link to={"/reservations"}>
+            <button
+              onClick={handleSearchClick}
+              className="bg-red-700 text-white px-8 py-1 hover:bg-black transition-colors rounded-md text-sm border border-transparent hover:border-red-700 hover:border-1"
+            >
+              Buscar
+            </button>
+          </Link>
         </div>
       </div>
     </div>
@@ -76,6 +84,3 @@ const Booking = () => {
 };
 
 export default Booking;
-
-
-

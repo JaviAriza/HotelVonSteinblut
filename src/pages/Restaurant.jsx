@@ -24,10 +24,15 @@ const Restaurant = () => {
       <RestaurantServices />
       <Gallery
         pictures={[
-          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/castle-2_zxiibh.png",
-          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505257/00036-616249523_df1j2f.png",
-          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740504408/00002-3120151442_nkvrke.jpg",
-          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505200/00001-1368405656_ojwogn.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740845364/00001-711020556_tdmwls.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740846014/00005-3739568703_iyko6t.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740846521/00008-4088081042_gf5lko.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740845514/00002-4248152933_vk4tmo.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740845698/00003-2333386820_xsog87.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740846166/00006-959514903_skf8km.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740846626/00009-3659831855_fgqfe6.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740845857/00004-786710061_fqidry.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740846334/00007-3487642673_yfzwfj.png"
         ]}
       />
     </div>
