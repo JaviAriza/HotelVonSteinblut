@@ -30,7 +30,7 @@ const Booking = () => {
     };
     localStorage.setItem("reservation", JSON.stringify(reservationData));
 
-    navigate("/rooms"); // 🔹 Redirige a la página de habitaciones
+    navigate("/rooms");
   };
 
   return (

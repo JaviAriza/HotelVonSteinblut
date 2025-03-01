@@ -12,13 +12,12 @@ const CardInfo = ({ onSelection, room }) => {
   const navigate = useNavigate();
 
   const handleSelectRoom = (room) => {
-    setSelectedRoom(room);
-    localStorage.setItem("selectedRoom", JSON.stringify(selectedRoom));
-
+    localStorage.setItem("selectedRoom", JSON.stringify(room));
+  
     if (onSelection) {
       onSelection(room);
     }
-
+  
     navigate("/booking-summary");
   };
 

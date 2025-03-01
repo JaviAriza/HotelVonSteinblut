@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"; 
+import { useState, useEffect } from "react";
 import Swal from "sweetalert2";
 import { format } from "date-fns";
 
@@ -39,12 +39,33 @@ const BookingSummary = () => {
 
     if (discountCode === "HOTEL10") {
       discountValue = totalPrice * 0.10;
-      Swal.fire("Descuento aplicado", "Has recibido un 10% de descuento", "success");
+      Swal.fire({
+        title: "Discount applied",
+        text: "You received a 10% discount.",
+        icon: "success",
+        background: "#1e1e1e",
+        color: "#ffffff",
+        confirmButtonColor: "#ff4d4d",
+      });
     } else if (discountCode === "VIP25") {
       discountValue = 25;
-      Swal.fire("Descuento aplicado", "Has recibido un descuento de 25€", "success");
+      Swal.fire({
+        title: "Discount applied",
+        text: "You received a €25 discount.",
+        icon: "success",
+        background: "#1e1e1e",
+        color: "#ffffff",
+        confirmButtonColor: "#ff4d4d",
+      });
     } else {
-      Swal.fire("Código inválido", "El código ingresado no es válido", "error");
+      Swal.fire({
+        title: "Invalid code",
+        text: "The entered code is not valid.",
+        icon: "error",
+        background: "#1e1e1e",
+        color: "#ffffff",
+        confirmButtonColor: "#ff4d4d",
+      });
     }
 
     setDiscount(discountValue);
@@ -54,61 +75,68 @@ const BookingSummary = () => {
     const finalPrice = Math.max(0, totalPrice - discount);
 
     Swal.fire({
-      title: "Pago realizado con éxito",
-      text: `Has reservado la habitación ${selectedRoom?.type} del ${format(
-        new Date(checkIn),
-        "dd/MM/yyyy"
-      )} al ${format(new Date(checkOut), "dd/MM/yyyy")} por un total de ${finalPrice}€.`,
+      title: "Payment successful",
+      html: `
+        <p style="font-size: 16px; margin-bottom: 10px;">
+          You have booked the <strong>${selectedRoom?.type}</strong> room from 
+          <strong>${format(new Date(checkIn), "dd/MM/yyyy")}</strong> to 
+          <strong>${format(new Date(checkOut), "dd/MM/yyyy")}</strong>.
+        </p>
+        <p style="font-size: 18px; font-weight: bold;">Total paid: €${finalPrice}</p>
+      `,
       icon: "success",
-      confirmButtonText: "Aceptar",
+      background: "#1e1e1e",
+      color: "#ffffff",
+      confirmButtonColor: "#ff4d4d",
+      confirmButtonText: "Go to homepage",
+    }).then(() => {
+      window.location.href = "/"; 
     });
   };
 
   return (
-    <div className="max-w-lg mx-auto bg-white text-base p-6 rounded-lg shadow-lg my-[24%]">
-      <h2 className="text-2xl font-semibold mb-4">Resumen de la reserva</h2>
-      {selectedRoom ? (
-        <>
-          <div className="p-4 rounded-lg">
-            <p className="mb-2">
-              <strong>Entrada:</strong> {format(new Date(checkIn), "EEEE, d MMM yyyy")}
-            </p>
-            <p className="mb-2">
-              <strong>Salida:</strong> {format(new Date(checkOut), "EEEE, d MMM yyyy")}
-            </p>
-            <p className="mb-2">
-              <strong>Tu reserva:</strong> {nights} noches, 1 hab ({selectedRoom.type})
-            </p>
-            <div className="mt-4 flex gap-2">
-              <input
-                type="text"
-                placeholder="Código de descuento"
-                className="p-2 rounded text-black w-full"
-                value={discountCode}
-                onChange={(e) => setDiscountCode(e.target.value)}
-              />
-              <button onClick={applyDiscount} className="bg-gray-700 px-4 py-2 rounded">
-                Aplicar
-              </button>
+    <div className="flex justify-center items-center min-h-screen">
+      <div className="w-full max-w-lg bg-neutral-900 text-white p-10 rounded-lg shadow-lg">
+        <h2 className="text-3xl font-semibold text-center mb-6">Booking Summary</h2>
+        {selectedRoom ? (
+          <>
+            <div className="p-6 rounded-lg bg-neutral-800 mb-6">
+              <p className="mb-2"><strong>Check-in:</strong> {format(new Date(checkIn), "EEE, d MMM yyyy")}</p>
+              <p className="mb-2"><strong>Check-out:</strong> {format(new Date(checkOut), "EEE, d MMM yyyy")}</p>
+              <p className="mb-2"><strong>Your stay:</strong> {nights} nights, 1 room ({selectedRoom.type})</p>
+              <div className="mt-4 flex gap-2">
+                <input
+                  type="text"
+                  placeholder="Discount code"
+                  className="p-2 rounded text-white w-full"
+                  value={discountCode}
+                  onChange={(e) => setDiscountCode(e.target.value)}
+                />
+                <button onClick={applyDiscount} className="bg-gray-700 px-4 py-2 rounded text-white hover:bg-gray-600">
+                  Apply
+                </button>
+              </div>
             </div>
-          </div>
-          <div className="mt-4 bg-gray-800 p-4 rounded-lg">
-            <p><strong>Precio base:</strong> {totalPrice.toFixed(2)}€</p>
-            <p><strong>Código descuento:</strong> {discount.toFixed(2)}€</p>
-            <p className="text-xl font-bold mt-2">Total: {Math.max(0, totalPrice - discount).toFixed(2)}€</p>
-          </div>
-          <button className="w-full bg-red-700 text-black p-3 rounded mt-4" onClick={handlePayment}>
-            Pagar ahora {Math.max(0, totalPrice - discount).toFixed(2)}€
-          </button>
-        </>
-      ) : (
-        <p className="text-center text-black mt-4">No hay datos de reserva disponibles.</p>
-      )}
+            <div className="bg-neutral-800 p-6 rounded-lg mb-6">
+              <p><strong>Base price:</strong> €{totalPrice.toFixed(2)}</p>
+              <p><strong>Discount code:</strong> €{discount.toFixed(2)}</p>
+              <p className="text-xl font-bold mt-2">Total: €{Math.max(0, totalPrice - discount).toFixed(2)}</p>
+            </div>
+            <button
+              className="w-full bg-red-700 text-white p-4 rounded-lg text-lg hover:bg-red-600"
+              onClick={handlePayment}
+            >
+              Pay now €{Math.max(0, totalPrice - discount).toFixed(2)}
+            </button>
+          </>
+        ) : (
+          <p className="text-center text-white mt-4">No booking data available.</p>
+        )}
+      </div>
     </div>
   );
 };
 
 export default BookingSummary;
-
 
 
