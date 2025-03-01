@@ -13,7 +13,7 @@ const Restaurant = () => {
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740502637/00001-1368405656_tedmzv.jpg"
         }
       />
-      <div className="about mb-[20%] flex flex-col">
+      <div className="about mb-5 flex flex-col">
         <Title text={"Von Steinblut Restaurant"} />
         <Text />
       </div>
@@ -22,7 +22,14 @@ const Restaurant = () => {
       <RestaurantServices />
       <Title text={"Services"} />
       <RestaurantServices />
-      <Gallery />
+      <Gallery
+        pictures={[
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/castle-2_zxiibh.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505257/00036-616249523_df1j2f.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740504408/00002-3120151442_nkvrke.jpg",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505200/00001-1368405656_ojwogn.png",
+        ]}
+      />
     </div>
   );
 };

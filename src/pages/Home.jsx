@@ -7,17 +7,20 @@ import Text from "../components/Texts/Texts";
 import Gallery from "../components/Gallery/Gallery";
 import EmailForm from "../components/EmailJS/Email";
 
-
 const Home = () => {
   return (
     <div className="w-full">
-      <Hero image={"https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/castle-2_zxiibh.png"}/>
+      <Hero
+        image={
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/castle-2_zxiibh.png"
+        }
+      />
       <Booking />
-      <div className="about mb-[20%] flex flex-col">
-      <Title text={"Von Steinblut Hotel"} />
-      <Text />
+      <div className="about mb-5 flex flex-col">
+        <Title text={"Von Steinblut Hotel"} />
+        <Text />
       </div>
-      <ServicesInfo bgImage="https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505200/00001-1368405656_ojwogn.png"/>
+      <ServicesInfo bgImage="https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505200/00001-1368405656_ojwogn.png" />
       <HotelServices
         title={"restaurant"}
         link={""}
@@ -32,7 +35,14 @@ const Home = () => {
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505257/00036-616249523_df1j2f.png"
         }
       />
-      <Gallery />
+      <Gallery
+        pictures={[
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/castle-2_zxiibh.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505257/00036-616249523_df1j2f.png",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740504408/00002-3120151442_nkvrke.jpg",
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505200/00001-1368405656_ojwogn.png",
+        ]}
+      />
       <EmailForm />
     </div>
   );
