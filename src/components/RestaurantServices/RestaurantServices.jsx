@@ -6,7 +6,7 @@ const RestaurantServices = () => {
       <section className="my-[20%] restaurant-services w-full h-screen bg-black flex flex-col sm:flex-row">
         <ExpandablePanel
           image={
-            "https://res.cloudinary.com/dw94v5tvs/image/upload/v1739958637/image_13_oz5cyv.png"
+            "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740847639/00013-250311533_ya6dbc.png"
           }
           isLeadPanel={true}
           text={"cena grupal"}
