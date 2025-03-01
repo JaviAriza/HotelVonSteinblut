@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
 
 const PictureSlider = ({ pictures, isHovered }) => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -18,16 +18,14 @@ const PictureSlider = ({ pictures, isHovered }) => {
   };
 
   const prevImage = () => {
-    setCurrentImage(
-      (prev) => (prev - 1 + pictures.length) % pictures.length
-    );
+    setCurrentImage((prev) => (prev - 1 + pictures.length) % pictures.length);
   };
 
   return (
     <>
       <div
         className="w-full h-full transition-transform duration-500 transform"
-        style={{ transform: `translateX(-${currentImage * 100}%)` }} 
+        style={{ transform: `translateX(-${currentImage * 100}%)` }}
       >
         {pictures.map((image, index) => (
           <img
@@ -41,15 +39,23 @@ const PictureSlider = ({ pictures, isHovered }) => {
       </div>
       <button
         onClick={prevImage}
-        className="absolute left-2 bottom-0 transform -translate-y-1/2 bg-transparent hover:bg-white hover:text-black backdrop-blur-xl text-white p-4 py-1 rounded-lg transition"
+        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-transparent backdrop-blur-xl text-white size-10 rounded-full transition flex justify-center items-center"
       >
-        &#8249;
+        <img
+          src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1740320710/flecha-izquierda_r5rgze.png"
+          alt="arrow"
+          className="size-5"
+        />
       </button>
       <button
         onClick={nextImage}
-        className="absolute right-2 bottom-0 transform -translate-y-1/2 bg-transparent hover:bg-white hover:text-black  backdrop-blur-xl text-white p-4 py-1 rounded-lg transition"
+        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-transparent backdrop-blur-xl text-white size-10 rounded-full transition flex justify-center items-center"
       >
-        &#8250;
+        <img
+          src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1740320710/flecha-izquierda_r5rgze.png"
+          alt="arrow"
+          className="size-5 rotate-180"
+        />
       </button>
     </>
   );
@@ -58,6 +64,6 @@ const PictureSlider = ({ pictures, isHovered }) => {
 export default PictureSlider;
 
 PictureSlider.propTypes = {
-    pictures: PropTypes.array,
-    isHovered: PropTypes.bool
-}
+  pictures: PropTypes.array,
+  isHovered: PropTypes.bool,
+};

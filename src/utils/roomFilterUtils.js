@@ -7,7 +7,6 @@ const roomFilter = (data, price, type, order) => {
     const hasPrice = price >= room.nightPrice;
     return hasType && hasPrice;
   });
-  console.log(order);
   return filtered.sort(sortRoomsByPrice(order));
 };
 

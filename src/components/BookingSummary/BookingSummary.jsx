@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"; 
+import { useState, useEffect } from "react"; 
 import Swal from "sweetalert2";
 import { format } from "date-fns";
 
@@ -65,11 +65,11 @@ const BookingSummary = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto bg-gray-900 text-white p-6 rounded-lg shadow-lg">
+    <div className="max-w-lg mx-auto bg-white text-base p-6 rounded-lg shadow-lg my-[24%]">
       <h2 className="text-2xl font-semibold mb-4">Resumen de la reserva</h2>
       {selectedRoom ? (
         <>
-          <div className="bg-gray-800 p-4 rounded-lg">
+          <div className="p-4 rounded-lg">
             <p className="mb-2">
               <strong>Entrada:</strong> {format(new Date(checkIn), "EEEE, d MMM yyyy")}
             </p>
@@ -97,12 +97,12 @@ const BookingSummary = () => {
             <p><strong>Código descuento:</strong> {discount.toFixed(2)}€</p>
             <p className="text-xl font-bold mt-2">Total: {Math.max(0, totalPrice - discount).toFixed(2)}€</p>
           </div>
-          <button className="w-full bg-red-700 text-white p-3 rounded mt-4" onClick={handlePayment}>
+          <button className="w-full bg-red-700 text-black p-3 rounded mt-4" onClick={handlePayment}>
             Pagar ahora {Math.max(0, totalPrice - discount).toFixed(2)}€
           </button>
         </>
       ) : (
-        <p className="text-center text-white mt-4">No hay datos de reserva disponibles.</p>
+        <p className="text-center text-black mt-4">No hay datos de reserva disponibles.</p>
       )}
     </div>
   );
