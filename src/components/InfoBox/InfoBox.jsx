@@ -26,15 +26,6 @@ function InfoBox({ room, onClose }) {
         </p>
 
         <ul className="ul-feature-list">
-          <button className="close-btn" onClick={onClose}>
-            Close
-          </button>
-          <button
-            className="book-btn"
-            onClick={() => navigate("/booking-summary")}
-          >
-            Book
-          </button>
           <li>
             <strong>Beds:</strong> {room.beds}
           </li>
@@ -48,6 +39,17 @@ function InfoBox({ room, onClose }) {
             <strong>TV:</strong> {room.features.tv}
           </li>
         </ul>
+
+        <class className="buttons">
+          <button className="close-btn bg-red p-2 px-4 rounded-md cursor-pointer mt-[330px] ml-[-390px]" onClick={onClose}>
+            Close
+          </button>
+          <button className="book-btn bg-red p-2 px-4 rounded-md cursor-pointer mt-[90px] ml-[90px]"
+            onClick={() => navigate("/booking-summary")}
+          >
+            Book
+          </button>
+          </class>
       </div>
     </div>
   );
