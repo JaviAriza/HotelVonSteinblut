@@ -5,7 +5,6 @@ import PictureSlider from "../PictureSlider/PictureSlider";
 import RoomInfo from "../RoomInfo/RoomInfo";
 import InfoBox from "../InfoBox/InfoBox";
 
-
 const CardInfo = ({ onSelection, room }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [selectedRoom, setSelectedRoom] = useState(null);
@@ -14,7 +13,7 @@ const CardInfo = ({ onSelection, room }) => {
 
   const handleSelectRoom = (room) => {
     setSelectedRoom(room);
-    localStorage.setItem("selectedRoom", JSON.stringify(room));
+    localStorage.setItem("selectedRoom", JSON.stringify(selectedRoom));
 
     if (onSelection) {
       onSelection(room);
@@ -27,7 +26,6 @@ const CardInfo = ({ onSelection, room }) => {
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      onClick={() => setExpanded(true)}
       className={`max-w-sm rounded-md shadow-lg overflow-hidden text-white relative h-80 font-[Triodion]`}
     >
       <div className="relative w-full h-full bg-gray-900 overflow-hidden mb-2">
@@ -47,19 +45,31 @@ const CardInfo = ({ onSelection, room }) => {
         </div>
       </div>
 
-      <button
-        className={`absolute bottom-4 right-4 bg-red-900 text-white px-6 py-2 rounded-lg hover:bg-gray-200 hover:text-black transition-all ${isHovered? "translate-y-0" : "translate-y-[200%]"}`}
-        onClick={() => handleSelectRoom(room)}
+      <div
+        className={`absolute bottom-4 right-4 transition-all flex gap-3 ${
+          isHovered ? "translate-y-0" : "translate-y-[200%]"
+        }`}
       >
-        Book
-      </button>
+        <button
+          className={`bg-red-900 text-white px-6 py-2 rounded-lg hover:bg-gray-200 hover:text-black`}
+          onClick={() => setExpanded(true)}
+        >
+          Info
+        </button>
+        <button
+          className={`bg-red-900 text-white px-6 py-2 rounded-lg hover:bg-gray-200 hover:text-black`}
+          onClick={() => handleSelectRoom(room)}
+        >
+          Book
+        </button>
+      </div>
       <RoomInfo room={room} isOpen={isHovered} />
-       <img
+      <img
         src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740397694/OrnamentLine1_xrziiw.png"
         alt="Ornamento"
         className="absolute top-2 left-0 w-full h-3 mt-[-1%]"
       />
-       {expanded && <InfoBox room={room} onClose={() => setExpanded(false)} />}
+      {expanded && <InfoBox room={room} onClose={() => setExpanded(false)} />}
     </div>
   );
 };

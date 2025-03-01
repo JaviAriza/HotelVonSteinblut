@@ -3,22 +3,47 @@ import PropTypes from "prop-types";
 
 const PictureSlider = ({ pictures, isHovered }) => {
   const [currentImage, setCurrentImage] = useState(0);
+  const [intervalId, setIntervalId] = useState(null);
   const shouldCicle = isHovered;
 
   useEffect(() => {
-    if (!shouldCicle) return;
-    const intervalId = setInterval(() => {
+    if (shouldCicle) {
+      if (intervalId) {
+        clearInterval(intervalId);
+      }
+
+      const newIntervalId = setInterval(() => {
+        setCurrentImage((prev) => (prev + 1) % pictures.length);
+      }, 3000);
+
+      setIntervalId(newIntervalId);
+
+      return () => clearInterval(newIntervalId);
+    } else {
+      if (intervalId) {
+        clearInterval(intervalId);
+      }
+    }
+  }, [shouldCicle, pictures.length]);
+
+  const startInterval = () => {
+    if (intervalId) {
+      clearInterval(intervalId); // Clear existing interval if any
+    }
+    const newIntervalId = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % pictures.length);
     }, 3000);
-    return () => clearInterval(intervalId);
-  }, [shouldCicle, pictures.length]);
+    setIntervalId(newIntervalId);
+  };
 
   const nextImage = () => {
     setCurrentImage((prev) => (prev + 1) % pictures.length);
+    startInterval();
   };
 
   const prevImage = () => {
     setCurrentImage((prev) => (prev - 1 + pictures.length) % pictures.length);
+    startInterval();
   };
 
   return (

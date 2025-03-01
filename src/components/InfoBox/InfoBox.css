@@ -39,7 +39,7 @@
 }
 
 
-.close-btn {
+.close-btn, .book-btn{
   background: red;
   color: white;
   border: none;
