@@ -64,20 +64,20 @@ const PictureSlider = ({ pictures, isHovered }) => {
       </div>
       <button
         onClick={prevImage}
-        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-transparent backdrop-blur-xl text-white size-10 rounded-full transition flex justify-center items-center"
+        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-transparent backdrop-blur-xl text-white size-10 rounded-full transition flex justify-center items-center hover:scale-125"
       >
         <img
-          src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1740320710/flecha-izquierda_r5rgze.png"
+          src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740860788/arrow1_a8wkkm.png"
           alt="arrow"
           className="size-5"
         />
       </button>
       <button
         onClick={nextImage}
-        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-transparent backdrop-blur-xl text-white size-10 rounded-full transition flex justify-center items-center"
+        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-transparent backdrop-blur-xl text-white size-10 rounded-full transition flex justify-center items-center hover:scale-125"
       >
         <img
-          src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1740320710/flecha-izquierda_r5rgze.png"
+          src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740860788/arrow1_a8wkkm.png"
           alt="arrow"
           className="size-5 rotate-180"
         />
