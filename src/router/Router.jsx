@@ -6,6 +6,7 @@ import Reservations from "../pages/Reservations";
 import Restaurant from "../pages/Restaurant";
 import UserLogin from "../pages/UserLogin"
 import BookingSummary from "../components/BookingSummary/BookingSummary";
+import Faq from "../pages/Faq";
 
 export const router = createBrowserRouter([
     {
@@ -18,6 +19,7 @@ export const router = createBrowserRouter([
             { path: "/booking-summary", element: <BookingSummary /> },
             { path: "/customer/:id", element: <CustomerProfile /> },
             { path: "/customer", element: <UserLogin /> },
+            { path: "/faq", element: <Faq /> }
         ],
     },
 ]);

@@ -27,7 +27,7 @@ function Header() {
           <li><Link to="/reservations">Rooms</Link></li>
           <li><Link to="/restaurant">Services</Link></li>
           <li><Link to="/restaurant">Gallery</Link></li>
-          <li><Link to="/restaurant">FAQ</Link></li>
+          <li><Link to="/faq">FAQ</Link></li>
           <li><Link to="/customer">Profile</Link></li>
           <li><Link to="/login">Login</Link></li>
 

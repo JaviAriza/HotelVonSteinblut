@@ -6,6 +6,7 @@ import ServicesInfo from "../components/ServicesInfo/ServicesInfo";
 import Text from "../components/Texts/Texts";
 import Gallery from "../components/Gallery/Gallery";
 import EmailForm from "../components/EmailJS/Email";
+import Map from "../components/Map/Map";
 
 const Home = () => {
   return (
@@ -44,6 +45,7 @@ const Home = () => {
         ]}
       />
       <EmailForm />
+      <Map />
     </div>
   );
 };
