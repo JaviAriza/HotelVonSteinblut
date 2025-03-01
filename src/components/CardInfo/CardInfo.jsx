@@ -3,10 +3,13 @@ import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import PictureSlider from "../PictureSlider/PictureSlider";
 import RoomInfo from "../RoomInfo/RoomInfo";
+import InfoBox from "../InfoBox/InfoBox";
+
 
 const CardInfo = ({ onSelection, room }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [selectedRoom, setSelectedRoom] = useState(null);
+  const [expanded, setExpanded] = useState(false);
   const navigate = useNavigate();
 
   const handleSelectRoom = (room) => {
@@ -24,6 +27,7 @@ const CardInfo = ({ onSelection, room }) => {
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onClick={() => setExpanded(true)}
       className={`max-w-sm rounded-md shadow-lg overflow-hidden text-white relative h-80 font-[Triodion]`}
     >
       <div className="relative w-full h-full bg-gray-900 overflow-hidden mb-2">
@@ -55,6 +59,7 @@ const CardInfo = ({ onSelection, room }) => {
         alt="Ornamento"
         className="absolute top-2 left-0 w-full h-3 mt-[-1%]"
       />
+       {expanded && <InfoBox room={room} onClose={() => setExpanded(false)} />}
     </div>
   );
 };
