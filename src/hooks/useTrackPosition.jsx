@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import { getContainerMiddle } from "../utils/positionUtils";
+import { getRelativeContainerMiddle } from "../utils/positionUtils";
 
 export default function useTrackPosition(idWrapper) {
   const [isFixed, setIsFixed] = useState(true);
 
   useEffect(() => {
     const updateFixedStatus = () => {
-      const containerMiddle = getContainerMiddle(idWrapper);
+      const containerMiddle = getRelativeContainerMiddle(idWrapper);
 
       if (containerMiddle >= window.scrollY) {
         setIsFixed(true);
