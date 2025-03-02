@@ -63,17 +63,17 @@
         width: 0; /* Inicialmente sin ancho */
         height: 1.5px;
         bottom: 0;
-        left: 50%; /* Comienza desde el centro */
+        left: 50%; /* Empieza desde el centro */
         background-color: rgb(255, 255, 255);
         visibility: hidden;
         transition: all 0.3s ease-in-out;
-        transform: translateX(-50%); /* Centra el pseudo-elemento */
+        transform: translateX(-50%); /* Centra el elemento */
     }
 
     .nav_items a:hover::before {
         visibility: visible;
-        width: 80%; /* Expande el ancho al 100% */
-        left: 50%; /* Mantiene el centro */
-        transform: translateX(-50%); /* Asegura que se expanda desde el centro */
+        width: 80%; /* Expande  */
+        left: 50%; /* Mantiene en el centro */
+        transform: translateX(-50%); /* Con esto empieza desde el centro */
     }
 }
