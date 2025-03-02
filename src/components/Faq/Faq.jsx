@@ -53,7 +53,12 @@ const FAQ = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
       <h2 className="text-3xl font-semibold text-center mb-6 mt-15 text-white mb-15">Frequently Asked Questions - Hotel Von Steinblut</h2>
-      <div className="space-y-4">
+      <img
+        src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740335763/Ornament1_ogcwyx.png"
+        alt="Filigrana"
+        className="mx-auto w-90 mt-[-50px]"
+      />
+      <div className="space-y-4 ">
         {faqs.map((faq, index) => (
           <div
             key={index}
@@ -64,10 +69,10 @@ const FAQ = () => {
               onClick={() => toggleAnswer(index)}
             >
               <div className='text-2xl text-white'>{faq.question}</div>
-              <span className="text-xl text-red-800">{activeIndex === index ? '-' : '+'}</span>
+              <span className="text-2xl text-red-800">{activeIndex === index ? '-' : '+'}</span>
             </div>
             {activeIndex === index && (
-              <div className="mt-4 text-white text-md">
+              <div className="mt-4 text-gray-300 text-lg">
                 <p>{faq.answer}</p>
               </div>
             )}
