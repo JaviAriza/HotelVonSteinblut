@@ -1,92 +1,142 @@
 [
-    {
-      "id": "1",
-      "usename": "johndoe",
-      "gender": "male",
-      "birthdate": "15/03/1990",
-      "number_guest": "2",
-      "email": "johndoe@example.com",
-      "phone": "622 12 34 56"
-    },
-    {
-      "id": "2",
-      "usename": "janedoe",
-      "gender": "female",
-      "birthdate": "22/07/1985",
-      "number_guest": "3",
-      "email": "janedoe@example.com",
-      "phone": "622 23 45 67"
-    },
-    {
-      "id": "3",
-      "usename": "alexsmith",
-      "gender": "male",
-      "birthdate": "08/11/1992",
-      "number_guest": "1",
-      "email": "alexsmith@example.com",
-      "phone": "622 34 56 78"
-    },
-    {
-      "id": "4",
-      "usename": "emilyjones",
-      "gender": "female",
-      "birthdate": "30/05/1988",
-      "number_guest": "4",
-      "email": "emilyjones@example.com",
-      "phone": "622 45 67 89"
-    },
-    {
-      "id": "5",
-      "usename": "michaelbrown",
-      "gender": "male",
-      "birthdate": "12/09/1980",
-      "number_guest": "2",
-      "email": "michaelbrown@example.com",
-      "phone": "622 56 78 90"
-    },
-    {
-      "id": "6",
-      "usename": "sarahwilson",
-      "gender": "female",
-      "birthdate": "19/01/1995",
-      "number_guest": "3",
-      "email": "sarahwilson@example.com",
-      "phone": "622 67 89 01"
-    },
-    {
-      "id": "7",
-      "usename": "davidthompson",
-      "gender": "male",
-      "birthdate": "27/04/1983",
-      "number_guest": "1",
-      "email": "davidthompson@example.com",
-      "phone": "622 78 90 12"
-    },
-    {
-      "id": "8",
-      "usename": "oliviaanderson",
-      "gender": "female",
-      "birthdate": "09/10/1991",
-      "number_guest": "4",
-      "email": "oliviaanderson@example.com",
-      "phone": "622 89 01 23"
-    },
-    {
-      "id": "9",
-      "usename": "danielmartinez",
-      "gender": "male",
-      "birthdate": "17/02/1987",
-      "number_guest": "2",
-      "email": "danielmartinez@example.com",
-      "phone": "622 90 12 34"
-    },
-    {
-      "id": "10",
-      "usename": "isabellagarcia",
-      "gender": "female",
-      "birthdate": "05/06/1993",
-      "number_guest": "3",
-      "email": "isabellagarcia@example.com",
-      "phone": "622 01 23 45"
-    }
-  ]
+  {
+    "name": "John",
+    "surname": "Doe",
+    "email": "johndoe@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo1.jpg",
+        "type": "date",
+        "date_checking": "03/03/2025",
+        "date_checkout": "04/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Jane",
+    "surname": "Smith",
+    "email": "janesmith@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo4.jpg",
+        "type": "date",
+        "date_checking": "04/03/2025",
+        "date_checkout": "05/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Michael",
+    "surname": "Johnson",
+    "email": "michaeljohnson@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo7.jpg",
+        "type": "date",
+        "date_checking": "05/03/2025",
+        "date_checkout": "06/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Emily",
+    "surname": "Williams",
+    "email": "emilywilliams@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo10.jpg",
+        "type": "date",
+        "date_checking": "06/03/2025",
+        "date_checkout": "07/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Daniel",
+    "surname": "Brown",
+    "email": "danielbrown@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo13.jpg",
+        "type": "date",
+        "date_checking": "07/03/2025",
+        "date_checkout": "08/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Olivia",
+    "surname": "Jones",
+    "email": "oliviajones@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo16.jpg",
+        "type": "date",
+        "date_checking": "08/03/2025",
+        "date_checkout": "09/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "James",
+    "surname": "Garcia",
+    "email": "jamesgarcia@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo19.jpg",
+        "type": "date",
+        "date_checking": "09/03/2025",
+        "date_checkout": "10/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Sophia",
+    "surname": "Martinez",
+    "email": "sophiamartinez@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo22.jpg",
+        "type": "date",
+        "date_checking": "10/03/2025",
+        "date_checkout": "11/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "William",
+    "surname": "Hernandez",
+    "email": "williamhernandez@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo25.jpg",
+        "type": "date",
+        "date_checking": "11/03/2025",
+        "date_checkout": "12/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Isabella",
+    "surname": "Lopez",
+    "email": "isabellalopez@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo28.jpg",
+        "type": "date",
+        "date_checking": "12/03/2025",
+        "date_checkout": "13/03/2025"
+      }
+    ]
+  }
+]
