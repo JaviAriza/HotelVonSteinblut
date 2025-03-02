@@ -2,6 +2,29 @@
 
 @theme{
     --color-base: #1a1a1a;
+    --animate-slide-up: slide-up 0.5s ease-out forwards;
+    --animate-slide-down: slide-down 0.5s ease-out forwards;
+
+    @keyframes slide-up {
+        from {
+          transform: translateY(100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      @keyframes slide-down {
+        from {
+          transform: translateY(0);
+          opacity: 1;
+        }
+        to {
+          transform: translateY(100%);
+          opacity: 0;
+        }
+      }
 }
 
 @layer base {
