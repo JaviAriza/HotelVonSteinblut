@@ -12,7 +12,8 @@ const Home = () => {
   return (
     <div className="w-full">
       <Hero
-        image={
+        type={"hotel"}
+        background={
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/castle-2_zxiibh.png"
         }
       />
@@ -21,6 +22,7 @@ const Home = () => {
         <Title text={"Von Steinblut Hotel"} />
         <Text />
       </div>
+      <div id="hotel-services">
       <ServicesInfo bgImage="https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505200/00001-1368405656_ojwogn.png" />
       <HotelServices
         title={"restaurant"}
@@ -36,6 +38,8 @@ const Home = () => {
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505257/00036-616249523_df1j2f.png"
         }
       />
+      </div>
+      <div id="hotel-gallery">
       <Gallery
         pictures={[
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/castle-2_zxiibh.png",
@@ -44,6 +48,7 @@ const Home = () => {
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740847639/00013-250311533_ya6dbc.png",
         ]}
       />
+      </div>
       <div className="flex h-[1000px] flex-col md:flex-row w-full md:h-screen max-md:my-10 gap-5 px-[5%] md:p-30 md:py-35">
         <Map />
         <EmailForm />
