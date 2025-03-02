@@ -5,55 +5,54 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: 'What are the check-in and check-out times?',
-      answer: 'Check-in is from 3:00 PM to 10:00 PM, and check-out is by 12:00 PM.'
+      question: 'Where is Hotel Von Steinblut located?',
+      answer: 'Hotel Von Steinblut is situated in a grand medieval castle deep in the Carpathian forest, surrounded by nature and an aura of mystery. It is the perfect place for a unique and magical getaway.'
     },
     {
-      question: 'Does the hotel offer airport transportation?',
-      answer: 'Yes, we offer airport shuttle service for an additional fee. Please contact the front desk for details.'
+      question: 'What kind of experiences does the hotel offer?',
+      answer: 'Our vampire-themed hotel offers an immersive experience including accommodation in gothic-styled rooms, themed dinners with performances at the Sangre de la Noche restaurant, and the thrilling escape room The Crypt, featuring three different experiences to choose from.'
     },
     {
-      question: 'Are pets allowed in the hotel?',
-      answer: 'No, pets are not allowed in the hotel.'
+      question: 'What themes does The Crypt escape room have?',
+      answer: 'The Crypt offers three experiences:\n- The Lady of the Night: A vampire story starring an enigmatic pale woman with red eyes.\n- The Curse of the Werewolf: An action-packed adventure about a werewolf curse.\n- The Crypt Investigators: A lighter experience, perfect for all audiences, where a group of investigators must solve mysteries in a crypt.'
     },
     {
-      question: 'Is there free Wi-Fi in the hotel?',
-      answer: 'Yes, we provide free Wi-Fi throughout the hotel.'
+      question: 'Is the hotel suitable for families with children?',
+      answer: 'Yes, Hotel Von Steinblut offers options for all audiences. While some experiences, like the themed dinner and certain escape room stories, are designed for adults, we also have lighter experiences such as The Crypt Investigators, which are perfect for families.'
     },
     {
-      question: 'Is there parking available?',
-      answer: 'Yes, we offer free parking for all our guests.'
+      question: 'Is it necessary to book in advance?',
+      answer: 'Yes, we recommend booking in advance, especially for the Sangre de la Noche restaurant and The Crypt escape room, as they are highly demanded experiences with limited availability.'
     },
     {
-      question: 'Can I request an early check-in or late check-out?',
-      answer: 'Early check-in or late check-out can be requested, subject to availability. Please contact us in advance.'
+      question: 'Are there vegetarian or vegan options at the restaurant?',
+      answer: 'Yes, our restaurant offers vegetarian and vegan options on our themed menu. Please inform us of any dietary requirements when making your reservation.'
     },
     {
-      question: 'Does the hotel have a restaurant?',
-      answer: 'Yes, the hotel has an on-site restaurant offering a variety of delicious meals.'
+      question: 'Is the hotel accessible for people with reduced mobility?',
+      answer: 'Hotel Von Steinblut, being located in a medieval castle, has some areas with accessibility limitations. However, we have adapted rooms and common areas. Please contact us so we can ensure a comfortable stay.'
     },
     {
-      question: 'Is there a gym in the hotel?',
-      answer: 'No, the hotel does not have a gym.'
+      question: 'Are pets allowed?',
+      answer: 'Unfortunately, we do not allow pets in the hotel due to the thematic nature and experiences we offer.'
     },
     {
-      question: 'Can I book tours or excursions at the hotel?',
-      answer: 'Yes, the front desk can assist you with booking local tours and excursions.'
+      question: 'What should I bring for my stay?',
+      answer: 'We recommend bringing comfortable clothing and suitable footwear for exploring the surrounding forest. For themed dinners, you may dress elegantly or even in vampire-inspired outfits if you wish.'
+    },
+    {
+      question: 'How can I contact the hotel for more information?',
+      answer: 'You can contact us through our website contact form, via email at info@vonsteinblut.com, or by calling +40 123 456 789. We will be happy to assist you.'
     }
   ];
 
- 
   const toggleAnswer = (index) => {
-    if (index === activeIndex) {
-      setActiveIndex(null); 
-    } else {
-      setActiveIndex(index); 
-    }
+    setActiveIndex(activeIndex === index ? null : index);
   };
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h2 className="text-3xl font-semibold text-center mb-6">Frequently Asked Questions</h2>
+      <h2 className="text-3xl font-semibold text-center mb-6">Frequently Asked Questions - Hotel Von Steinblut</h2>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <div
