@@ -18,7 +18,7 @@ export default function HotelServices(props) {
         <div className="z-5 black-gradient w-full h-full bg-gradient-to-b from-black via-[transparent] to-black absolute top-0 left-0"></div>
         <div
           className={`absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center p-5 text-white text-center transition-transform duration-500 ${
-            showInfo ? "animate-up" : "animate-down"
+            showInfo ? "animate-slide-up" : "animate-slide-down"
           }`}
         >
           <div

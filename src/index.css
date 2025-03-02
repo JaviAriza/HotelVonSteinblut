@@ -2,8 +2,8 @@
 
 @theme{
     --color-base: #1a1a1a;
-    --animate-up: slide-up 0.5s ease-out forwards;
-    --animate-down: slide-down 0.5s ease-out forwards;
+    --animate-slide-up: slide-up 0.5s ease-out forwards;
+    --animate-slide-down: slide-down 0.5s ease-out forwards;
 
     @keyframes slide-up {
         from {
