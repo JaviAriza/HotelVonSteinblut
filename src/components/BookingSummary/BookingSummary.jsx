@@ -96,11 +96,11 @@ const BookingSummary = () => {
 
   return (
     <div className="flex justify-center items-center min-h-screen">
-      <div className="w-full max-w-lg bg-neutral-900 text-white p-10 rounded-lg shadow-lg">
+      <div className="w-full max-w-lg bg-gradient-to-b from-red-800 to-black border-2 border-red-800 text-white p-10 rounded-lg shadow-lg">
         <h2 className="text-3xl font-semibold text-center mb-6">Booking Summary</h2>
         {selectedRoom ? (
           <>
-            <div className="p-6 rounded-lg bg-neutral-800 mb-6">
+            <div className="p-6 text-black rounded-lg bg-white mb-6 border-2 border-black">
               <p className="mb-2"><strong>Check-in:</strong> {format(new Date(checkIn), "EEE, d MMM yyyy")}</p>
               <p className="mb-2"><strong>Check-out:</strong> {format(new Date(checkOut), "EEE, d MMM yyyy")}</p>
               <p className="mb-2"><strong>Your stay:</strong> {nights} nights, 1 room ({selectedRoom.type})</p>
@@ -108,22 +108,22 @@ const BookingSummary = () => {
                 <input
                   type="text"
                   placeholder="Discount code"
-                  className="p-2 rounded text-white w-full"
+                  className="p-2 rounded text-black border-2 border-black w-full"
                   value={discountCode}
                   onChange={(e) => setDiscountCode(e.target.value)}
                 />
-                <button onClick={applyDiscount} className="bg-gray-700 px-4 py-2 rounded text-white hover:bg-gray-600">
+                <button onClick={applyDiscount} className="bg-red-700 px-4 py-2 rounded text-white hover:bg-black border-2 border-red-700 transition duration-300">
                   Apply
                 </button>
               </div>
             </div>
-            <div className="bg-neutral-800 p-6 rounded-lg mb-6">
+            <div className="bg-white text-black p-6 rounded-lg mb-6 border-2 border-gray-700">
               <p><strong>Base price:</strong> €{totalPrice.toFixed(2)}</p>
               <p><strong>Discount code:</strong> €{discount.toFixed(2)}</p>
               <p className="text-xl font-bold mt-2">Total: €{Math.max(0, totalPrice - discount).toFixed(2)}</p>
             </div>
             <button
-              className="w-full bg-red-700 text-white p-4 rounded-lg text-lg hover:bg-red-600"
+              className="w-full bg-red-700 text-white p-4 rounded-lg text-lg hover:bg-black border-2 border-red-700 transition duration-300"
               onClick={handlePayment}
             >
               Pay now €{Math.max(0, totalPrice - discount).toFixed(2)}
