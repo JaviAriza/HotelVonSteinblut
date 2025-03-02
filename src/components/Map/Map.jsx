@@ -6,11 +6,11 @@ const MapComponent = () => {
   const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${position[0]},${position[1]}`;
   
   return (
-    <div className="flex justify-center items-center w-full py-10 mb-10">
+    <div className="flex justify-center items-center w-full h-full">
       <MapContainer 
         center={position} 
         zoom={13} 
-        className="h-[400px] sm:h-[500px] md:h-[600px] w-full sm:w-[90%] mb-100 md:w-[70%] rounded-lg shadow-lg"
+        className="h-full w-full rounded-lg shadow-lg"
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

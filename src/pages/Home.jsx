@@ -44,8 +44,10 @@ const Home = () => {
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740847639/00013-250311533_ya6dbc.png",
         ]}
       />
-      <EmailForm />
-      <Map />
+      <div className="flex h-[1000px] flex-col md:flex-row w-full md:h-screen max-md:my-10 gap-5 px-[5%] md:p-30 md:py-35">
+        <Map />
+        <EmailForm />
+      </div>
     </div>
   );
 };

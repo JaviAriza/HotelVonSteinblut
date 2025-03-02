@@ -4,6 +4,8 @@ import Title from "../components/Title/Title";
 import ServicesInfo from "../components/ServicesInfo/ServicesInfo";
 import Text from "../components/Texts/Texts";
 import Gallery from "../components/Gallery/Gallery";
+import EmailForm from "../components/EmailJS/Email";
+import Map from "../components/Map/Map";
 
 const Restaurant = () => {
   return (
@@ -22,6 +24,10 @@ const Restaurant = () => {
       <RestaurantServices />
       <Title text={"Services"} />
       <RestaurantServices />
+      <div className="flex h-[1000px] flex-col md:flex-row w-full md:h-screen max-md:my-10 gap-5 px-[5%] md:p-30 md:py-35">
+        <Map />
+        <EmailForm />
+      </div>
       <Gallery
         pictures={[
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740845364/00001-711020556_tdmwls.png",
@@ -32,7 +38,7 @@ const Restaurant = () => {
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740846166/00006-959514903_skf8km.png",
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740846626/00009-3659831855_fgqfe6.png",
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740845857/00004-786710061_fqidry.png",
-          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740846334/00007-3487642673_yfzwfj.png"
+          "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740846334/00007-3487642673_yfzwfj.png",
         ]}
       />
     </div>
