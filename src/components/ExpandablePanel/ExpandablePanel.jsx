@@ -4,6 +4,10 @@ import PropTypes from "prop-types";
 const ExpandablePanel = (props) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
+  const handleBookingLogic = (event) =>{
+    console.log(event.target.value);
+  }
+
   return (
     <div
       className="w-full sm:w-1/2 h-1/2 sm:h-full bg-cover bg-center relative overflow-hidden"
@@ -55,7 +59,7 @@ const ExpandablePanel = (props) => {
           {props.panelContent}
           </p>
 
-        <button className="absolute bottom-10 left-1/2 -translate-1/2 px-10 py-2 rounded-lg hover:bg-black border border-transparent hover:border-white transition-all">
+        <button value={props.text} onClick={handleBookingLogic} className="absolute bottom-10 left-1/2 -translate-1/2 px-10 py-2 rounded-lg hover:bg-black border border-transparent hover:border-white transition-all">
           Book
         </button>
       </div>
