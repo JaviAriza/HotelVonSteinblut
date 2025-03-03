@@ -30,13 +30,12 @@ export const registerUser = (userData) => {
       firstName,
       lastName,
       email,
-      password,
-      bookings: []
+      password
     };
   
     users.push(newUser);
     localStorage.setItem('users', JSON.stringify(users));
-  
+    
     alert('Registration successful! You can now log in.');
   };
   
