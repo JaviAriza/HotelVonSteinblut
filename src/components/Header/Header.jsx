@@ -87,10 +87,13 @@ function Header() {
                 <ul className="dropdown backdrop-blur-xs bg-black/20 absolute md:top-[175%] max-md:translate-x-[140%] flex flex-col justify-between border-l-1 border-white ">
                   <li onMouseEnter={handleMouseEnter}>
                     <Link
-                      to="/"
-                      onClick={() =>
-                        window.scrollTo({ top: 0, behavior: "smooth" })
-                      }
+                      onClick={(e) => {
+                        if (location.pathname === "/") {
+                          e.preventDefault(); 
+                        } 
+                          window.scrollTo({ top: 0, behavior: "smooth" });
+                        
+                      }}
                     >
                       Home
                     </Link>
@@ -149,10 +152,13 @@ function Header() {
                 <ul className="dropdown backdrop-blur-xs bg-black/20 absolute md:top-[175%] max-md:top-[10px] max-md:translate-x-[140%] flex flex-col justify-between border-l-1 border-white">
                   <li onMouseEnter={handleMouseEnter}>
                     <Link
-                      to="/restaurant"
-                      onClick={() =>
-                        window.scrollTo({ top: 0, behavior: "smooth" })
-                      }
+                      onClick={(e) => {
+                        if (location.pathname === "/restaurant") {
+                          e.preventDefault(); 
+                        } 
+                          window.scrollTo({ top: 0, behavior: "smooth" });
+                        
+                      }}
                     >
                       Home
                     </Link>
