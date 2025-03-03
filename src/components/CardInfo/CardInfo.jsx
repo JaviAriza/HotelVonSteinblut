@@ -13,11 +13,9 @@ const CardInfo = ({ onSelection, room }) => {
 
   const handleSelectRoom = (room) => {
     localStorage.setItem("selectedRoom", JSON.stringify(room));
-  
     if (onSelection) {
       onSelection(room);
     }
-  
     navigate("/booking-summary");
   };
 
@@ -25,21 +23,20 @@ const CardInfo = ({ onSelection, room }) => {
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className={`max-w-sm rounded-md shadow-lg overflow-hidden text-white relative h-80 font-[Triodion]`}
+      className={`max-w-sm rounded-md shadow-lg overflow-hidden text-white relative h-80 font-[Triodion]
+        transition-transform duration-300 transform ${
+          isHovered ? "shadow-2xl scale-105 brightness-110" : "scale-100"
+        }`}
     >
       <div className="relative w-full h-full bg-gray-900 overflow-hidden mb-2">
-        <PictureSlider
-          room={room}
-          pictures={room.photos}
-          isHovered={isHovered}
-        />
+        <PictureSlider room={room} pictures={room.photos} isHovered={isHovered} />
       </div>
 
       <div className="absolute top-7 right-3 flex gap-3">
         <h5 className="text-xl backdrop-blur-xl p-2 capitalize rounded-lg">
           {room.type}
         </h5>
-        <div className="  backdrop-blur-xl p-2 rounded-lg">
+        <div className="backdrop-blur-xl p-2 rounded-lg">
           <p className="text-xl font-semibold">${room.nightPrice}</p>
         </div>
       </div>
@@ -50,18 +47,19 @@ const CardInfo = ({ onSelection, room }) => {
         }`}
       >
         <button
-          className={`bg-red-900 text-white px-6 py-2 rounded-lg hover:bg-gray-200 hover:text-black`}
+          className="bg-red-900 text-white px-6 py-2 rounded-lg hover:bg-gray-200 hover:text-black transition duration-300"
           onClick={() => setExpanded(true)}
         >
           Info
         </button>
         <button
-          className={`bg-red-900 text-white px-6 py-2 rounded-lg hover:bg-gray-200 hover:text-black`}
+          className="bg-red-900 text-white px-6 py-2 rounded-lg hover:bg-gray-200 hover:text-black transition duration-300"
           onClick={() => handleSelectRoom(room)}
         >
           Book
         </button>
       </div>
+
       <RoomInfo room={room} isOpen={isHovered} />
       <img
         src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740397694/OrnamentLine1_xrziiw.png"

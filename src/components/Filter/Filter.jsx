@@ -48,38 +48,41 @@ const Filter = ({ filterUtil }) => {
   };
 
   return (
-    <div className="w-full h-[20%] pt-[5%] mb-[3%]">
-      <div className="w-1/2 mx-auto bg-gradient-to-b from-red-800 to-black border-2 border-red-800 rounded-lg p-6">
+    <div className="w-full flex justify-center mt-16 md:mt-24 lg:mt-32">
+      <div className="mb-10 mt-10 bg-gradient-to-b from-red-800 to-black border-2 border-red-800 rounded-lg p-8 w-4/5 lg:w-3/5 shadow-lg">
         <form
           id="filter-form"
           onSubmit={handleSubmit}
           className="flex flex-col items-center space-y-6"
         >
-          <div className="flex flex-col sm:flex-row gap-4 items-center justify-center w-full">
-            <div className="flex flex-col sm:flex-row gap-2 items-center">
+          <div className="flex flex-col sm:flex-row gap-6 w-full">
+            <div className="flex flex-col sm:flex-row gap-2 items-center w-full">
               <label className="text-white">Check-in:</label>
               <DatePicker
                 selected={checkIn}
                 onChange={(date) => setCheckIn(date)}
                 minDate={new Date()}
                 dateFormat="dd/MM/yyyy"
-                className="p-1 border rounded bg-white text-black"
+                className="px-4 py-2 border rounded bg-white text-black w-full sm:w-auto"
               />
             </div>
-            <div className="flex flex-col sm:flex-row gap-2 items-center">
+            <div className="flex flex-col sm:flex-row gap-2 items-center w-full">
               <label className="text-white">Check-out:</label>
               <DatePicker
                 selected={checkOut}
                 onChange={(date) => setCheckOut(date)}
                 minDate={checkIn || new Date()}
                 dateFormat="dd/MM/yyyy"
-                className="p-1 border rounded bg-white text-black"
+                className="px-4 py-2 border rounded bg-white text-black w-full sm:w-auto"
               />
             </div>
-            <div className="flex flex-col sm:flex-row gap-2 items-center">
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-6 w-full">
+            <div className="flex flex-col items-center sm:items-start w-full">
               <label className="text-white">Sort by Price:</label>
               <select
-                className="p-1 border rounded bg-white"
+                className="px-4 py-2 border rounded bg-white w-full sm:w-auto"
                 value={order}
                 onChange={(e) => setOrder(e.target.value)}
               >
@@ -87,45 +90,38 @@ const Filter = ({ filterUtil }) => {
                 <option value="desc">High to Low</option>
               </select>
             </div>
-          </div>
 
-          <div className="flex flex-col sm:flex-row gap-6 items-center justify-center w-full">
-            <div className="flex gap-5 items-center">
-              <span className="text-white">${maxPrice}</span>
+            <div className="flex flex-col items-center sm:items-start w-full">
+              <label className="text-white">Max Price: ${maxPrice}</label>
               <input
                 type="range"
-                name="price"
                 min="20"
                 max="1500"
                 value={maxPrice}
                 onChange={(e) => setMaxPrice(e.target.value)}
-                className="accent-red-800"
+                className="accent-red-800 w-full"
               />
-            </div>
-            <div className="flex items-center gap-2">
-              {["standard", "family", "suite"].map((roomType) => (
-                <div key={roomType}>
-                  <label className="text-white">
-                    <input
-                      className="mx-1 accent-red-800"
-                      type="checkbox"
-                      name="type"
-                      value={roomType}
-                      checked={selectedTypes.includes(roomType)}
-                      onChange={handleTypeChange}
-                    />
-                    {roomType}
-                  </label>
-                </div>
-              ))}
             </div>
           </div>
 
-          <div className="w-full flex justify-center">
-            <button className="bg-red-800 text-white px-6 py-2 rounded-lg border-red-900 border-2 hover:bg-black hover:text-white transition">
-              Apply filters
-            </button>
+          <div className="flex flex-wrap gap-4 justify-center w-full">
+            {["standard", "family", "suite"].map((roomType) => (
+              <label key={roomType} className="text-white flex items-center">
+                <input
+                  className="mr-2 accent-red-800"
+                  type="checkbox"
+                  value={roomType}
+                  checked={selectedTypes.includes(roomType)}
+                  onChange={handleTypeChange}
+                />
+                {roomType.charAt(0).toUpperCase() + roomType.slice(1)}
+              </label>
+            ))}
           </div>
+
+          <button className="bg-red-800 text-white px-6 py-2 rounded-lg border-red-900 border-2 hover:bg-black hover:text-white transition w-full sm:w-auto">
+            Apply Filters
+          </button>
         </form>
       </div>
     </div>

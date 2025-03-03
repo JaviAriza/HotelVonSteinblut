@@ -56,9 +56,10 @@ const ExpandablePanel = (props) => {
             maskImage: "linear-gradient(to left, transparent, black)",
           }}
         ></div>
-        <p className="text-white text-lg relative z-10 px-2 italic text-center max-w-[70%] mx-auto">
+        <p className=" mb-6 text-white text-sm sm:text-lg relative z-10 px-4 sm:px-6 italic text-center max-w-full sm:max-w-[70%] mx-auto break-words">
           {panelContent}
-        </p>
+          </p>
+
         <button className="absolute bottom-10 left-1/2 -translate-1/2 px-10 py-2 rounded-lg hover:bg-black border border-transparent hover:border-white transition-all">
           Book
         </button>

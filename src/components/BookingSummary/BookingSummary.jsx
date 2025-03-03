@@ -96,7 +96,7 @@ const BookingSummary = () => {
 
   return (
     <div className="flex justify-center items-center min-h-screen">
-      <div className="w-full max-w-lg bg-gradient-to-b from-red-800 to-black border-2 border-red-800 text-white p-10 rounded-lg shadow-lg">
+      <div className="mt-16 mb-12 ml-4 mr-4 w-full max-w-lg bg-gradient-to-b from-red-800 to-black border-2 border-red-800 text-white p-10 rounded-lg shadow-lg">
         <h2 className="text-3xl font-semibold text-center mb-6">Booking Summary</h2>
         {selectedRoom ? (
           <>
