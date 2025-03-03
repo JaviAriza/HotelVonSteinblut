@@ -31,8 +31,4 @@ export const registerUser = (userData) => {
     
     alert('Registration successful! You can now log in.');
   };
-
-  localStorage.setItem('users', JSON.stringify([newUser])); 
-
-  alert('Registration successful! You can now log in.');
-};
+  
