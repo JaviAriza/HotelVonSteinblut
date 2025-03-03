@@ -1,11 +1,8 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
-import panelTexts from "../ExpandablePanel/ExpandablePanel.json";
 
 const ExpandablePanel = (props) => {
   const [isExpanded, setIsExpanded] = useState(false);
-
-  const panelContent = panelTexts.texts.find((text) => text.id === props.textId)?.content || "Contenido no disponible";
 
   return (
     <div
@@ -55,7 +52,7 @@ const ExpandablePanel = (props) => {
           }}
         ></div>
         <p className=" mb-6 text-white text-sm sm:text-lg relative z-10 px-4 sm:px-6 italic text-center max-w-full sm:max-w-[70%] mx-auto break-words">
-          {panelContent}
+          {props.panelContent}
           </p>
 
         <button className="absolute bottom-10 left-1/2 -translate-1/2 px-10 py-2 rounded-lg hover:bg-black border border-transparent hover:border-white transition-all">
@@ -102,6 +99,7 @@ ExpandablePanel.propTypes = {
   isLeadPanel: PropTypes.bool.isRequired,
   text: PropTypes.string.isRequired,
   textId: PropTypes.number.isRequired,
+  panelContent: PropTypes.string
 };
 
 export default ExpandablePanel;
