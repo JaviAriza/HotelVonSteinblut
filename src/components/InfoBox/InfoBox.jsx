@@ -7,11 +7,11 @@ function InfoBox({ room, onClose }) {
 
   return (
     <div
-      className="info-overlay fixed top-0 left-0 w-full h-full bg-black/50 flex justify-center items-center z-[1000] text-lg"
+      className="info-overlay fixed top-0 left-0 w-full h-full bg-black/50 flex justify-center items-center z-[1000] text-lg font-sans"
       onClick={onClose}
     >
       <div
-        className="info-content bg-[#5f5c5c] flex p-5 w-1/2 h-[60%] rounded-lg gap-4"
+        className="info-content bg-gradient-to-b from-red-800 to-black border-2 border-red-800 flex p-5 w-1/2 h-[60%] rounded-lg gap-4"
         onClick={(e) => e.stopPropagation()}
       >
         <img
@@ -75,3 +75,4 @@ function InfoBox({ room, onClose }) {
 }
 
 export default InfoBox;
+
