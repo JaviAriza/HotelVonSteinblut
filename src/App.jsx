@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Background from "./components/Background/Background";
 import { Outlet } from "react-router-dom";
 
+
 function App() {
   return (
     <>
