@@ -27,10 +27,6 @@ const Restaurant = () => {
         <Title text={"Services"} />
         <RestaurantServices />
       </div>
-      <div className="flex h-[1000px] flex-col md:flex-row w-full md:h-screen max-md:my-10 gap-5 px-[5%] md:p-30 md:py-35">
-        <Map />
-        <EmailForm />
-      </div>
       <div id="restaurant-gallery">
         <Gallery
           pictures={[
@@ -45,6 +41,10 @@ const Restaurant = () => {
             "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740846334/00007-3487642673_yfzwfj.png",
           ]}
         />
+      </div>
+      <div className="flex h-[1000px] flex-col md:flex-row w-full md:h-screen max-md:my-10 gap-5 px-[5%] md:p-30 md:py-35">
+        <Map />
+        <EmailForm />
       </div>
     </div>
   );
