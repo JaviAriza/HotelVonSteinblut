@@ -24,12 +24,14 @@ const RestaurantServices = ({ first }) => {
           image={imageOptions[+!first][0]}
           isLeadPanel={true}
           text={mealOptions[+!first][0]}
+          textId={1} 
         />
         <span className="h-[1px] w-full sm:h-full sm:w-[1px] border-b sm:border-l border-white"></span>
         <ExpandablePanel
           image={imageOptions[+!first][1]}
           isLeadPanel={false}
           text={mealOptions[+!first][1]}
+          textId={2} 
         />
       </section>
     </>

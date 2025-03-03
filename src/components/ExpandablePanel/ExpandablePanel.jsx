@@ -1,8 +1,12 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
+import panelTexts from "../ExpandablePanel/ExpandablePanel.json";
 
 const ExpandablePanel = (props) => {
   const [isExpanded, setIsExpanded] = useState(false);
+
+  // Obtener el texto correspondiente al textId
+  const panelContent = panelTexts.texts.find((text) => text.id === props.textId)?.content || "Contenido no disponible";
 
   return (
     <div
@@ -22,7 +26,6 @@ const ExpandablePanel = (props) => {
       <button
         onClick={() => {
           setIsExpanded(!isExpanded);
-          console.log(isExpanded);
         }}
       >
         <img
@@ -30,18 +33,18 @@ const ExpandablePanel = (props) => {
             props.isLeadPanel
               ? "-rotate-90 sm:rotate-180 sm:right-[5%] max-sm:bottom-[5%]"
               : "max-sm:rotate-90 sm:left-[5%] max-sm:top-[5%]"
-          }`}
-          src="https://res.cloudinary.com/dgzgzx9ov/image/upload/w_20,h_20,c_scale/v1740860788/arrow1_a8wkkm.png"
+          } hover:scale-140 transition-all`}
+          src="https://res.cloudinary.com/dgzgzx9ov/image/upload/w_40,h_40,c_scale/v1740860788/arrow1_a8wkkm.png"
           alt="expand-arrow"
         />
       </button>
+      
       {/* Panel expandido */}
       <div
         className={`absolute inset-0 w-full h-full bg-black bg-opacity-80 z-30 flex items-center justify-center transition-all duration-500 ${
           isExpanded ? "animate-slide-right" : "animate-slide-left"
         }`}
       >
-        {/* Contenido del panel */}
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
         <div
           className="absolute inset-0 bg-no-repeat bg-center"
@@ -50,11 +53,11 @@ const ExpandablePanel = (props) => {
             backgroundClip: "border-box",
             backgroundOrigin: "border-box",
             opacity: 0.1,
-            maskImage: "linear-gradient(to left, transparent, black) ",
+            maskImage: "linear-gradient(to left, transparent, black)",
           }}
         ></div>
-        <p className="text-white text-lg relative z-10">
-          Contenido del panel expandido
+        <p className="text-white text-lg relative z-10 px-2 italic text-center max-w-[70%] mx-auto">
+          {panelContent}
         </p>
         <button className="absolute bottom-10 left-1/2 -translate-1/2 px-10 py-2 rounded-lg hover:bg-black border border-transparent hover:border-white transition-all">
           Book
@@ -99,6 +102,7 @@ ExpandablePanel.propTypes = {
   image: PropTypes.string.isRequired,
   isLeadPanel: PropTypes.bool.isRequired,
   text: PropTypes.string.isRequired,
+  textId: PropTypes.number.isRequired, // Nuevo prop para identificar el texto del JSON
 };
 
 export default ExpandablePanel;
