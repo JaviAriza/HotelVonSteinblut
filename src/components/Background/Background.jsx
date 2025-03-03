@@ -121,10 +121,10 @@ export default function Aurora(props) {
     if (!ctn) return;
 
     const renderer = new Renderer({
-      alpha: true, // Habilitar transparencia en el canvas
+      alpha: true,
     });
     const gl = renderer.gl;
-    gl.clearColor(0, 0, 0, 0); // Establecer el color de fondo a transparente
+    gl.clearColor(0, 0, 0, 0);
 
     let program;
 
@@ -188,7 +188,7 @@ export default function Aurora(props) {
       }
       gl.getExtension("WEBGL_lose_context")?.loseContext();
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
   }, [amplitude]);
 
   return <div ref={ctnDom} className="pointer-events-none aurora-container" />;

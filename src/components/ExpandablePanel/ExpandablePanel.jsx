@@ -5,7 +5,6 @@ import panelTexts from "../ExpandablePanel/ExpandablePanel.json";
 const ExpandablePanel = (props) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  // Obtener el texto correspondiente al textId
   const panelContent = panelTexts.texts.find((text) => text.id === props.textId)?.content || "Contenido no disponible";
 
   return (
@@ -39,7 +38,6 @@ const ExpandablePanel = (props) => {
         />
       </button>
       
-      {/* Panel expandido */}
       <div
         className={`absolute inset-0 w-full h-full bg-black bg-opacity-80 z-30 flex items-center justify-center transition-all duration-500 ${
           isExpanded ? "animate-slide-right" : "animate-slide-left"
@@ -103,7 +101,7 @@ ExpandablePanel.propTypes = {
   image: PropTypes.string.isRequired,
   isLeadPanel: PropTypes.bool.isRequired,
   text: PropTypes.string.isRequired,
-  textId: PropTypes.number.isRequired, // Nuevo prop para identificar el texto del JSON
+  textId: PropTypes.number.isRequired,
 };
 
 export default ExpandablePanel;

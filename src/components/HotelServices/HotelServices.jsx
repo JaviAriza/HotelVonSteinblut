@@ -31,7 +31,7 @@ export default function HotelServices(props) {
           <p className="text-lg relative z-10">INFO</p>
         </div>
         <div className="flex justify-center gap-[3%] h-[5%] w-full z-50 absolute bottom-[5%]">
-          <button
+        <button
             className="h-full w-[20%] rounded-lg text-lg font-semibold hover:bg-red-800 transition-all"
             onClick={() => setShowInfo(!showInfo)}
           >
