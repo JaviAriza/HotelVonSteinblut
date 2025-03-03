@@ -22,7 +22,7 @@ const Login = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-transparent">
-      <div className="relative w-96 h-[28rem]"> 
+      <div className="relative w-88 h-[28rem]"> 
         <div
           className={`absolute w-full h-full transition-transform duration-700 ease-in-out ${
             isFlipped ? 'rotate-y-180' : ''

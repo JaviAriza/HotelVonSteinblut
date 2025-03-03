@@ -35,7 +35,6 @@ const Booking = () => {
     <div className="flex justify-center items-center min-h-screen px-4">
       <div className="relative bg-opacity-50 backdrop-blur-md p-6 rounded-xl shadow-lg max-w-lg w-full mx-auto my-12">
         
-        {/* Ornamentos en las esquinas */}
         <img
           src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740385677/ornamentCorner1_xe1anj.png"
           alt="Ornamento"
@@ -57,7 +56,6 @@ const Booking = () => {
           className="absolute bottom-0 left-0 w-16 h-16 -rotate-90"
         />
 
-        {/* Contenido */}
         <h2 className="text-white text-2xl mb-4 font-semibold text-center">
           Make your reservation!
         </h2>
@@ -67,9 +65,7 @@ const Booking = () => {
             Select the dates
           </label>
 
-          {/* Selección de fechas */}
           <div className="flex flex-col sm:flex-row gap-2">
-            {/* Fecha de entrada */}
             <div className="flex items-center bg-white rounded-md overflow-hidden w-full sm:w-1/2">
               <DatePicker
                 selected={startDate}
@@ -80,11 +76,10 @@ const Booking = () => {
                 minDate={new Date()}
                 dateFormat="dd/MM/yyyy"
                 placeholderText="Entrada"
-                className="w-full p-2 text-sm focus:outline-none bg-white text-black"
+                className="w-full p-2 text-sm focus:outline-none bg-white text-black text"
               />
             </div>
 
-            {/* Fecha de salida */}
             <div className="flex items-center bg-white rounded-md overflow-hidden w-full sm:w-1/2">
               <DatePicker
                 selected={endDate}
@@ -100,7 +95,6 @@ const Booking = () => {
             </div>
           </div>
 
-          {/* Botón de búsqueda */}
           <div className="flex justify-center mt-4">
             <button
               onClick={handleSearchClick}

@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 const PreviusBookings = () => {
   return (
     <div className=" text-white min-h-screen p-6 font-serif">
-      {/* Bookings Sections */}
       <Section title="PREVIUS BOOKINGS" />
     </div>
   );

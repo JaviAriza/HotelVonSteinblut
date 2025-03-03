@@ -32,7 +32,7 @@ const PictureSlider = ({ pictures, isHovered }) => {
 
   const startInterval = () => {
     if (intervalId) {
-      clearInterval(intervalId); // Clear existing interval if any
+      clearInterval(intervalId);
     }
     const newIntervalId = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % pictures.length);

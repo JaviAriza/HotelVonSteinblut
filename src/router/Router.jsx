@@ -7,6 +7,7 @@ import Restaurant from "../pages/Restaurant";
 import UserLogin from "../pages/UserLogin"
 import BookingSummary from "../components/BookingSummary/BookingSummary";
 import Faq from "../pages/Faq";
+//import EscapeRoom from "../pages/EscapeRoom";
 
 export const router = createBrowserRouter([
     {
@@ -20,6 +21,7 @@ export const router = createBrowserRouter([
             { path: "/customer/:id", element: <CustomerProfile /> },
             { path: "/customer", element: <UserLogin /> },
             { path: "/faq", element: <Faq /> },
+            //{ path: "/escape-room", element: <EscapeRoom /> },
             {path: "/profile",element: <CustomerProfile />},
 
         ],

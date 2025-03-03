@@ -62,7 +62,7 @@ function Header() {
           />
         </div>
         {/* -------------------------------------Hotel-Elements---------------------------------- */}
-        <ul className={`nav_items flex ${isOpen ? "open" : ""} max-md:gap-5`}>
+        <ul className={`nav_items flex ${isOpen ? "open" : ""} max-md:gap-2`}>
           <li
             className={`relative`}
             onMouseEnter={() => setHasHotelDropdown(true)}
