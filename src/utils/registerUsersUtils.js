@@ -60,19 +60,4 @@ export const registerUser = (userData) => {
 };
 
 
-
-
-  
-    const newUser = {
-      firstName,
-      lastName,
-      email,
-      password
-    };
-  
-    users.push(newUser);
-    localStorage.setItem('users', JSON.stringify(users));
-    
-    alert('Registration successful! You can now log in.');
-  };
   
