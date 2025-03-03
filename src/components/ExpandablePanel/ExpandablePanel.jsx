@@ -31,7 +31,7 @@ const ExpandablePanel = (props) => {
               ? "-rotate-90 sm:rotate-180 sm:right-[5%] max-sm:bottom-[5%]"
               : "max-sm:rotate-90 sm:left-[5%] max-sm:top-[5%]"
           }`}
-          src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1740320710/flecha-izquierda_r5rgze.png"
+          src="https://res.cloudinary.com/dgzgzx9ov/image/upload/w_20,h_20,c_scale/v1740860788/arrow1_a8wkkm.png"
           alt="expand-arrow"
         />
       </button>
