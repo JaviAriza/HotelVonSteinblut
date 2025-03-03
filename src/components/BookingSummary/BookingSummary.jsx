@@ -139,15 +139,15 @@ const BookingSummary = () => {
               </div>
             </div>
             <div className="bg-white text-black p-6 rounded-lg mb-6 border-2 border-gray-700">
-              <p><strong>Base price:</strong> ${totalPrice.toFixed(2)}</p>
-              <p><strong>Discount code:</strong> ${discount.toFixed(2)}</p>
-              <p className="text-xl font-bold mt-2">Total: ${Math.max(0, totalPrice - discount).toFixed(2)}</p>
+              <p><strong>Base price:</strong> €{totalPrice.toFixed(2)}</p>
+              <p><strong>Discount code:</strong> €{discount.toFixed(2)}</p>
+              <p className="text-xl font-bold mt-2">Total: €{Math.max(0, totalPrice - discount).toFixed(2)}</p>
             </div>
             <button
               className="w-full bg-red-700 text-white p-4 rounded-lg text-lg hover:bg-black border-2 border-red-700 transition duration-300"
               onClick={handlePayment}
             >
-              Pay now ${Math.max(0, totalPrice - discount).toFixed(2)}
+              Pay now €{Math.max(0, totalPrice - discount).toFixed(2)}
             </button>
           </>
         ) : (

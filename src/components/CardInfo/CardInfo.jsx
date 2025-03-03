@@ -37,7 +37,7 @@ const CardInfo = ({ onSelection, room }) => {
           {room.type}
         </h5>
         <div className="backdrop-blur-xl p-2 rounded-lg">
-          <p className="text-xl font-semibold">${room.nightPrice}</p>
+          <p className="text-xl font-semibold">€{room.nightPrice}</p>
         </div>
       </div>
 

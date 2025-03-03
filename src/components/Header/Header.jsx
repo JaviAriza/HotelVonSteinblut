@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useIsLoggedIn } from "../../hooks/useIsLoggedIn";
 import "./Header.css";
 
 function Header() {
@@ -9,6 +10,7 @@ function Header() {
   const navigate = useNavigate();
   const location = useLocation();
   const [hoverOffset, setHoverOffset] = useState(null);
+  const { isLoggedIn } = useIsLoggedIn();
 
   const handleMouseEnter = (event) => {
     const offsetTop = event.target.offsetTop + event.target.offsetHeight + 15;
@@ -60,7 +62,7 @@ function Header() {
           />
         </div>
         {/* -------------------------------------Hotel-Elements---------------------------------- */}
-        <ul className={`nav_items flex ${isOpen ? "open" : ""} max-md:gap-5`}>
+        <ul className={`nav_items flex ${isOpen ? "open" : ""} max-md:gap-2`}>
           <li
             className={`relative`}
             onMouseEnter={() => setHasHotelDropdown(true)}
@@ -186,12 +188,21 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link
-              to="/customer"
-              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            >
-              Profile
-            </Link>
+            {isLoggedIn ? (
+              <Link
+                to="/profile"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
+                Profile
+              </Link>
+            ) : (
+              <Link
+                to="/customer"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
+                Login
+              </Link>
+            )}
           </li>
         </ul>
       </nav>

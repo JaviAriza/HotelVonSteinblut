@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { registerUser } from '../../utils/registerUsersUtils';
-import { handleSubmitLogin } from '../../utils/loginUsersUtils';  
+import { handleSubmitLogin } from '../../utils/loginUsersUtils'; 
+import { useIsLoggedIn } from '../../hooks/useIsLoggedIn';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -8,6 +9,7 @@ const Login = () => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [isFlipped, setIsFlipped] = useState(false);
+  const { setIsLoggedIn } = useIsLoggedIn();
 
   const handleSubmitRegister = (e) => {
     e.preventDefault();
@@ -20,7 +22,7 @@ const Login = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-transparent">
-      <div className="relative w-96 h-[28rem]"> 
+      <div className="relative w-88 h-[28rem]"> 
         <div
           className={`absolute w-full h-full transition-transform duration-700 ease-in-out ${
             isFlipped ? 'rotate-y-180' : ''
@@ -32,7 +34,7 @@ const Login = () => {
             style={{ backfaceVisibility: 'hidden' }}
           >
             <h2 className="text-2xl font-bold mb-6 text-white text-center">Login</h2>
-            <form onSubmit={(e) => handleSubmitLogin(e, email, password)}> {/* Llamada a handleSubmitLogin */}
+            <form onSubmit={(e) => handleSubmitLogin(e, email, password, setIsLoggedIn)}>
               <div className="mb-4">
                 <label className="block text-gray-100 text-sm font-bold mb-2" htmlFor="email">
                   Email
