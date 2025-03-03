@@ -1,16 +1,18 @@
 import React, { useState } from "react";
-
 import CurrentBookings from "../components/CurrentBookings/CurrentBookings";
 import PreviusBookings from "../components/PreviusBookings/PreviusBookings";
 
 
-
 const Profile = () => {
+  const users = JSON.parse(localStorage.getItem('users')) || [];
+  const user = users.find(u => u.firstName && u.lastName && u.email);
+
+
   return (
     <>
     
-    <div className="bg-red text-white p-6 font-serif relative">
-      {/* Profile Section */}
+    <div className="bg-red text-white p-6 font-serif relative mt-35">
+
 
       <img
         src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740385677/ornamentCorner1_xe1anj.png"
@@ -33,12 +35,10 @@ const Profile = () => {
       </div>
       <div className="p-6 rounded-lg flex flex-col sm:flex-row items-center justify-center sm:justify-center gap-6 relative mt-10">
         <div className="text-center sm:text-right">
-          <h2 className="text-2xl font-bold">USERNAME NAME</h2>
-          <p className="text-gray-400">Gender: Male</p>
-          <p className="text-gray-400">Birthdate: 09/06/2025</p>
-          <p className="text-gray-400">Number of guests: 3</p>
-          <p className="text-gray-400">Email: example.com</p>
-          <p className="text-gray-400">Phone: 684 56 21 54</p>
+          <h2 className="text-2xl font-bold"> {user?.firstName.toUpperCase() || "Guest"}</h2>
+          <p className="text-gray-400">First Name: {user?.firstName || "N/A"}</p>
+          <p className="text-gray-400">Last Name: {user?.lastName || "N/A"}</p>
+          <p className="text-gray-400">Email: {user?.email || "N/A"}</p>
         </div>
         <div className="relative w-40 h-40 sm:w-60 sm:h-60 flex items-center justify-center mt-10">
           <img

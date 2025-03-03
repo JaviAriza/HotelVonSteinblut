@@ -11,7 +11,7 @@ import Faq from "../pages/Faq";
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <App />,  // Layout con Navbar y Footer
+        element: <App />,
         children: [
             { path: "/", element: <Home /> },
             { path: "/reservations", element: <Reservations /> },
@@ -19,7 +19,9 @@ export const router = createBrowserRouter([
             { path: "/booking-summary", element: <BookingSummary /> },
             { path: "/customer/:id", element: <CustomerProfile /> },
             { path: "/customer", element: <UserLogin /> },
-            { path: "/faq", element: <Faq /> }
+            { path: "/faq", element: <Faq /> },
+            {path: "/profile",element: <CustomerProfile />},
+
         ],
     },
 ]);

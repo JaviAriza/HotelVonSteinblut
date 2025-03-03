@@ -7,7 +7,7 @@ export const handleSubmitLogin = async (e, email, password) => {
 
   if (user && user.password === password) {
     console.log('Login successful from localStorage');
-    alert('Login successful');
+    window.location.href = '/profile';
 
   } else {
     console.log('Invalid credentials or user not found');

@@ -1,4 +1,3 @@
-import "./InfoBox.css";
 import { useNavigate } from "react-router-dom";
 
 function InfoBox({ room, onClose }) {
