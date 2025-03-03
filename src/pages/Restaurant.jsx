@@ -22,10 +22,10 @@ const Restaurant = () => {
       </div>
       <div id="restaurant-services">
         <ServicesInfo bgImage="https://res.cloudinary.com/dw94v5tvs/image/upload/v1740504408/00002-3120151442_nkvrke.jpg" />
-        <Title text={"Services"} />
-        <RestaurantServices />
-        <Title text={"Services"} />
-        <RestaurantServices />
+        <Title text={"dining options"} />
+        <RestaurantServices first={true}/>
+        <Title text={"Scheduled services"} />
+        <RestaurantServices first={false}/>
       </div>
       <div id="restaurant-gallery">
         <Gallery

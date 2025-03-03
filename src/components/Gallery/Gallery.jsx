@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
+import Title from "../Title/Title";
 import PropTypes from "prop-types";
 
-const Gallery = ({pictures}) => {
-
+const Gallery = ({ pictures }) => {
   const [currentImage, setCurrentImage] = useState(0);
   const [fade, setFade] = useState(true);
 
@@ -19,6 +19,9 @@ const Gallery = ({pictures}) => {
 
   return (
     <div className="relative w-full h-200 bg-gray-700 overflow-hidden flex justify-center items-center">
+      <div className="flex items-center w-full h-[20%] absolute top-0">
+        <Title text="Gallery" />
+      </div>
       {pictures.map((image, index) => (
         <img
           key={index}
@@ -43,4 +46,4 @@ export default Gallery;
 
 Gallery.propTypes = {
   pictures: PropTypes.array.isRequired,
-}
+};

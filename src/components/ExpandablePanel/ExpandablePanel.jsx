@@ -51,12 +51,14 @@ const ExpandablePanel = (props) => {
             backgroundOrigin: "border-box",
             opacity: 0.1,
             maskImage: "linear-gradient(to left, transparent, black) ",
-            
           }}
         ></div>
         <p className="text-white text-lg relative z-10">
           Contenido del panel expandido
         </p>
+        <button className="absolute bottom-10 left-1/2 -translate-1/2 px-10 py-2 rounded-lg hover:bg-black border border-transparent hover:border-white transition-all">
+          Book
+        </button>
       </div>
 
       <style>
