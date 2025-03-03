@@ -1,4 +1,4 @@
-import "./InfoBox.css";
+import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
 
 function InfoBox({ room, onClose }) {
@@ -75,3 +75,8 @@ function InfoBox({ room, onClose }) {
 }
 
 export default InfoBox;
+
+InfoBox.propTypes = {
+  room: PropTypes.object,
+  onClose: PropTypes.func
+}
