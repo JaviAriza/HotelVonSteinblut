@@ -55,13 +55,14 @@
 <hr>
 
 <br><br>
-
+<h1 align="center">Screenshots 📸</h1>
+<h3>Desk Version 💻</h3>
+<h3>Mobile Version 📱</h3>
+<br><br>
 <h2 align="center">Stacks 🛠️</h2>
-
-<ul align="center">
 <p align="center">
-  <img src="https://res.cloudinary.com/dandumvvy/image/upload/v1741038263/i2mqg4xbwd5xm8uxh3oh.png">
+  <img src="https://res.cloudinary.com/dandumvvy/image/upload/v1741038263/i2mqg4xbwd5xm8uxh3oh.png" width="350" height="250"
 </p>
 
   
-</ul>
+
