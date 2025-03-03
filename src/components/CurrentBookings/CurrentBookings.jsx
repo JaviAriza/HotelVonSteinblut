@@ -32,7 +32,13 @@ const Section = ({ title }) => {
     setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
   };
 
+  console.log(localStorage.getItem('reservation'));
+
+
+
   return (
+   
+
     <div className="mt-10 p-6 rounded-lg">
       <div className="flex justify-between items-center pb-2 mb-4">
         <h3 className="text-3xl font-bold">{title}</h3>
@@ -73,10 +79,8 @@ const Section = ({ title }) => {
         </div>
         <div className="text-gray-300">
           <p className="text-lg font-bold">Number: FDFSFS349589</p>
-          <p>Type: Double room</p>
-          <p>Dates: 09/06/2025 - 15/06/2025</p>
-          <p>Number of guests: 3</p>
-          <p>Extra services: Breakfast</p>
+          <p>check In: </p>
+          <p>check Out:</p>
         </div>
       </div>
       <img
