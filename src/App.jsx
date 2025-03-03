@@ -7,7 +7,7 @@ import Background from "./components/Background/Background";
 function LoadingSpinner() {
   return (
     <div className="fixed top-0 left-0 w-full h-full bg-black/60 flex justify-center items-center z-50">
-      <div className="w-24 h-24 border-8 border-t-8 border-white border-solid rounded-full animate-spin"></div>
+      <div className="w-14 h-14 border-8 border-t-8 border-white border-solid rounded-full animate-spin"></div>
     </div>
   );
 }
@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     setLoading(true);
-    const timeout = setTimeout(() => setLoading(false), 1000); 
+    const timeout = setTimeout(() => setLoading(false), 400); 
     return () => clearTimeout(timeout); 
   }, [location]);
 
