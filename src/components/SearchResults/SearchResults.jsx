@@ -51,7 +51,7 @@ const SearchResults = () => {
               key={i}
               onClick={() => paginate(i + 1)}
               className={`px-4 py-2 rounded-md ${
-                currentPage === i + 1 ? "bg-red text-white" : "bg-gray-300"
+                currentPage === i + 1 ? "bg-red text-white" : "bg-black"
               }`}
             >
               {i + 1}
