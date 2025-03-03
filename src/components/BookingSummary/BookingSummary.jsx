@@ -72,27 +72,48 @@ const BookingSummary = () => {
   };
 
   const handlePayment = () => {
-    const finalPrice = Math.max(0, totalPrice - discount);
 
-    Swal.fire({
-      title: "Payment successful",
-      html: `
-        <p style="font-size: 16px; margin-bottom: 10px;">
-          You have booked the <strong>${selectedRoom?.type}</strong> room from 
-          <strong>${format(new Date(checkIn), "dd/MM/yyyy")}</strong> to 
-          <strong>${format(new Date(checkOut), "dd/MM/yyyy")}</strong>.
-        </p>
-        <p style="font-size: 18px; font-weight: bold;">Total paid: €${finalPrice}</p>
-      `,
-      icon: "success",
-      background: "#1e1e1e",
-      color: "#ffffff",
-      confirmButtonColor: "#ff4d4d",
-      confirmButtonText: "Go to homepage",
-    }).then(() => {
-      window.location.href = "/"; 
-    });
+  const finalPrice = Math.max(0, totalPrice - discount);
+
+  const bookingData = {
+    photo: selectedRoom?.photos || "", 
+    price: finalPrice,
+    type: selectedRoom?.type || "",
+    date_checking: checkIn,
+    date_checkout: checkOut,
   };
+
+  let existingBookings = JSON.parse(localStorage.getItem("confirmedBooking"));
+  
+  if (!Array.isArray(existingBookings)) {
+    existingBookings = []; 
+  }
+
+  existingBookings.push(bookingData);
+
+  localStorage.setItem("confirmedBooking", JSON.stringify(existingBookings));
+
+  Swal.fire({
+    title: "Payment successful",
+    html: `
+      <p style="font-size: 16px; margin-bottom: 10px;">
+        You have booked the <strong>${selectedRoom?.type}</strong> room from 
+        <strong>${format(new Date(checkIn), "dd/MM/yyyy")}</strong> to 
+        <strong>${format(new Date(checkOut), "dd/MM/yyyy")}</strong>.
+      </p>
+      <p style="font-size: 18px; font-weight: bold;">Total paid: €${finalPrice}</p>
+    `,
+    icon: "success",
+    background: "#1e1e1e",
+    color: "#ffffff",
+    confirmButtonColor: "#ff4d4d",
+    confirmButtonText: "Go to homepage",
+  }).then(() => {
+    window.location.href = "/"; 
+  });
+};
+
+  
 
   return (
     <div className="flex justify-center items-center min-h-screen">

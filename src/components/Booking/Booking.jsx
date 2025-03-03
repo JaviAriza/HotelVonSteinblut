@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import dayjs from "dayjs";
+import Swal from "sweetalert2";
 
 const Booking = () => {
   const [startDate, setStartDate] = useState(null);
@@ -19,7 +20,13 @@ const Booking = () => {
 
   const handleSearchClick = () => {
     if (!startDate || !endDate) {
-      alert("Selecciona fechas antes de continuar");
+      Swal.fire({
+            title: `Please enter date before continuing`,
+            icon: "error",
+            background: "#1e1e1e",
+            color: "#ffffff",
+            confirmButtonColor: "#ff4d4d",
+          })
       return;
     }
     const reservationData = {
