@@ -24,13 +24,13 @@ function InfoBox({ room, onClose }) {
           <div className="roomItems whitespace-nowrap">
             <h2 className="text-4xl text-center">Room {room.type}</h2>
             <p>
-              <strong>Ability:</strong> {room.capacity} personas
+              <strong>Ability:</strong> {room.capacity} persons
             </p>
             <p>
               <strong>Availability:</strong> {room.availability}
             </p>
             <p>
-              <strong>Price per night:</strong> {room.nightPrice} €
+              <strong>Price per night:</strong> ${room.nightPrice} 
             </p>
           </div>
 
