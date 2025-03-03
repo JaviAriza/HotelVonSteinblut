@@ -16,7 +16,7 @@ const Restaurant = () => {
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740502637/00001-1368405656_tedmzv.jpg"
         }
       />
-      <div className="about mb-5 flex flex-col">
+      <div className="about mb-[50px] flex flex-col">
         <Title text={"Von Steinblut Restaurant"} />
         <Text />
       </div>
@@ -42,10 +42,10 @@ const Restaurant = () => {
           ]}
         />
       </div>
-      <div className="flex h-[1000px] flex-col md:flex-row w-full md:h-screen max-md:my-10 gap-5 px-[5%] md:p-30 md:py-35">
+      <section id="restaurant-contact" className="flex h-[1200px] flex-col md:flex-row w-full md:h-screen max-md:my-10 gap-5 px-[5%] md:p-30 md:py-25">
         <Map />
         <EmailForm />
-      </div>
+      </section>
     </div>
   );
 };

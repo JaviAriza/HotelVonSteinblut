@@ -18,7 +18,7 @@ const Home = () => {
         }
       />
       <Booking />
-      <div className="about mb-5 flex flex-col">
+      <div className="about mb-[50px] flex flex-col">
         <Title text={"Von Steinblut Hotel"} />
         <Text />
       </div>
@@ -49,10 +49,10 @@ const Home = () => {
         ]}
       />
       </div>
-      <div className="flex h-[1000px] flex-col md:flex-row w-full md:h-screen max-md:my-10 gap-5 px-[5%] md:p-30 md:py-35">
+      <section id="hotel-contact" className="flex h-[1200px] flex-col md:flex-row w-full md:h-screen max-md:my-10 gap-5 px-[5%] md:p-30 md:py-25">
         <Map />
         <EmailForm />
-      </div>
+      </section>
     </div>
   );
 };
