@@ -5,7 +5,7 @@ function Footer() {
     <footer className="font-[Triodion] text-gray-500 w-full bg-[#1a1a1a] mt-auto">
       <div className="flex flex-col items-center text-center justify-center sm:flex-row sm:justify-between sm:ml-10 sm:mr-10">
         <div className="follow sm:ml-0 mb-2 sm:mt-0 sm:mb-0 flex flex-col items-center justify-center">
-          <h4 className="text-white text-xl mt-2 font-bold">Follow us on:</h4>
+          
           <div className="flex items-center space-x-4 mt-2">
             <a href="#" className="text-gray-500 hover:text-red-700 text-2xl mb-2">
               <BsInstagram />
@@ -16,7 +16,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="rights mr-4 ml-2 sm:ml-0">
+        <div className="rights -mr-5 ml-2 sm:ml-0">
           <p className="my-1">© Hotel Von Steinblut 2025. All rights reserved.</p>
           <div className="legal-links">
             <a href="#" className="text-gray-500 hover:text-red-700 mx-1">Legal Notice</a> |

@@ -48,7 +48,7 @@ const Profile = () => {
           />
           <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden">
             <img
-              src="https://s03.s3c.es/imag/_v0/1200x655/4/2/5/lucas-1200.jpg" 
+              src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-gris.png" 
               alt="Profile"
               className="w-full h-full object-cover"
             />
@@ -63,7 +63,6 @@ const Profile = () => {
     </div>
 
     <CurrentBookings />
-    <PreviusBookings />
 
 
 
