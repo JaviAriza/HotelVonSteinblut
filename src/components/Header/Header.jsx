@@ -51,7 +51,7 @@ function Header() {
         </div>
         {/* ----------------------------------Logo--------------------------------------------*/}
         <div
-          className="mx-3 nav_logo size-20 mt-11"
+          className="mx-3 nav_logo size-15 flex items-center"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
           <img
@@ -60,7 +60,7 @@ function Header() {
           />
         </div>
         {/* -------------------------------------Hotel-Elements---------------------------------- */}
-        <ul className={`nav_items flex ${isOpen ? "open" : ""}`}>
+        <ul className={`nav_items flex ${isOpen ? "open" : ""} max-md:gap-5`}>
           <li
             className={`relative`}
             onMouseEnter={() => setHasHotelDropdown(true)}
@@ -76,13 +76,13 @@ function Header() {
               <>
                 {hoverOffset !== null && (
                   <img
-                    className="fixed top-0 h-[50px] w-[100px] pointer-events-none z-20 transition-all"
+                    className="fixed top-0 h-[50px] w-[100px] pointer-events-none z-20 transition-all max-md:left-[90px]"
                     src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740560077/selectorMenu_1_xtjnrq.png"
                     alt="hover-image"
                     style={{ top: `${hoverOffset}px` }}
                   />
                 )}
-                <ul className="dropdown backdrop-blur-xs bg-black/20 absolute top-[175%] flex flex-col justify-between border-l-1 border-white ">
+                <ul className="dropdown backdrop-blur-xs bg-black/20 absolute md:top-[175%] max-md:translate-x-[140%] flex flex-col justify-between border-l-1 border-white ">
                   <li onMouseEnter={handleMouseEnter}>
                     <Link
                       to="/"
@@ -138,13 +138,13 @@ function Header() {
               <>
                 {hoverOffset !== null && (
                   <img
-                    className="fixed top-0 h-[50px] w-[100px] pointer-events-none z-20 transition-all"
+                    className="fixed top-0 h-[50px] w-[100px] pointer-events-none z-20 transition-all max-md:left-[90px]"
                     src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740560077/selectorMenu_1_xtjnrq.png"
                     alt="hover-image"
                     style={{ top: `${hoverOffset}px` }}
                   />
                 )}
-                <ul className="dropdown backdrop-blur-xs  bg-black/20 absolute top-[175%] flex flex-col justify-between border-l-1 border-white">
+                <ul className="dropdown backdrop-blur-xs bg-black/20 absolute md:top-[175%] max-md:top-[10px] max-md:translate-x-[140%] flex flex-col justify-between border-l-1 border-white">
                   <li onMouseEnter={handleMouseEnter}>
                     <Link
                       to="/restaurant"
