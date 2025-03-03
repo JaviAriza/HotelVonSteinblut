@@ -39,7 +39,7 @@ function Header() {
 
   return (
     <header className="fixed top-0 w-full z-100 h-[60px]">
-      <nav className="navbar h-full flex items-center justify-between text-white">
+      <nav className="navbar h-full flex items-center justify-between text-white backdrop-blur-xs bg-black/20">
         {/*------------------------------- Hamburger menu-------------------------------------*/}
         <div
           className={`nav_toggle ${isOpen ? "open" : ""}`}
@@ -82,7 +82,7 @@ function Header() {
                     style={{ top: `${hoverOffset}px` }}
                   />
                 )}
-                <ul className="dropdown absolute top-[175%] flex flex-col justify-between border-l-1 border-white ">
+                <ul className="dropdown backdrop-blur-xs bg-black/20 absolute top-[175%] flex flex-col justify-between border-l-1 border-white ">
                   <li onMouseEnter={handleMouseEnter}>
                     <Link
                       to="/"
@@ -144,7 +144,7 @@ function Header() {
                     style={{ top: `${hoverOffset}px` }}
                   />
                 )}
-                <ul className="dropdown absolute top-[175%] flex flex-col justify-between border-l-1 border-white">
+                <ul className="dropdown backdrop-blur-xs  bg-black/20 absolute top-[175%] flex flex-col justify-between border-l-1 border-white">
                   <li onMouseEnter={handleMouseEnter}>
                     <Link
                       to="/restaurant"
