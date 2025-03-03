@@ -1,13 +1,14 @@
 import Logo from "../Logo/Logo";
-const Hero = (props) => {
+import PropTypes from "prop-types"
+const Hero = ({type, background}) => {
   return (
     <div className="w-full h-[1400px] relative -z-10">
-      <Logo />
+      <Logo page={type}/>
       <div
         id="hero"
         className="bg-center bg-cover w-full h-[1400px] bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(to bottom, transparent, #1a1a1a 99.9%), url(${props.image})`,
+          backgroundImage: `linear-gradient(to bottom, transparent, #1a1a1a 99.9%), url(${background})`,
         }}
       ></div>
     </div>
@@ -15,3 +16,7 @@ const Hero = (props) => {
 };
 
 export default Hero;
+Hero.propTypes = {
+  type: PropTypes.string,
+  background: PropTypes.string
+}
