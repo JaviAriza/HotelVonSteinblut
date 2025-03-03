@@ -7,6 +7,10 @@ const PictureSlider = ({ pictures, isHovered }) => {
   const shouldCicle = isHovered;
 
   useEffect(() => {
+    setCurrentImage(0);
+  }, [pictures]);
+
+  useEffect(() => {
     if (shouldCicle) {
       if (intervalId) {
         clearInterval(intervalId);

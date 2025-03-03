@@ -3,7 +3,9 @@
     "id": "1",
     "type": "standard",
     "photos": [
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740678514/00000-738955726_pir7ls"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740678514/00000-738955726_pir7ls",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684590/00021-176384966_htb0hh.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684633/00022-655410916_t6atmk.png"
     ],
     "beds": "2",
     "capacity": "2",
@@ -20,7 +22,9 @@
     "id": "2",
     "type": "family",
     "photos": [
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740679359/00001-3500739233_vezvyi.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740679359/00001-3500739233_vezvyi.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686711/00044-1153356367_kd5l20.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687468/00056-2214338796_nkixvi.png"
     ],
     "beds": "2",
     "capacity": "4",
@@ -37,7 +41,9 @@
     "id": "3",
     "type": "suite",
     "photos": [
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681344/00002-642667137_aao8ge.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681344/00002-642667137_aao8ge.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686287/00037-3346727156_u2kzpu.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png"
     ],
     "beds": "1",
     "capacity": "2",
@@ -54,7 +60,10 @@
     "id": "4",
     "type": "standard",
     "photos": [
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740688016/00055-98056135_yvuipz.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740688016/00055-98056135_yvuipz.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686711/00044-1153356367_kd5l20.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png"
+
     ],
     "beds": "2",
     "capacity": "2",
@@ -71,7 +80,11 @@
     "id": "5",
     "type": "family",
     "photos": [
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740683070/00005-2617886120_dguong.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740683070/00005-2617886120_dguong.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687468/00056-2214338796_nkixvi.png"
+
+
     ],
     "beds": "2",
     "capacity": "4",
@@ -88,7 +101,9 @@
     "id": "6",
     "type": "suite",
     "photos": [
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681339/00003-1521381764_hlayjk.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681339/00003-1521381764_hlayjk.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686287/00037-3346727156_u2kzpu.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png"
     ],
     "beds": "1",
     "capacity": "2",
@@ -105,7 +120,10 @@
     "id": "7",
     "type": "standard",
     "photos": [
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740683355/00008-103091815_jvg86a.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740683355/00008-103091815_jvg86a.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687143/00049-272158328_in7qlp.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686287/00037-3346727156_u2kzpu.png"
+
     ],
     "beds": "2",
     "capacity": "2",
@@ -122,7 +140,10 @@
     "id": "8",
     "type": "family",
     "photos": [
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740688016/00055-98056135_yvuipz.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740688016/00055-98056135_yvuipz.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687468/00056-2214338796_nkixvi.png"
+
     ],
     "beds": "2",
     "capacity": "4",
@@ -139,7 +160,9 @@
     "id": "9",
     "type": "suite",
     "photos": [
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740682373/00004-2245350046_cg13ey.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740682373/00004-2245350046_cg13ey.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685750/00030-1915932754_sllgay.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685841/00031-971699712_fjqw2b.png"
     ],
     "beds": "1",
     "capacity": "2",
@@ -218,7 +241,9 @@
     "type": "standard",
     "photos": [
       "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687482/00057-2585474143_g6rec2.png",
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687468/00056-2214338796_nkixvi.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687468/00056-2214338796_nkixvi.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687539/00058-2391642664_ubeft5.png"
+
     ],
     "beds": "2",
     "capacity": "2",
@@ -236,6 +261,7 @@
     "type": "family",
     "photos": [
       "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687595/00059-3078900961_cx82kx.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687468/00056-2214338796_nkixvi.png",
       "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687539/00058-2391642664_ubeft5.png"
     ],
     "beds": "2",
@@ -274,6 +300,7 @@
     "type": "standard",
     "photos": [
       "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687653/00060-3581792756_uaml37.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685750/00030-1915932754_sllgay.png",
       "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687712/00061-47826216_nhxcjd.png"
     ],
     "beds": "2",
@@ -292,7 +319,9 @@
     "type": "family",
     "photos": [
       "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687843/00063-3618669076_vajnpu.png",
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687773/00062-457634537_sjkrpn.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687773/00062-457634537_sjkrpn.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687109/00051-2876760003_risdam.png"
+
     ],
     "beds": "2",
     "capacity": "4",
@@ -348,6 +377,7 @@
     "type": "family",
     "photos": [
       "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686047/00034-264750491_eud9ze.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687143/00049-272158328_in7qlp.png",
       "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685941/00033-2251073574_k9drnc.png"
     ],
     "beds": "2",
@@ -404,6 +434,7 @@
     "type": "family",
     "photos": [
       "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687887/00064-627473032_uvw4uk.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png",
       "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687934/00065-3390949816_hzcvve.png"
     ],
     "beds": "2",
@@ -460,7 +491,10 @@
     "id": "26",
     "type": "family",
     "photos": [
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681339/00003-1521381764_hlayjk.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681339/00003-1521381764_hlayjk.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686787/00045-3146370060_ew7gex.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687109/00051-2876760003_risdam.png"
+
     ],
     "beds": "2",
     "capacity": "4",
@@ -516,7 +550,10 @@
     "id": "29",
     "type": "family",
     "photos": [
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681339/00003-1521381764_hlayjk.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681339/00003-1521381764_hlayjk.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686711/00044-1153356367_kd5l20.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686787/00045-3146370060_ew7gex.png"
+    
     ],
     "beds": "2",
     "capacity": "4",
@@ -533,7 +570,9 @@
     "id": "30",
     "type": "suite",
     "photos": [
-      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681339/00003-1521381764_hlayjk.png"
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681339/00003-1521381764_hlayjk.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687109/00051-2876760003_risdam.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687143/00049-272158328_in7qlp.png"
     ],
     "beds": "1",
     "capacity": "2",

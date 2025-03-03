@@ -7,7 +7,6 @@ import InfoBox from "../InfoBox/InfoBox";
 
 const CardInfo = ({ onSelection, room }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const [selectedRoom, setSelectedRoom] = useState(null);
   const [expanded, setExpanded] = useState(false);
   const navigate = useNavigate();
 

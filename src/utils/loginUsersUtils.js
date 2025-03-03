@@ -10,7 +10,7 @@ export const handleSubmitLogin = async (e, email, password, setIsLoggedIn) => {
   if (user && user.password === password) {
     setIsLoggedIn(true);
     Swal.fire({
-      title: `Welcome, ${user}`,
+      title: `Welcome, ${user.firstName}!`,
       icon: "success",
       background: "#1e1e1e",
       color: "#ffffff",
