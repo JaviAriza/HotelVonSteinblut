@@ -7,7 +7,7 @@ export default function HotelServices(props) {
   const [showInfo, setShowInfo] = useState(false);
 
   return (
-    <section className="mt-[30%] w-full flex flex-col items-center gap-5 justify-center">
+    <section className="w-full flex flex-col items-center gap-5 justify-center">
       <div
         className="w-full h-screen bg-center bg-cover relative"
         style={{ backgroundImage: `url(${props.image})` }}
