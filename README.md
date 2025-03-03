@@ -55,6 +55,26 @@
 <hr>
 
 <br><br>
+<h2 align="center">Features 🌐</h2>
+
+<p align="center">
+  Hotel Von Steinblut is a frontend web application that offers a seamless and immersive booking experience. Its key features include:
+</p>
+
+<ul>
+  <li><strong>Room Reservations:</strong> Easily book rooms through an intuitive and user-friendly interface.</li>
+  <li><strong>Escape Room Experience:</strong> Engage in a thrilling adventure where solving puzzles is the only way out.</li>
+  <li><strong>Exclusive Restaurant Services:</strong> Enjoy a variety of premium dining experiences, including:
+    <ul>
+      <li>Gourmet dinner service</li>
+      <li>Unlimited buffet</li>
+      <li>Wine tasting experience</li>
+      <li>Live entertainment dinner</li>
+    </ul>
+  </li>
+</ul>
+
+
 <h1 align="center">Screenshots 📸</h1>
 <h3>Desk Version 💻</h3>
 
@@ -63,7 +83,7 @@
 <br><br>
 <h2 align="center">Stacks 🛠️</h2>
 <p align="center">
-  <img src="https://res.cloudinary.com/dandumvvy/image/upload/v1741038263/i2mqg4xbwd5xm8uxh3oh.png" width="350" height="250"
+  <img src="https://res.cloudinary.com/dandumvvy/image/upload/v1741038263/i2mqg4xbwd5xm8uxh3oh.png" width="350" height="250">
 </p>
 
 <h1 align="center">Our Future 🔜</h1>
