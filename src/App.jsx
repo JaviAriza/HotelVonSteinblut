@@ -3,6 +3,9 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Background from "./components/Background/Background";
 import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom';
+import Container from "./components/Container/Container";
+import CustomerProfile from "./pages/CustomerProfile";
 
 function App() {
   return (
