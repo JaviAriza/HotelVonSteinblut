@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { Link } from "react-router-dom";
 import dayjs from "dayjs";
 
 const Booking = () => {
@@ -29,7 +28,7 @@ const Booking = () => {
     };
     localStorage.setItem("reservation", JSON.stringify(reservationData));
 
-    navigate("/rooms");
+    navigate("/reservations");
   };
 
   return (
@@ -96,14 +95,12 @@ const Booking = () => {
 
         {/* Botón de búsqueda */}
         <div className="flex justify-center mt-4">
-          <Link to={"/reservations"}>
-            <button
-              onClick={handleSearchClick}
-              className="bg-red-700 text-white px-8 py-1 hover:bg-black transition-colors rounded-md text-sm border border-transparent hover:border-red-700 hover:border-1"
-            >
-              Search
-            </button>
-          </Link>
+          <button
+            onClick={handleSearchClick}
+            className="bg-red-700 text-white px-8 py-1 hover:bg-black transition-colors rounded-md text-sm border border-transparent hover:border-red-700 hover:border-1"
+          >
+            Search
+          </button>
         </div>
       </div>
     </div>
