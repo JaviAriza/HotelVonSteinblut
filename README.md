@@ -14,11 +14,11 @@
 
 <br><br>
 
-<h1 align="center">Comenzando 🚀</h1>
+<h1 align="center">Getting Started 🚀</h1>
 
 <br><br>
 
-<h3 align="center">Members 👤</h3>
+<h3 align="center">Members & Roles👤</h3>
 
 <div align="center">
   <p>
@@ -57,7 +57,9 @@
 <br><br>
 <h1 align="center">Screenshots 📸</h1>
 <h3>Desk Version 💻</h3>
+
 <h3>Mobile Version 📱</h3>
+
 <br><br>
 <h2 align="center">Stacks 🛠️</h2>
 <p align="center">
