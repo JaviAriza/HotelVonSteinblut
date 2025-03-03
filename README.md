@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740937609/logo_hotel_blanco_imoyr1.png" width="200">
+  <a href="https://res.cloudinary.com/dandumvvy/image/upload/f_auto,q_auto/xtupdkrnbzdsgt6yepsd" target="_blank">
+    <img src="https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740937609/logo_hotel_blanco_imoyr1.png" width="200">
+  </a>
 </p>
 
 <br>
@@ -74,11 +76,51 @@
   </li>
 </ul>
 
-
 <h1 align="center">Screenshots 📸</h1>
-<h3>Desk Version 💻</h3>
+
+<h3>Desktop Version 💻</h3>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dandumvvy/image/upload/v1741040154/readme/fz44qpqhp7m9jjcybkay.png" width="600">
+  <br>Homepage
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dandumvvy/image/upload/v1741040154/readme/jef9y56jyd9r882o3nvo.png" width="600">
+  <br>Reservation Page
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dandumvvy/image/upload/v1741040154/readme/izgfpegpem3n0tqfatwl.png" width="600">
+  <br>Hotel Map
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dandumvvy/image/upload/v1741040154/readme/ti63do9vwrgjchzor89f.png" width="600">
+  <br>Restaurant Page
+</p>
 
 <h3>Mobile Version 📱</h3>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dandumvvy/image/upload/v1741040154/readme/ysqvpwa9gotyqnvll3w7.png" width="300">
+  <br>Homepage
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dandumvvy/image/upload/v1741040155/readme/crfkacjsx79tikiorcex.png" width="300">
+  <br>Reservation Start
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dandumvvy/image/upload/v1741040154/readme/ofiqtbziot5wc0xmijth.png" width="300">
+  <br>Reservation Page
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dandumvvy/image/upload/v1741040155/readme/afebnegmjb5eat4i8c9v.png" width="300">
+  <br>Restaurant Page
+</p>
 
 <br><br>
 <h2 align="center">Stacks 🛠️</h2>
@@ -87,5 +129,3 @@
 </p>
 
 <h1 align="center">Our Future 🔜</h1>
-  
-
