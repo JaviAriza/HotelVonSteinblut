@@ -1,0 +1,142 @@
+[
+  {
+    "name": "John",
+    "surname": "Doe",
+    "email": "johndoe@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo1.jpg",
+        "type": "date",
+        "date_checking": "03/03/2025",
+        "date_checkout": "04/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Jane",
+    "surname": "Smith",
+    "email": "janesmith@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo4.jpg",
+        "type": "date",
+        "date_checking": "04/03/2025",
+        "date_checkout": "05/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Michael",
+    "surname": "Johnson",
+    "email": "michaeljohnson@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo7.jpg",
+        "type": "date",
+        "date_checking": "05/03/2025",
+        "date_checkout": "06/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Emily",
+    "surname": "Williams",
+    "email": "emilywilliams@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo10.jpg",
+        "type": "date",
+        "date_checking": "06/03/2025",
+        "date_checkout": "07/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Daniel",
+    "surname": "Brown",
+    "email": "danielbrown@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo13.jpg",
+        "type": "date",
+        "date_checking": "07/03/2025",
+        "date_checkout": "08/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Olivia",
+    "surname": "Jones",
+    "email": "oliviajones@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo16.jpg",
+        "type": "date",
+        "date_checking": "08/03/2025",
+        "date_checkout": "09/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "James",
+    "surname": "Garcia",
+    "email": "jamesgarcia@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo19.jpg",
+        "type": "date",
+        "date_checking": "09/03/2025",
+        "date_checkout": "10/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Sophia",
+    "surname": "Martinez",
+    "email": "sophiamartinez@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo22.jpg",
+        "type": "date",
+        "date_checking": "10/03/2025",
+        "date_checkout": "11/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "William",
+    "surname": "Hernandez",
+    "email": "williamhernandez@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo25.jpg",
+        "type": "date",
+        "date_checking": "11/03/2025",
+        "date_checkout": "12/03/2025"
+      }
+    ]
+  },
+  {
+    "name": "Isabella",
+    "surname": "Lopez",
+    "email": "isabellalopez@example.com",
+    "password": "password123",
+    "bookings": [
+      {
+        "photo": "photo28.jpg",
+        "type": "date",
+        "date_checking": "12/03/2025",
+        "date_checkout": "13/03/2025"
+      }
+    ]
+  }
+]

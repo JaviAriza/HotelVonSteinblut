@@ -1,17 +1,15 @@
-const Hero = () => {
+import Logo from "../Logo/Logo";
+import PropTypes from "prop-types"
+const Hero = ({type, background}) => {
   return (
-    <div className="w-full h-full">
-      <img
-        className="fixed w-1/2 sm:w-[250px] left-1/2 top-1/2 -translate-1/2 z-10 transition-all opacity-80"
-        src="https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/logo_ggptnk.png"
-        alt="hotel von Steinblut logo"
-      />
+    <div className="w-full h-[1400px] relative -z-10">
+      <Logo page={type}/>
       <div
+        id="hero"
         className="bg-center bg-cover w-full h-[1400px] bg-no-repeat"
         data-testid="background-image"
         style={{
-          backgroundImage:
-            "url('https://res.cloudinary.com/dw94v5tvs/image/upload/v1739433825/castle-2_zxiibh.png')",
+          backgroundImage: `linear-gradient(to bottom, transparent, #1a1a1a 99.9%), url(${background})`,
         }}
       ></div>
     </div>
@@ -19,3 +17,7 @@ const Hero = () => {
 };
 
 export default Hero;
+Hero.propTypes = {
+  type: PropTypes.string,
+  background: PropTypes.string
+}
