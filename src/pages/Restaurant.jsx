@@ -16,6 +16,15 @@ const Restaurant = () => {
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740502637/00001-1368405656_tedmzv.jpg"
         }
       />
+       <div className="flex justify-center my-6">
+        <a
+          href="/data/Restaurant-Menu.pdf"
+          download="Restaurant-Menu.pdf"
+          className="bg-red-700 text-white px-8 py-3 rounded-lg text-lg hover:bg-red-800 transition-all"
+        >
+          Ver Carta
+        </a>
+      </div>
       <div className="about mb-[50px] flex flex-col">
         <Title text={"Von Steinblut Restaurant"} />
         <Text />

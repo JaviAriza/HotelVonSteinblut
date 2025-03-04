@@ -12,6 +12,7 @@ function LoadingSpinner() {
   );
 }
 
+
 function App() {
   const [loading, setLoading] = useState(false);
   const location = useLocation();  

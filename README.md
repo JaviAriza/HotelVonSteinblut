@@ -129,3 +129,12 @@
 </p>
 
 <h1 align="center">Our Future 🔜</h1>
+
+<ul>
+  <li><strong>Implementación del apartado de Escape Room:</strong> Expandiendo la experiencia con nuevos desafíos y acertijos.</li>
+  <li><strong>Traducciones a otros idiomas:</strong> Mejorando la accesibilidad para visitantes internacionales.</li>
+  <li><strong>Nuevas actividades para el hotel:</strong> Incorporando experiencias únicas para los huéspedes.</li>
+  <li><strong>Implementación de otras plataformas de pago:</strong> Ofreciendo más opciones para mayor comodidad.</li>
+  <li><strong>Reservas de Parking:</strong> Facilitando la gestión de estacionamiento para nuestros clientes.</li>
+</ul>
+
