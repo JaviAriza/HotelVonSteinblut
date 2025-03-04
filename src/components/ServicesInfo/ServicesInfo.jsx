@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import Title from "../Title/Title";
 import useTrackPosition from "../../hooks/useTrackPosition";
 import useShouldRender from "../../hooks/useShouldRender";
+import ServicesIcons from "../ServicesIcons/ServicesIcons";
 import {
   getContainePositionFromTop,
   getRelativeContainerMiddle,
@@ -44,6 +45,9 @@ const ServicesInfo = (props) => {
         }  pointer-events-none w-full left-1/2 -translate-x-1/2 translate-y-1/2 z-10 bg-transparent flex items-center transition-all ease-in-out duration-400`}
         style={!isFixed ? { top: `${restingPos}px` } : {}}
       >
+        <div className="absolute top-[18%] left-1/2 -translate-1/2 w-full">
+          <ServicesIcons />
+        </div>
         <Title text="Our Services" />
         <div className="bg-black w-full h-1/2 absolute left-0 top-1/2 -translate-y-1/2"></div>
       </div>
