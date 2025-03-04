@@ -33,9 +33,9 @@ export default function EmailForm() {
   return (
     <div className=" w-full h-full md:w-1/2 flex items-center justify-center bg-transparent">
       <div className="relative w-96 h-full">
-        <div className="absolute w-full h-full bg-gradient-to-b from-red-800 to-black p-8 rounded-lg shadow-lg border-red-900 border-2">
+        <div className="absolute w-full h-full bg-gradient-to-b from-red-800 to-black p-8 rounded-lg shadow-lg border-red-900 border-2 flex justify-between flex-col">
           <h2 className="text-2xl font-bold mb-4 text-white text-center">Contact us</h2>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className="flex justify-around h-full flex-col">
             <div className="mb-4">
               <label className="block text-gray-100 text-sm font-bold mb-2" htmlFor="name">
                 Name

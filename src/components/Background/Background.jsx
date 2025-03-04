@@ -191,5 +191,5 @@ export default function Aurora(props) {
 
   }, [amplitude]);
 
-  return <div ref={ctnDom} className="pointer-events-none aurora-container" />;
+  return <div ref={ctnDom} className="pointer-events-none aurora-container w-screen" />;
 }

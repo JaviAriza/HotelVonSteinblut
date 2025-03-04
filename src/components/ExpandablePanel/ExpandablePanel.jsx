@@ -29,10 +29,10 @@ const ExpandablePanel = (props) => {
         }}
       >
         <img
-          className={`absolute z-40 max-sm:left-1/2 sm:top-1/2 ${
+          className={`absolute z-40 max-sm:left-1/2 max-sm:-translate-x-1/2 sm:top-1/2 ${
             props.isLeadPanel
-              ? "-rotate-90 sm:rotate-180 sm:right-[5%] max-sm:bottom-[5%]"
-              : "max-sm:rotate-90 sm:left-[5%] max-sm:top-[5%]"
+              ? "-rotate-90 sm:rotate-180 sm:right-[5%] max-sm:bottom-[3%]"
+              : "max-sm:rotate-90 sm:left-[5%] max-sm:top-[3%]"
           } hover:scale-140 transition-all`}
           src="https://res.cloudinary.com/dgzgzx9ov/image/upload/w_40,h_40,c_scale/v1740860788/arrow1_a8wkkm.png"
           alt="expand-arrow"

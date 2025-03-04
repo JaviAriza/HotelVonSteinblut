@@ -22,7 +22,7 @@ const CardInfo = ({ onSelection, room }) => {
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className={`max-w-sm rounded-md shadow-lg overflow-hidden text-white relative h-80 font-[Triodion]
+      className={` rounded-md shadow-lg overflow-hidden text-white relative h-80 font-[Triodion]
         transition-transform duration-300 transform ${
           isHovered ? "shadow-2xl scale-105 brightness-110" : "scale-100"
         }`}

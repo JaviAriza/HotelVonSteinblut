@@ -16,8 +16,8 @@ function Footer() {
           </div>
         </div>
 
-        <div className="rights -mr-5 ml-2 sm:ml-0">
-          <p className="my-1">© Hotel Von Steinblut 2025. All rights reserved.</p>
+        <div className="rights sm:ml-0 flex justify-center flex-col">
+          <p className="text-wrap">© Hotel Von Steinblut 2025. All rights reserved.</p>
           <div className="legal-links">
             <a href="#" className="text-gray-500 hover:text-red-700 mx-1">Legal Notice</a> |
             <a href="#" className="text-gray-500 hover:text-red-700 mx-1">Privacy Policy</a> |

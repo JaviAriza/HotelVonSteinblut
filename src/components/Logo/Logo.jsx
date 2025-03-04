@@ -23,7 +23,7 @@ const Logo = ({ page }) => {
       id="logo"
       className={`${isFixed ? "fixed bottom-1/2" : "absolute"} ${
         options[page] ? "sm:w-[400px]" : "sm:w-[250px]"
-      } pointer-events-none sm:w-[250px] w-1/2 opacity-80 left-1/2 -translate-x-1/2 translate-y-1/2 z-10`}
+      } pointer-events-none sm:w-[250px] w-1/2 opacity-80 left-1/2 -translate-x-1/2 translate-y-1/2 z-100`}
       style={!isFixed ? { top: `${restingPos}px` } : {}}
       src={logoImages[options[page]]}
       alt="hotel von Steinblut logo"
