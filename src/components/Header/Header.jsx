@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useIsLoggedIn } from "../../hooks/useIsLoggedIn";
 import "./Header.css";
-import { li } from "framer-motion/client";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
