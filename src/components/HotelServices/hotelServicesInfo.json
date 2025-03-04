@@ -1,0 +1,17 @@
+{
+    "experiences": [
+      {
+        "title": "A Feast for the Senses",
+        "description": "In the heart of the Hotel Von Steinblut, our restaurant invites you to embark on a culinary experience as intriguing as it is unforgettable. This exclusive space, adorned with wrought-iron chandeliers, antique tapestries, and details that evoke the atmosphere of a vampiric banquet, sets the perfect stage for our themed dinner shows. Each night, our chefs craft an exquisite menu inspired by the rich gastronomic traditions of the Carpathians, featuring dishes that blend bold flavors with stunning presentations—designed to delight even the most discerning palates.",
+        "details": "But in our restaurant, dinner is only the beginning. As you indulge in our exquisite dishes, you will witness a unique spectacle that will transport you to a world of legends and mystery. Actors portraying noble vampires, dancers, and live musicians will immerse you in a dark and fascinating narrative, where every detail is meticulously designed to keep you on the edge of your seat. Whether you're seeking a romantic evening or a thrilling night, our restaurant promises an experience that will awaken all your senses… and perhaps, even your darkest side."
+      },
+      {
+        "title": "Enter the Mystery and Challenge Your Senses",
+        "description": "Step into the unknown and put your wits to the test at The Crypt, the escape room of Hotel Von Steinblut, where three unique experiences await to challenge your intelligence, courage, and problem-solving skills. Hidden deep within the castle, this labyrinth of secrets and surprises will immerse you in stories that blend the macabre, the supernatural, and the fascinating.",
+        "details": {
+          "title": "Lady of the Night",
+          "description": "In this experience, you will come face to face with the enigmatic figure of a pale woman with crimson eyes, whose past is intertwined with the shadows of the Carpathians. You must unravel her secrets and break free from her influence before it's too late. A suspenseful and intense adventure, perfect for lovers of vampire tales."
+        }
+      }
+    ]
+  }

@@ -28,7 +28,10 @@ export default function HotelServices(props) {
               backgroundImage: `url(https://res.cloudinary.com/dgzgzx9ov/image/upload/v1740403283/ornamentBack1_f6bu5a.png)`,
             }}
           ></div>
-          <p className="text-lg relative z-10">INFO</p>
+          <div className="flex flex-col gap-5 px-[5%]">
+          <h6 className="text-3xl">{props.content.title}</h6>
+          <p className="text-lg relative z-10 text-justify">{props.content.description}</p>
+          </div>
         </div>
         <div className="flex justify-center gap-[3%] h-[5%] w-full z-50 absolute bottom-[5%]">
         <button
@@ -52,4 +55,5 @@ HotelServices.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
+  content: PropTypes.string
 };

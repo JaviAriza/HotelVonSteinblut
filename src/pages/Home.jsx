@@ -7,6 +7,7 @@ import Text from "../components/Texts/Texts";
 import Gallery from "../components/Gallery/Gallery";
 import EmailForm from "../components/EmailJS/Email";
 import Map from "../components/Map/Map";
+import hotelServicesInfo from "../components/HotelServices/hotelServicesInfo.json"
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <HotelServices
         title={"restaurant"}
         link={""}
+        content={hotelServicesInfo.experiences[0]}
         image={
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505200/00001-1368405656_ojwogn.png"
         }
@@ -34,6 +36,7 @@ const Home = () => {
       <HotelServices
         title={"escape room"}
         link={""}
+        content={hotelServicesInfo.experiences[1]}
         image={
           "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740505257/00036-616249523_df1j2f.png"
         }
