@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useIsLoggedIn } from "../../hooks/useIsLoggedIn";
-import "./Header.css";
+
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
