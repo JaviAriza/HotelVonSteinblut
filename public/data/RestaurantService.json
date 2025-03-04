@@ -1,0 +1,31 @@
+[
+    {
+      "id": "Dinner service",
+      "name": "Dinner Service",
+      "duration": "2 hours",
+      "price": 30,
+      "time": "20:00 - 23:00"
+    },
+    {
+      "id": "Unlimited buffet",
+      "name": "Unlimited Buffet",
+      "duration": "3 hours",
+      "price": 40,
+      "time": "13:00 - 16:00"
+    },
+    {
+      "id": "Wine tasting experience",
+      "name": "Wine Tasting Experience",
+      "duration": "1.5 hours",
+      "price": 25,
+      "time": "20:00 - 23:30"
+    },
+    {
+      "id": "Dinner and live entertainment",
+      "name": "Dinner and Live Entertainment",
+      "duration": "2.5 hours",
+      "price": 60,
+      "time": "21:00 - 23:30"
+    }
+  ]
+  
