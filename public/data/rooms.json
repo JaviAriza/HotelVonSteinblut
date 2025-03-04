@@ -1,0 +1,588 @@
+[
+  {
+    "id": "1",
+    "type": "standard",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740678514/00000-738955726_pir7ls",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684590/00021-176384966_htb0hh.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684633/00022-655410916_t6atmk.png"
+    ],
+    "beds": "2",
+    "capacity": "2",
+    "availability": "01/03/2025",
+    "nightPrice": 100,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "no",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "2",
+    "type": "family",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740679359/00001-3500739233_vezvyi.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686711/00044-1153356367_kd5l20.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687468/00056-2214338796_nkixvi.png"
+    ],
+    "beds": "2",
+    "capacity": "4",
+    "availability": "05/03/2025",
+    "nightPrice": 150,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "no"
+    }
+  },
+  {
+    "id": "3",
+    "type": "suite",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681344/00002-642667137_aao8ge.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686287/00037-3346727156_u2kzpu.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png"
+    ],
+    "beds": "1",
+    "capacity": "2",
+    "availability": "10/03/2025",
+    "nightPrice": 200,
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "4",
+    "type": "standard",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740688016/00055-98056135_yvuipz.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686711/00044-1153356367_kd5l20.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png"
+
+    ],
+    "beds": "2",
+    "capacity": "2",
+    "availability": "15/03/2025",
+    "nightPrice": 300,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "5",
+    "type": "family",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740683070/00005-2617886120_dguong.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687468/00056-2214338796_nkixvi.png"
+
+
+    ],
+    "beds": "2",
+    "capacity": "4",
+    "availability": "20/03/2025",
+    "nightPrice": 450,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "6",
+    "type": "suite",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681339/00003-1521381764_hlayjk.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686287/00037-3346727156_u2kzpu.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png"
+    ],
+    "beds": "1",
+    "capacity": "2",
+    "availability": "25/03/2025",
+    "nightPrice": 600,
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "7",
+    "type": "standard",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740683355/00008-103091815_jvg86a.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687143/00049-272158328_in7qlp.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686287/00037-3346727156_u2kzpu.png"
+
+    ],
+    "beds": "2",
+    "capacity": "2",
+    "availability": "30/03/2025",
+    "nightPrice": 700,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "no"
+    }
+  },
+  {
+    "id": "8",
+    "type": "family",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740688016/00055-98056135_yvuipz.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687468/00056-2214338796_nkixvi.png"
+
+    ],
+    "beds": "2",
+    "capacity": "4",
+    "availability": "05/04/2025",
+    "nightPrice": 800,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "9",
+    "type": "suite",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740682373/00004-2245350046_cg13ey.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685750/00030-1915932754_sllgay.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685841/00031-971699712_fjqw2b.png"
+    ],
+    "beds": "1",
+    "capacity": "2",
+    "availability": "10/04/2025",
+    "nightPrice": 900,
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "10",
+    "type": "standard",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740683403/00009-2298111178_zmzstm.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740683455/00010-3043596937_g0djnx.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740683561/00011-3613401930_qof5vp.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740683825/00012-1756342292_l5aus9.png"
+    ],
+    "beds": "2",
+    "capacity": "2",
+    "availability": "15/04/2025",
+    "nightPrice": 1000,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "11",
+    "type": "family",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684280/00017-1577684837_beh5eg.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684033/00015-3149343584_e174ds.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684129/00016-4037519085_zgmt31.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684347/00018-763327133_qfkksc.png"
+    ],
+    "beds": "2",
+    "capacity": "4",
+    "availability": "20/04/2025",
+    "nightPrice": 150,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "12",
+    "type": "suite",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684460/00019-4132057542_bfx58r.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684510/00020-3172870411_tfpkfy.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684590/00021-176384966_htb0hh.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684633/00022-655410916_t6atmk.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684744/00024-2101935093_kduwpi.png"
+    ],
+    "beds": "1",
+    "capacity": "2",
+    "availability": "25/04/2025",
+    "nightPrice": 200,
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "13",
+    "type": "standard",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687482/00057-2585474143_g6rec2.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687468/00056-2214338796_nkixvi.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687539/00058-2391642664_ubeft5.png"
+
+    ],
+    "beds": "2",
+    "capacity": "2",
+    "availability": "30/04/2025",
+    "nightPrice": 300,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "14",
+    "type": "family",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687595/00059-3078900961_cx82kx.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687468/00056-2214338796_nkixvi.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687539/00058-2391642664_ubeft5.png"
+    ],
+    "beds": "2",
+    "capacity": "4",
+    "availability": "05/05/2025",
+    "nightPrice": 450,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "15",
+    "type": "suite",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684994/00026-1344822607_z2jetr.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740684892/00025-1693007404_nc76im.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685097/00027-3372328304_awoupw.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685540/00028-2311519186_ma9o4x.png"
+    ],
+    "beds": "1",
+    "capacity": "2",
+    "availability": "10/05/2025",
+    "nightPrice": 600,
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "16",
+    "type": "standard",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687653/00060-3581792756_uaml37.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685750/00030-1915932754_sllgay.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687712/00061-47826216_nhxcjd.png"
+    ],
+    "beds": "2",
+    "capacity": "2",
+    "availability": "15/05/2025",
+    "nightPrice": 700,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "no"
+    }
+  },
+  {
+    "id": "17",
+    "type": "family",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687843/00063-3618669076_vajnpu.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687773/00062-457634537_sjkrpn.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687109/00051-2876760003_risdam.png"
+
+    ],
+    "beds": "2",
+    "capacity": "4",
+    "availability": "20/05/2025",
+    "nightPrice": 800,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "18",
+    "type": "suite",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685643/00029-545426435_r7y11f.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685750/00030-1915932754_sllgay.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685841/00031-971699712_fjqw2b.png"
+    ],
+    "beds": "1",
+    "capacity": "2",
+    "availability": "25/05/2025",
+    "nightPrice": 900,
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "19",
+    "type": "standard",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687338/00053-3157577063_o8nbfh.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687324/00052-3671417299_mi79oy.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687109/00051-2876760003_risdam.png"
+    ],
+    "beds": "2",
+    "capacity": "2",
+    "availability": "30/05/2025",
+    "nightPrice": 1000,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "20",
+    "type": "family",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686047/00034-264750491_eud9ze.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687143/00049-272158328_in7qlp.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685941/00033-2251073574_k9drnc.png"
+    ],
+    "beds": "2",
+    "capacity": "4",
+    "availability": "05/06/2025",
+    "nightPrice": 150,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "21",
+    "type": "suite",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686155/00035-2413159334_ve9ycn.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740685896/00032-2658668220_tn6dpn.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686224/00036-3081153655_b9xoxn.png"
+    ],
+    "beds": "1",
+    "capacity": "2",
+    "availability": "10/06/2025",
+    "nightPrice": 200,
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "22",
+    "type": "standard",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687166/00050-2753722895_pxvpq2.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687143/00049-272158328_in7qlp.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687109/00051-2876760003_risdam.png"
+    ],
+    "beds": "2",
+    "capacity": "2",
+    "availability": "15/06/2025",
+    "nightPrice": 300,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "23",
+    "type": "family",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687887/00064-627473032_uvw4uk.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687934/00065-3390949816_hzcvve.png"
+    ],
+    "beds": "2",
+    "capacity": "4",
+    "availability": "20/06/2025",
+    "nightPrice": 450,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "24",
+    "type": "suite",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686676/00043-3979523040_ho0fxw.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686287/00037-3346727156_u2kzpu.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686475/00039-871677844_mqqx4v.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686566/00041-2969171137_afwylt.png"
+    ],
+    "beds": "1",
+    "capacity": "2",
+    "availability": "25/06/2025",
+    "nightPrice": 600,
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "25",
+    "type": "standard",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687166/00050-2753722895_pxvpq2.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687109/00051-2876760003_risdam.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687143/00049-272158328_in7qlp.png"
+    ],
+    "beds": "2",
+    "capacity": "2",
+    "availability": "30/06/2025",
+    "nightPrice": 700,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "26",
+    "type": "family",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681339/00003-1521381764_hlayjk.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686787/00045-3146370060_ew7gex.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687109/00051-2876760003_risdam.png"
+
+    ],
+    "beds": "2",
+    "capacity": "4",
+    "availability": "05/07/2025",
+    "nightPrice": 800,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "27",
+    "type": "suite",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686676/00043-3979523040_ho0fxw.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686638/00042-2234816301_ejiige.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686711/00044-1153356367_kd5l20.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686787/00045-3146370060_ew7gex.png"
+    ],
+    "beds": "1",
+    "capacity": "2",
+    "availability": "10/07/2025",
+    "nightPrice": 900,
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "28",
+    "type": "standard",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686926/00047-1885503752_ttja8j.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686918/00046-3983565208_rw2uro.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686971/00048-1618247222_zwqxyh.png"
+    ],
+    "beds": "2",
+    "capacity": "2",
+    "availability": "15/07/2025",
+    "nightPrice": 1000,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "no"
+    }
+  },
+  {
+    "id": "29",
+    "type": "family",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681339/00003-1521381764_hlayjk.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686711/00044-1153356367_kd5l20.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740686787/00045-3146370060_ew7gex.png"
+    
+    ],
+    "beds": "2",
+    "capacity": "4",
+    "availability": "20/07/2025",
+    "nightPrice": 150,
+    "features": {
+      "bedSize": "queen",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  },
+  {
+    "id": "30",
+    "type": "suite",
+    "photos": [
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740681339/00003-1521381764_hlayjk.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687109/00051-2876760003_risdam.png",
+      "https://res.cloudinary.com/dw94v5tvs/image/upload/v1740687143/00049-272158328_in7qlp.png"
+    ],
+    "beds": "1",
+    "capacity": "2",
+    "availability": "25/07/2025",
+    "nightPrice": 200,
+    "features": {
+      "bedSize": "king",
+      "airConditioning": "yes",
+      "wifi": "yes",
+      "tv": "yes"
+    }
+  }
+]

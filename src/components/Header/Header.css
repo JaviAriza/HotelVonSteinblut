@@ -1,5 +1,3 @@
-
-
 .nav_toggle {
   display: none;
 }
@@ -13,21 +11,11 @@
     opacity: 1;
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 17%;
     height: 30vh;
     z-index: -100;
     transform: translateY(-120%);
     transition: 0.9s ease all;
-  }
-
-  .nav_items li{
-    padding: 10px;
-  }
-
-  .nav_items > li:hover {
-    border: 1px solid red;
-    opacity: 1;
-    color: red;
   }
 
   .nav_items.open {

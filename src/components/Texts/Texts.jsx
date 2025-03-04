@@ -11,13 +11,13 @@ const Text = () => {
   }, []);
 
   return (
-    <div className="p-6 text-white max-w-7xl mx-auto">
+    <div className="px-[10%] md:px-[20%] text-white w-full">
       {texts.map((textItem) => (
-        <div key={textItem.id} className="mb-4">
-          <h3 className="text-3xl font-serif text-white mb-2">
+        <div key={textItem.id} className="mb-4 px-6">
+          <h4 className="text-3xl font-serif text-white text-center tracking-widest mb-15">
             {textItem.title}
-          </h3>
-          <p className="text-gray-300 text-md leading-relaxed">
+          </h4>
+          <p className="text-gray-300 text-md leading-relaxed text-justify">
             {textItem.content}
           </p>
         </div>

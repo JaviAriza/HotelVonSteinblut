@@ -1,56 +1,91 @@
 @import "tailwindcss";
 
-@theme{
-    --color-base: #1a1a1a;
+@theme {
+  --color-base: #1a1a1a;
+  --animate-slide-up: slide-up 0.5s ease-out forwards;
+  --animate-slide-down: slide-down 0.5s ease-out forwards;
+
+  @keyframes slide-up {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-down {
+    from {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  }
 }
 
 @layer base {
+  .dropdown li {
+    margin-bottom: 20%;
+  }
 
-    label{
-        color: white;
-    }
+  label {
+    color: white;
+  }
 
-    button{
-        background-color: #6C0000;
-        color: white;
-    }
-    
-    h3, h4{
-        font-family:'Times New Roman', Times, serif;
-        text-transform: uppercase;
-        color: rgb(255, 255, 255);
-        font-size: 30px;
-    }
+  button {
+    background-color: #6c0000;
+    color: white;
+  }
 
-    a:hover {
-        color: rgb(255, 255, 255);
-    }
+  h3,
+  h4 {
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+  }
 
-    .nav_items a {
-        padding: 15px;
-        border: 1px solid transparent;
-        position: relative;
-        text-decoration: none;
-        transition: color 0.3s ease-in-out;
-    }
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
 
-    .nav_items a::before {
-        content: '';
-        position: absolute;
-        width: 0; /* Inicialmente sin ancho */
-        height: 1.5px;
-        bottom: 0;
-        left: 50%; /* Comienza desde el centro */
-        background-color: rgb(255, 255, 255);
-        visibility: hidden;
-        transition: all 0.3s ease-in-out;
-        transform: translateX(-50%); /* Centra el pseudo-elemento */
-    }
+  .nav_items a {
+    padding: 15px;
+    border: 1px solid transparent;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
 
-    .nav_items a:hover::before {
-        visibility: visible;
-        width: 80%; /* Expande el ancho al 100% */
-        left: 50%; /* Mantiene el centro */
-        transform: translateX(-50%); /* Asegura que se expanda desde el centro */
-    }
+  .nav_items > li > a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    bottom: 0;
+    left: 50%;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+  }
+
+  .nav_items a:hover::before {
+    visibility: visible;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dropdown button,
+  .dropdown a {
+    background-color: transparent;
+    padding: 10px;
+    padding-left: 15px;
+  }
+
 }

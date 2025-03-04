@@ -1,12 +1,8 @@
 import { useState, useEffect } from "react";
+import Title from "../Title/Title";
+import PropTypes from "prop-types";
 
-const Gallery = () => {
-  const images = [
-    "https://ca-times.brightspotcdn.com/dims4/default/5c7a039/2147483647/strip/true/crop/4491x3062+0+0/resize/1200x818!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2d%2Fb7%2F713fcd9bc03dc27561bef9816e70%2F6d860659637343d2b9337b328bca9378",
-    "https://www.museoceramadrid.com/wp-content/uploads/Cristiano-Ronaldo_.jpg",
-    "https://hips.hearstapps.com/hmg-prod/images/cristiano-ronaldo-ya-es-historia-en-el-real-madrid-1531237555.jpg?resize=640:*",
-  ];
-
+const Gallery = ({ pictures }) => {
   const [currentImage, setCurrentImage] = useState(0);
   const [fade, setFade] = useState(true);
 
@@ -14,16 +10,19 @@ const Gallery = () => {
     const intervalId = setInterval(() => {
       setFade(false);
       setTimeout(() => {
-        setCurrentImage((prev) => (prev + 1) % images.length);
+        setCurrentImage((prev) => (prev + 1) % pictures.length);
         setFade(true);
       }, 1000);
     }, 5000);
     return () => clearInterval(intervalId);
-  }, [images.length]);
+  }, [pictures.length]);
 
   return (
-    <div className="relative w-full h-200 bg-gray-700 overflow-hidden flex justify-center items-center my-[20%]">
-      {images.map((image, index) => (
+    <div className="relative w-full h-200 bg-gray-700 overflow-hidden flex justify-center items-center">
+      <div className="flex items-center w-full h-[20%] absolute top-0">
+        <Title text="Gallery" />
+      </div>
+      {pictures.map((image, index) => (
         <img
           key={index}
           src={image}
@@ -37,8 +36,14 @@ const Gallery = () => {
           }}
         />
       ))}
+      <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-[#1a1a1a] to-transparent"></div>
+      <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-[#1a1a1a] to-transparent"></div>
     </div>
   );
 };
 
 export default Gallery;
+
+Gallery.propTypes = {
+  pictures: PropTypes.array.isRequired,
+};

@@ -1,6 +1,7 @@
 import Booking from "../components/Booking/Booking";
 import Cookies from "js-cookie";
 
+import SearchResults from "../components/searchResults/SearchResults";
 
 const Reservations = () => {
     return (
@@ -15,5 +16,11 @@ const Reservations = () => {
 
     );
 }
+  return (
+    <div className="w-full">
+      <SearchResults />
+    </div>
+  );
+};
 
 export default Reservations;
